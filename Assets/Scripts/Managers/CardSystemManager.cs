@@ -19,12 +19,12 @@ public class CardSystemManager : MonoBehaviour
         StartCoroutine(MoveCards(CardPilePos.transform, CardSpawnPoint));
     }
 
-    public void _MoveCardsToDiscard(GameObject _card)
+    public void _MoveCardsToDiscard(Transform _card)
     {
         StartCoroutine(MoveToDiscard(_card));
     }
 
-    public void _MoveCardsToPile(GameObject _card)
+    public void _MoveCardsToPile(Transform _card)
     {
         StartCoroutine(MoveCardsToPile(_card));
     }
@@ -39,25 +39,25 @@ public class CardSystemManager : MonoBehaviour
         StartCoroutine(ResetPile());
     }
 
-    public IEnumerator MoveCardsToPile(GameObject _card)
+    public IEnumerator MoveCardsToPile(Transform _card)
     {
         StartCoroutine(LerpCardPosition(CardPilePos.transform, 0.3f, _card.transform));
-       // _card.SetActive(true);
+        _card.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.3f);
         _card.transform.SetParent(CardPilePos.transform);
-       // _card.SetActive(false);
+        _card.gameObject.SetActive(false);
 
         UpdateChildCountUI();
         // CardPileChildAmount = CardPilePos.transform.childCount;
     }
 
-    public IEnumerator MoveToDiscard(GameObject _card)
+    public IEnumerator MoveToDiscard(Transform _card)
     {
         StartCoroutine(LerpCardPosition(CardDiscardPilePos.transform, 0.3f, _card.transform));
-        //_card.SetActive(true);
+        _card.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.3f);
         _card.transform.SetParent(CardDiscardPilePos.transform);
-        //_card.SetActive(false);
+        _card.gameObject.SetActive(false);
         UpdateChildCountUI();
         // DiscardChildAmount = CardDiscardPilePos.transform.childCount;
     }
@@ -79,7 +79,7 @@ public class CardSystemManager : MonoBehaviour
         {
             int randomVar = Random.Range(0, CardPilePos.transform.childCount);
             StartCoroutine(LerpCardPosition(CardDeckPos.transform, 0.3f, CardPilePos.transform.GetChild(randomVar)));
-            //CardPilePos.transform.GetChild(randomVar).gameObject.SetActive(true);
+            CardPilePos.transform.GetChild(randomVar).gameObject.SetActive(true);
             yield return new WaitForSeconds(0.3f);
             CardPilePos.transform.GetChild(randomVar).SetParent(CardDeckPos.transform);
             yield return null;
@@ -93,9 +93,10 @@ public class CardSystemManager : MonoBehaviour
         {
              //currentPos.transform.GetChild(i).gameObject.SetActive(true);
             StartCoroutine(LerpCardPosition(tragetPos, 0.3f, currentPos.transform.GetChild(i)));
-            yield return new WaitForSeconds(0.3f);
-            UpdateChildCountUI();
             //currentPos.transform.GetChild(i).gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
+            UpdateChildCountUI();
+            
         }
     }
 
@@ -120,7 +121,7 @@ public class CardSystemManager : MonoBehaviour
         
         DiscardChildAmount = CardDiscardPilePos.transform.childCount;
         DiscardPileText.text = DiscardChildAmount.ToString();
-        print("Done");
+
     }
 
     private void Awake()

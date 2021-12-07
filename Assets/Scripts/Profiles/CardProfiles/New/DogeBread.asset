@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Legendary Doge bread
-  _description: Consume his flesh and be blessed with good health
+  _description: Gain 20 hp. Consume his flesh and be blessed with good health
   Image: {fileID: 21300000, guid: 474f3c548271af44caa37c7cdd0a9f63, type: 3}
-  _mana: 5
+  _mana: 1
   _attackDamage: 0
+  _tickDamage: 0
   _health: 20
-  _cardOfType: 1
+  _shield: 0
+  Effects:
+  - {fileID: 11400000, guid: 04290394ee7cf1644b114eccb17272d1, type: 2}

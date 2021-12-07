@@ -19,15 +19,20 @@ public class PlayerEnterState : State
         yield return new WaitForSeconds(2f);
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
+            CardSystemManager._instance.UpdateChildCountUI();
         }
         myFSM.SetCurrentState(typeof(PlayerTurnState));
     }

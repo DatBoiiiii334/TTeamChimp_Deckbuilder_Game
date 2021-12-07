@@ -47,7 +47,8 @@ public class EnemyBody : MonoBehaviour
         }
         lastDamageDealtToField.text = lastDamageDealtTo.ToString();
         hpSlider.value = Health;
-        hpField.text = Health.ToString() + "/"+ _core.maxHealth;
+        hpField.text = Health.ToString();
+        // hpField.text = Health.ToString() + "/"+ _core.maxHealth;
         shieldField.text = Shield.ToString();
     }
 
