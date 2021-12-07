@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73d9e5e2c6e898429ad1dd503b96e3f, type: 3}
+  m_Name: RedRidinghood
+  m_EditorClassIdentifier: 
+  _name: Red ridinghood
+  _maxHealth: 30
+  _maxShield: 20
+  _basicAttack: 6
+  _specialAttack: 10
+  _maxBuff: 10
+  enemyGameObject: {fileID: 6043411528525553501, guid: 9fef6112bd001a7448d0440e4f7ae081, type: 3}

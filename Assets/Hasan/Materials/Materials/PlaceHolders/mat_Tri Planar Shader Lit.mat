@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_Tri Planar Shader Lit
+  m_Shader: {fileID: 4800000, guid: 90d0b715d88558c41be69f78c2280ea6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BottomBlend:
+        m_Texture: {fileID: 2800000, guid: 6c41a2cea80b4fc499bac2a6c14a4514, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrushStrokes:
+        m_Texture: {fileID: 2800000, guid: 6967bb3d03f77f140845984f588f6fdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientNoise1:
+        m_Texture: {fileID: 2800000, guid: 365910ef4f295dd4c94bd7897b04d672, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MiddleBlend:
+        m_Texture: {fileID: 2800000, guid: 30ec70ef60a2bb54ea2df6f72c77bdc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaintSrokes:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopBlend:
+        m_Texture: {fileID: 2800000, guid: 6c41a2cea80b4fc499bac2a6c14a4514, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _GradientOriginBottom: 10
+    - _GradientOriginTop: 9
+    - _MaskStrengthBottom: 0.48
+    - _MaskStrengthTop: 0.59
+    - _Metallic: 0
+    - _Smoothness: 0
+    m_Colors:
+    - _BottomBlendTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _BrushStrokeColor: {r: 0.8773585, g: 0.5909218, b: 0.4750979, a: 0}
+    - _BrushStrokesColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BrushStrokesTiling: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopBlendTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
