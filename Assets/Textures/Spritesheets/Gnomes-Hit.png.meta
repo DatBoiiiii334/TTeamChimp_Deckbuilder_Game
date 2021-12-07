@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 1dc12206a04247e47a76420832e95af9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8124502435909774548
+    second: Gnomes-Hit_0
+  - first:
+      213: 3135311124543509828
+    second: Gnomes-Hit_1
+  - first:
+      213: 1512280968144403288
+    second: Gnomes-Hit_2
+  - first:
+      213: -2227607710241446494
+    second: Gnomes-Hit_3
+  - first:
+      213: 4246738500995019238
+    second: Gnomes-Hit_4
+  - first:
+      213: -6538746206994275167
+    second: Gnomes-Hit_5
+  - first:
+      213: 5789505061167889831
+    second: Gnomes-Hit_6
+  - first:
+      213: -1818195745468736924
+    second: Gnomes-Hit_7
+  - first:
+      213: 7839271541804540908
+    second: Gnomes-Hit_8
+  - first:
+      213: 2132359301349683162
+    second: Gnomes-Hit_9
+  - first:
+      213: -8504055969708871522
+    second: Gnomes-Hit_10
+  - first:
+      213: 7441731869279012989
+    second: Gnomes-Hit_11
+  - first:
+      213: 7996815451100849036
+    second: Gnomes-Hit_12
+  - first:
+      213: -8757193818142381914
+    second: Gnomes-Hit_13
+  - first:
+      213: -5156578084836401683
+    second: Gnomes-Hit_14
+  - first:
+      213: 9088056472427408429
+    second: Gnomes-Hit_15
+  - first:
+      213: -3919801136234809941
+    second: Gnomes-Hit_16
+  - first:
+      213: -3142231222308594003
+    second: Gnomes-Hit_17
+  - first:
+      213: 6730044258643119646
+    second: Gnomes-Hit_18
+  - first:
+      213: -8339224495255179443
+    second: Gnomes-Hit_19
+  - first:
+      213: -9200235201278404803
+    second: Gnomes-Hit_20
+  - first:
+      213: -3135842317478295841
+    second: Gnomes-Hit_21
+  - first:
+      213: 7643991669055217594
+    second: Gnomes-Hit_22
+  - first:
+      213: -4540283216763847786
+    second: Gnomes-Hit_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnomes-Hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca2358be700c070800000000000000
+      internalID: 8124502435909774548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451fbe2bdcd28b20800000000000000
+      internalID: 3135311124543509828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb4d23783bcf410800000000000000
+      internalID: 1512280968144403288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_3
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a523240792f511e0800000000000000
+      internalID: -2227607710241446494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_4
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e178cd9a227fea30800000000000000
+      internalID: 4246738500995019238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_5
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 1878
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a46cafe7f4b145a0800000000000000
+      internalID: -6538746206994275167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adfc34dd24785050800000000000000
+      internalID: 5789505061167889831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a953b4a9874c6e0800000000000000
+      internalID: -1818195745468736924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_8
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3a61bdeefaacc60800000000000000
+      internalID: 7839271541804540908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_9
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa272ac79a79d10800000000000000
+      internalID: 2132359301349683162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_10
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e907677e6268bf980800000000000000
+      internalID: -8504055969708871522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_11
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 1252
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78441605b7564760800000000000000
+      internalID: 7441731869279012989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83a839a8456afe60800000000000000
+      internalID: 7996815451100849036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_13
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a86068be92387680800000000000000
+      internalID: -8757193818142381914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_14
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded13c47d872078b0800000000000000
+      internalID: -5156578084836401683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_15
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca9b906334f1e70800000000000000
+      internalID: 9088056472427408429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_16
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba53d8472a11a99c0800000000000000
+      internalID: -3919801136234809941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_17
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 626
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae97200a5d8464d0800000000000000
+      internalID: -3142231222308594003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e841f889be56d50800000000000000
+      internalID: 6730044258643119646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_19
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f2412318f154c80800000000000000
+      internalID: -8339224495255179443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_20
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3791c154d2325080800000000000000
+      internalID: -9200235201278404803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_21
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd68113d6004b74d0800000000000000
+      internalID: -3135842317478295841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_22
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd4146ce9e41a60800000000000000
+      internalID: 7643991669055217594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Hit_23
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 0
+        width: 597
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b7f15487cadf0c0800000000000000
+      internalID: -4540283216763847786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b13ce2ca7b2e5074d801e572571a0144
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

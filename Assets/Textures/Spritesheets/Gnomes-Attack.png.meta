@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 5a2ce152692b574438548ad4ff9eb8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9174582556241097727
+    second: Gnomes-Attack_0
+  - first:
+      213: 5468581888165537932
+    second: Gnomes-Attack_1
+  - first:
+      213: 5587663663162454910
+    second: Gnomes-Attack_2
+  - first:
+      213: 421304266108335257
+    second: Gnomes-Attack_3
+  - first:
+      213: -7017388828309588210
+    second: Gnomes-Attack_4
+  - first:
+      213: 5734320212215525079
+    second: Gnomes-Attack_5
+  - first:
+      213: -6039910623461903871
+    second: Gnomes-Attack_6
+  - first:
+      213: -3009237199249747038
+    second: Gnomes-Attack_7
+  - first:
+      213: 3542229341034578619
+    second: Gnomes-Attack_8
+  - first:
+      213: 7958606913466001401
+    second: Gnomes-Attack_9
+  - first:
+      213: 2574791485483904728
+    second: Gnomes-Attack_10
+  - first:
+      213: 8490047319760372976
+    second: Gnomes-Attack_11
+  - first:
+      213: -7590672087833703553
+    second: Gnomes-Attack_12
+  - first:
+      213: -4912016519952392422
+    second: Gnomes-Attack_13
+  - first:
+      213: 6389564019337046024
+    second: Gnomes-Attack_14
+  - first:
+      213: -8889974897253237274
+    second: Gnomes-Attack_15
+  - first:
+      213: -3030096228471008420
+    second: Gnomes-Attack_16
+  - first:
+      213: 3904433857416097581
+    second: Gnomes-Attack_17
+  - first:
+      213: 8679946353120558215
+    second: Gnomes-Attack_18
+  - first:
+      213: -313978142284451492
+    second: Gnomes-Attack_19
+  - first:
+      213: 803118067113417861
+    second: Gnomes-Attack_20
+  - first:
+      213: -1620001252531915335
+    second: Gnomes-Attack_21
+  - first:
+      213: 6870347823929076129
+    second: Gnomes-Attack_22
+  - first:
+      213: 2613527916725557656
+    second: Gnomes-Attack_23
+  - first:
+      213: 3789888999050100416
+    second: Gnomes-Attack_24
+  - first:
+      213: 7254848884199506776
+    second: Gnomes-Attack_25
+  - first:
+      213: 8223218758816342818
+    second: Gnomes-Attack_26
+  - first:
+      213: -9207092607183954638
+    second: Gnomes-Attack_27
+  - first:
+      213: -6489595576713908344
+    second: Gnomes-Attack_28
+  - first:
+      213: -2963883712496332997
+    second: Gnomes-Attack_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnomes-Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3fe33d93aa25f70800000000000000
+      internalID: 9174582556241097727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88ed35e04e44eb40800000000000000
+      internalID: 5468581888165537932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f7273f7e5b8d40800000000000000
+      internalID: 5587663663162454910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9947eb37ff5c8d500800000000000000
+      internalID: 421304266108335257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_4
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07ffc55a0a3d9e90800000000000000
+      internalID: -7017388828309588210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_5
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2376
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dee27de9d5649f40800000000000000
+      internalID: 5734320212215525079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102f17de94ded2ca0800000000000000
+      internalID: -6039910623461903871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d3ddf5ba0d36d0800000000000000
+      internalID: -3009237199249747038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2055171d6882130800000000000000
+      internalID: 3542229341034578619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7eb1042d6a27e60800000000000000
+      internalID: 7958606913466001401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_10
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dee7f6d63f7bb320800000000000000
+      internalID: 2574791485483904728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_11
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1782
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4039c1e05b2d570800000000000000
+      internalID: 8490047319760372976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b033604f388a690800000000000000
+      internalID: -7590672087833703553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f1365000305dbb0800000000000000
+      internalID: -4912016519952392422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808a33a4f9a4ca850800000000000000
+      internalID: 6389564019337046024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edb41b9ee670a480800000000000000
+      internalID: -8889974897253237274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_16
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c531cbac88fe2f5d0800000000000000
+      internalID: -3030096228471008420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_17
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1188
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6b4028e55f2630800000000000000
+      internalID: 3904433857416097581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cb237483d557870800000000000000
+      internalID: 8679946353120558215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_19
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f5e90b8684abf0800000000000000
+      internalID: -313978142284451492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_20
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c5efe70af352b00800000000000000
+      internalID: 803118067113417861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_21
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5b527a1799489e0800000000000000
+      internalID: -1620001252531915335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_22
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9aba8f1f0685f50800000000000000
+      internalID: 6870347823929076129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_23
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 594
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8995efe0bcd154420800000000000000
+      internalID: 2613527916725557656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceba8607f3689430800000000000000
+      internalID: 3789888999050100416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_25
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853c9d15f966ea460800000000000000
+      internalID: 7254848884199506776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_26
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223a39584edbe1270800000000000000
+      internalID: 8223218758816342818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_27
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ddca61e06d93080800000000000000
+      internalID: -9207092607183954638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_28
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f6502d43350f5a0800000000000000
+      internalID: -6489595576713908344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Attack_29
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 0
+        width: 543
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f0711877b2ed6d0800000000000000
+      internalID: -2963883712496332997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a8c92837089f2b4c84a7b24ec9765d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
