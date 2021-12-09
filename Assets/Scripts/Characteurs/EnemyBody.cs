@@ -38,11 +38,13 @@ public class EnemyBody : MonoBehaviour
 
     public void UpdateEnemyUI()
     {
-        if(forEnemyTicks > 0){
+        if (forEnemyTicks > 0)
+        {
             BleedIconEnemy.SetActive(true);
             _forEnemyTicks.text = forEnemyTicks.ToString();
         }
-        if(forEnemyTicks <= 0){
+        if (forEnemyTicks <= 0)
+        {
             BleedIconEnemy.SetActive(false);
         }
         lastDamageDealtToField.text = lastDamageDealtTo.ToString();
@@ -88,9 +90,11 @@ public class EnemyBody : MonoBehaviour
         NextEnemyAttack.text = nameAttack;
     }
 
-    public void ResetEnemy(){
+    public void ResetEnemy()
+    {
         Health = _core.maxHealth;
         Shield = _core.maxShield;
+        forEnemyTicks = 0;
         EnemyTurn();
         UpdateEnemyUI();
     }

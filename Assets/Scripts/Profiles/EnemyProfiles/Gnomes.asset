@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c73d9e5e2c6e898429ad1dd503b96e3f, type: 3}
-  m_Name: RedRidinghood
+  m_Name: Gnomes
   m_EditorClassIdentifier: 
-  _name: Red ridinghood
-  _maxHealth: 50
-  _maxShield: 20
-  _basicAttack: 10
-  _specialAttack: 15
-  _maxBuff: 10
-  enemyGameObject: {fileID: 6043411528525553501, guid: 9fef6112bd001a7448d0440e4f7ae081, type: 3}
+  _name: Corrupted Gnmoes
+  _maxHealth: 100
+  _maxShield: 40
+  _basicAttack: 25
+  _specialAttack: 40
+  _maxBuff: 30
+  enemyGameObject: {fileID: 7316721110535107968, guid: 277ec1117d21fd14399386ba90ab4b5e, type: 3}

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c73d9e5e2c6e898429ad1dd503b96e3f, type: 3}
-  m_Name: RedRidinghood
+  m_Name: Inkted_RRH
   m_EditorClassIdentifier: 
-  _name: Red ridinghood
-  _maxHealth: 50
-  _maxShield: 20
-  _basicAttack: 10
-  _specialAttack: 15
-  _maxBuff: 10
-  enemyGameObject: {fileID: 6043411528525553501, guid: 9fef6112bd001a7448d0440e4f7ae081, type: 3}
+  _name: Corrupted Red RidingHood
+  _maxHealth: 80
+  _maxShield: 30
+  _basicAttack: 20
+  _specialAttack: 30
+  _maxBuff: 5
+  enemyGameObject: {fileID: 595718039686400170, guid: cd96a29d743aee24a80961f8d77b4e95, type: 3}

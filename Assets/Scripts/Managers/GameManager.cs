@@ -22,6 +22,14 @@ public class GameManager : MonoBehaviour
         myFSM.SetCurrentState(typeof(MainMenuState));
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            myFSM.SetCurrentState(typeof(ShopState));
+        }
+    }
+
     public void isEnemyDead()
     {
         if (EnemyBody._instanceEnemyBody.Health <= 0)
@@ -62,11 +70,11 @@ public class GameManager : MonoBehaviour
 
     public void GiveHand()
     {
-        RemoveCards(CardSpawn.transform);
-        for (int i = 0; i < amountCardsSpawn; i++)
-        {
-            CardCreator._instance.SpawnCardList();
-        }
+        // RemoveCards(CardSpawn.transform);
+        // for (int i = 0; i < amountCardsSpawn; i++)
+        // {
+        //     CardCreator._instance.SpawnCardList();
+        // }
     }
 
     public void RemoveCards(Transform cardSpawn)
@@ -84,6 +92,8 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+
 
     private void Awake()
     {

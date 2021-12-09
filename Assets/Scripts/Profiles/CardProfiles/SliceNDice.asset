@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Slice n Dice
-  _description: You apply 3 bleed damage
+  _description: You apply 1 bleed damage and deal 4 damage
   Image: {fileID: 21300000, guid: b7c8aac09d3176f479f7bb5e8297a527, type: 3}
   _mana: 1
-  _attackDamage: 3
-  _tickDamage: 0
+  _attackDamage: 4
+  _tickDamage: 1
   _health: 0
   _shield: 0
   Effects:
   - {fileID: 11400000, guid: d761d071b52b267449c024a62ffb2986, type: 2}
+  - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}

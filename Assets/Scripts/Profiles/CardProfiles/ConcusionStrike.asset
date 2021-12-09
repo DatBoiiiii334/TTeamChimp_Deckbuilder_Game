@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   _name: Concusion Strike
-  _description: Deal 15 rawDamage
+  _description: Deal 10 rawDamage
   Image: {fileID: 21300000, guid: 550780f4094034f4a9cc60a023ff3a68, type: 3}
-  _mana: 1
-  _attackDamage: 15
+  _mana: 2
+  _attackDamage: 10
   _tickDamage: 0
   _health: 0
   _shield: 0
