@@ -6,9 +6,11 @@ public class PlayerEnterState : State
 {
     public override void Enter()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         EnemyBody._instanceEnemyBody.ResetEnemy();
         Player._player.ResetPlayerStats();
-        EnemyBody._instanceEnemyBody._core = GridMapState._instance.EnemyTypes[2];
+        //EnemyBody._instanceEnemyBody._core = GridMapState._instance.EnemyTypes[2];
+        EnemyBody._instanceEnemyBody.SpawnEnemy();
         if(CardSystemManager._instance.CardDeckPos.transform.childCount > 0){
             foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
                 Destroy(_card.transform.gameObject);
@@ -24,8 +26,11 @@ public class PlayerEnterState : State
                 Destroy(_card.transform.gameObject);
             }
         }
-
         StartCoroutine(WaitToEnter());
+    }
+    public override void Exit()
+    {
+        GameManager._instance.CardDeckBlocker.SetActive(false);
     }
 
     private IEnumerator WaitToEnter()

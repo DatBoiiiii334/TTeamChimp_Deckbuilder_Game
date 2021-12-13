@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
-    public GameObject CardSpawn, winScreen, LoseScreen, FightScene, ShopScene;
+    public GameObject CardSpawn, CardDeckBlocker, winScreen, LoseScreen, FightScene, ShopScene;
     public int forEnemyTickDamage, amountCardsSpawn;
     FSM myFSM;
 
@@ -28,6 +28,22 @@ public class GameManager : MonoBehaviour
         {
             myFSM.SetCurrentState(typeof(ShopState));
         }
+
+        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            print("Input enemy basicAttack");
+            EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+        }
+        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            print("Input enemy Heal");
+            EnemyBody._instanceEnemyBody.transform.GetComponent<Animator>().SetTrigger("Heal");
+        }
+        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            print("Input enemy Heal");
+            EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
+        }
     }
 
     public void isEnemyDead()
@@ -41,6 +57,7 @@ public class GameManager : MonoBehaviour
 
     public void DamageEnemy(int damage)
     {
+        StartCoroutine(ShowHit());
         if (damage >= EnemyBody._instanceEnemyBody.Shield)
         {
             int var;
@@ -68,15 +85,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GiveHand()
-    {
-        // RemoveCards(CardSpawn.transform);
-        // for (int i = 0; i < amountCardsSpawn; i++)
-        // {
-        //     CardCreator._instance.SpawnCardList();
-        // }
-    }
-
     public void RemoveCards(Transform cardSpawn)
     {
         var children = new List<GameObject>();
@@ -93,14 +101,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
+    IEnumerator ShowHit(){
+        yield return new WaitForSeconds(0.1f);
+        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
+    }
 
     private void Awake()
     {
         if (_instance != null)
         {
             Destroy(gameObject);
+        }else{
+            _instance = this;
         }
-        _instance = this;
     }
 }

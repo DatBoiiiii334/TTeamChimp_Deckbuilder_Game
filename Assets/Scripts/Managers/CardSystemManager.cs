@@ -96,7 +96,6 @@ public class CardSystemManager : MonoBehaviour
             //currentPos.transform.GetChild(i).gameObject.SetActive(false);
             yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
             UpdateChildCountUI();
-            
         }
     }
 
@@ -121,7 +120,6 @@ public class CardSystemManager : MonoBehaviour
         
         DiscardChildAmount = CardDiscardPilePos.transform.childCount;
         DiscardPileText.text = DiscardChildAmount.ToString();
-
     }
 
     private void Awake()

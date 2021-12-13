@@ -8,18 +8,9 @@ public class CardPicker : MonoBehaviour
     public GameObject CardPrefab, CardSpawnPoint, CardDisplay;
     public List<Card> AllNewCardProfiles;
 
-    private void Awake()
-    {
-        if (instance_CardPicker != null)
-        {
-            Destroy(gameObject);
-        }
-        instance_CardPicker = this;
-    }
-
-
     public void OpenNewCardsWindow()
     {
+        print("YELL");
         CardDisplay.SetActive(true);
         PlaceNewCards();
     }
@@ -39,6 +30,18 @@ public class CardPicker : MonoBehaviour
             randomvalue = Random.Range(0, AllNewCardProfiles.Count);
             myCard = Instantiate(CardPrefab, CardSpawnPoint.transform);
             myCard.GetComponent<DisplayCard>().card = AllNewCardProfiles[randomvalue];
+        }
+    }
+
+    private void Awake()
+    {
+        if (instance_CardPicker != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance_CardPicker = this;
         }
     }
 }

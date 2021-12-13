@@ -7,11 +7,13 @@ public class PlayerWinState: State{
 
     public override void Enter()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(false);
         StartCoroutine(WaitEnter());
     }
 
     public override void Exit()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         StartCoroutine(WaitExit());
     }
 

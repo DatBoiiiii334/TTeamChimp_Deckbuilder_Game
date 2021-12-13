@@ -225,19 +225,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9848078
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.17364816
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -257,7 +257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 314429476590430043, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 424133489214145221, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_RootOrder
@@ -279,6 +279,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1556600357247003474, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 214.5752
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556600357247003474, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.8176
+      objectReference: {fileID: 0}
     - target: {fileID: 1901714038447979267, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -294,6 +302,14 @@ PrefabInstance:
     - target: {fileID: 5294615839875836842, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_fontSize
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294615839875836842, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
+      propertyPath: m_margin.x
+      value: -0.2522812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294615839875836842, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
+      propertyPath: m_margin.z
+      value: 10.704018
       objectReference: {fileID: 0}
     - target: {fileID: 5294615839875836842, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_fontSizeBase

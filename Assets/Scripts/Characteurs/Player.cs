@@ -13,16 +13,6 @@ public class Player : Humanoid
     public Slider hpSlider;
     public Animator anim;
 
-    private void Awake()
-    {
-        if (_player != null)
-        {
-            Destroy(gameObject);
-        }
-        _player = this;
-        anim = gameObject.GetComponent<Animator>();
-    }
-
     public void Start()
     {
         anim.Play("DEV_Idle");
@@ -52,8 +42,16 @@ public class Player : Humanoid
         Health = maxHealth;
         Shield = maxShield;
         forPlayerTicks = 0;
-        //PlayerTurnState.PlayerTurnAmount();
-        GameManager._instance.GiveHand();
         UpdatePlayerUI();
+    }
+
+    private void Awake()
+    {
+        if (_player != null)
+        {
+            Destroy(gameObject);
+        }
+        _player = this;
+        anim = gameObject.GetComponent<Animator>();
     }
 }

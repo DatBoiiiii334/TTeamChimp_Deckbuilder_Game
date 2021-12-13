@@ -8,12 +8,14 @@ public class ShopState : State
 
     public override void Enter()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(false);
         //GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         StartCoroutine(SetupShop());
     }
 
     public override void Exit()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         GameManager._instance.ShopAnim.SetBool("OpenShop", false);
         StartCoroutine(PackUpShop());

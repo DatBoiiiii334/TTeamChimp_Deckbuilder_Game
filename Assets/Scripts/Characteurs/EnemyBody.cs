@@ -6,28 +6,14 @@ public class EnemyBody : MonoBehaviour
 {
     public static EnemyBody _instanceEnemyBody;
     public EnemyCore _core;
-    public TextMeshProUGUI nameField, shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, _forEnemyTicks;
+    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, _forEnemyTicks;
     public Slider hpSlider;
     public Animator myAnimator;
     public GameObject BleedIconEnemy;
     public int Health, Shield, lastDamageDealtTo, enemyState, myNextAttack, forEnemyTicks;
 
-    private void Awake()
-    {
-        if (_instanceEnemyBody != null)
-        {
-            Destroy(gameObject);
-        }
-        _instanceEnemyBody = this;
-
-        EnemyTurn();
-        GameObject enemyArt;
-        enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
-    }
-
     public void Start()
     {
-        //nameField.text = _core.Name;
         Health = _core.maxHealth;
         Shield = _core.maxShield;
         //myAnimator = _core.animController;
@@ -35,6 +21,20 @@ public class EnemyBody : MonoBehaviour
         hpSlider.maxValue = _core.maxHealth;
         UpdateEnemyUI();
     }
+
+    public void SpawnEnemy(){
+        if(transform.childCount > 0){
+            foreach(Transform enemy in transform){
+                Destroy(enemy.gameObject);
+                print("Enemy art wiped");
+            }
+        }
+        EnemyTurn();
+        GameObject enemyArt;
+        enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
+        print("Name: "+_core.enemyGameObject.name);
+    }
+
 
     public void UpdateEnemyUI()
     {
@@ -97,5 +97,16 @@ public class EnemyBody : MonoBehaviour
         forEnemyTicks = 0;
         EnemyTurn();
         UpdateEnemyUI();
+    }
+
+    private void Awake()
+    {
+        if (_instanceEnemyBody != null)
+        {
+            Destroy(gameObject);
+        }else{
+            _instanceEnemyBody = this;
+        }
+        
     }
 }

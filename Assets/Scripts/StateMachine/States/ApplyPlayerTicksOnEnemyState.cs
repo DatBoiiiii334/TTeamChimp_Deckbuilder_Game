@@ -7,6 +7,7 @@ public class ApplyPlayerTicksOnEnemyState : State
 
     public override void Enter()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         if(EnemyBody._instanceEnemyBody.forEnemyTicks > 0){
             StartCoroutine(DoTimedAction());
         }else{
@@ -14,8 +15,8 @@ public class ApplyPlayerTicksOnEnemyState : State
         }
     }
 
-    public override void Exit()
-    {
+    public override void Exit(){
+        GameManager._instance.CardDeckBlocker.SetActive(false);
     }
 
     public void TickDamageToEnemy(int tickDmg)
@@ -27,7 +28,8 @@ public class ApplyPlayerTicksOnEnemyState : State
 
     IEnumerator DoTimedAction(){
         yield return new WaitForSeconds(1f);
-        EnemyBody._instanceEnemyBody.myAnimator.SetTrigger("BleedDmg");
+        //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger("BleedDmg");
+        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
         TickDamageToEnemy(GameManager._instance.forEnemyTickDamage);
         yield return new WaitForSeconds(1f);
         myFSM.SetCurrentState(typeof(EnemyTurnState));

@@ -20,8 +20,10 @@ public class GridMapState: State{
     }
 
     public void ChangeEnemy(){
-        // EnemyBody._instanceEnemyBody._core = EnemyTypes[Random.Range(0,EnemyTypes.Count)];
-        EnemyBody._instanceEnemyBody._core = EnemyTypes[3];
+        int var = Random.Range(0,EnemyTypes.Count);
+         EnemyBody._instanceEnemyBody._core = EnemyTypes[var];
+         print(var);
+        //EnemyBody._instanceEnemyBody._core = EnemyTypes[3];
         myFSM.SetCurrentState(typeof(PlayerEnterState));
     }
 

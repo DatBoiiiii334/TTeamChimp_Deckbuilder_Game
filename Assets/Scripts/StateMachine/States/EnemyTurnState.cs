@@ -4,12 +4,11 @@ using UnityEngine;
 public class EnemyTurnState : State
 {
     public static EnemyTurnState _enemyTurnInstance;
-    public GameObject CardDeckBlocker;
     public int enemyState, myNextAttack;
 
     public override void Enter()
     {
-        CardDeckBlocker.SetActive(true);
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         if(EnemyBody._instanceEnemyBody.Health <= 0){
             myFSM.SetCurrentState(typeof(WinState));
         }else{
@@ -58,7 +57,8 @@ public class EnemyTurnState : State
 
     public void ComidRegen(int heal, int shield)
     {
-        StartCoroutine(EnemyDoAction("Heal"));
+         StartCoroutine(EnemyDoAction("Heal"));
+        //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger("Heal");
         EnemyBody._instanceEnemyBody.Shield += shield;
         EnemyBody._instanceEnemyBody.Health += heal;
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();
@@ -68,7 +68,9 @@ public class EnemyTurnState : State
     public void ComidAttack(int damage, string call)
     {
         Player._player.forPlayerTicks += 1;
-        StartCoroutine(EnemyDoAction(call));
+        //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger(call);
+        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+        // StartCoroutine(EnemyDoAction(call));
         if (Player._player.Shield >= damage)
         {
             Player._player.Shield -= damage;
@@ -98,8 +100,10 @@ public class EnemyTurnState : State
 
     IEnumerator EnemyDoAction(string whatDo)
     {
-        EnemyBody._instanceEnemyBody.myAnimator.SetTrigger(whatDo);
         yield return new WaitForSeconds(0.5f);
+        EnemyBody._instanceEnemyBody.myAnimator.SetTrigger(whatDo);
+        // yield return new WaitForSeconds(0.5f);
+        yield return null;
     }
 
     IEnumerator ShowEnemyTurn()
