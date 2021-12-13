@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class TODONEW : MonoBehaviour
 {
-    /* 07 Aan werken moet voor 16 uur af, build moet daarna af zijn 
-    1. Card hover must display information ~1 uur
-    2. Buff systeem ~5uur
-    3. Map ~1uur
-
-
+    /* 
+    1. Buff systeem (Game design moet nog worden besproken) ~5uur
+    2. Vijand animaties toevoegen en functioneel maken
+    3. Nieuwe vijand toevoegen/ Heeft bug wil niet gameObject veranderen wanneer nieuwe core is veranderd
+    4. Shop scene functioneel maken// checked
     */
 }

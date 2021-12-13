@@ -41,15 +41,17 @@ public class Player : Humanoid
         if(forPlayerTicks <= 0){
             BleedIcon.SetActive(false);
         }
-        HealthField.text = Health.ToString() + "/" + maxHealth;
+       // HealthField.text = Health.ToString() + "/" + maxHealth;
+        HealthField.text = Health.ToString();
         ShieldField.text = Shield.ToString();
-        //ManaField.text = Mana.ToString();
+        ManaField.text = Mana.ToString();
         hpSlider.value = Health;
     }
 
     public void ResetPlayerStats(){
         Health = maxHealth;
         Shield = maxShield;
+        forPlayerTicks = 0;
         //PlayerTurnState.PlayerTurnAmount();
         GameManager._instance.GiveHand();
         UpdatePlayerUI();

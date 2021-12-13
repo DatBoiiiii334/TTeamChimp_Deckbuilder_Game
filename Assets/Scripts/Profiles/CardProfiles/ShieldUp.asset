@@ -22,4 +22,4 @@ MonoBehaviour:
   _health: 0
   _shield: 5
   Effects:
-  - {fileID: 11400000, guid: 04290394ee7cf1644b114eccb17272d1, type: 2}
+  - {fileID: 11400000, guid: 56a91fde38b29654aab747522d9329e1, type: 2}

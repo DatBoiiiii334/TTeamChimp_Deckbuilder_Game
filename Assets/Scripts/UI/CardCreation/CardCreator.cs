@@ -14,6 +14,7 @@ public class CardCreator : MonoBehaviour
             GameObject myCard;
             myCard = Instantiate(CardPrefab, CardSpawnPoint.transform);
             myCard.GetComponent<CardTemplate>().card = profile;
+            print("print card");
         }
     }
 

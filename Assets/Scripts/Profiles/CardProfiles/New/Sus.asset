@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Amugus sus
-  _description: you sussy baka
+  _description: Deal 10 flat damage
   Image: {fileID: 21300000, guid: 39c85f0219c0e0d418f0a86e4a0673c3, type: 3}
   _mana: 2
   _attackDamage: 10
+  _tickDamage: 0
   _health: 0
-  _cardOfType: 0
+  _shield: 0
+  Effects:
+  - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}

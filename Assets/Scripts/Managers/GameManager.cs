@@ -15,13 +15,23 @@ public class GameManager : MonoBehaviour
     {
         myFSM = GetComponent<FSM>();
         State[] myStatearray = GetComponents<State>();
-        foreach(State state in myStatearray){
-            myFSM.Add(state.GetType(),state);
+        foreach (State state in myStatearray)
+        {
+            myFSM.Add(state.GetType(), state);
         }
         myFSM.SetCurrentState(typeof(MainMenuState));
     }
 
-    public void isEnemyDead(){
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            myFSM.SetCurrentState(typeof(ShopState));
+        }
+    }
+
+    public void isEnemyDead()
+    {
         if (EnemyBody._instanceEnemyBody.Health <= 0)
         {
             winScreen.SetActive(true);
@@ -29,7 +39,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void DamageEnemy(int damage){
+    public void DamageEnemy(int damage)
+    {
         if (damage >= EnemyBody._instanceEnemyBody.Shield)
         {
             int var;
@@ -49,19 +60,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void TickDmg(int damage){
-        if(TickManager._tickManager.forEnemyTicks > 0){
+    public void TickDmg(int damage)
+    {
+        if (TickManager._tickManager.forEnemyTicks > 0)
+        {
             TickManager._tickManager.ApplyTickToEnemy(damage);
         }
     }
 
     public void GiveHand()
     {
-        RemoveCards(CardSpawn.transform);
-        for (int i = 0; i < amountCardsSpawn; i++)
-        {
-            CardCreator._instance.SpawnCardList();
-        }
+        // RemoveCards(CardSpawn.transform);
+        // for (int i = 0; i < amountCardsSpawn; i++)
+        // {
+        //     CardCreator._instance.SpawnCardList();
+        // }
     }
 
     public void RemoveCards(Transform cardSpawn)
@@ -79,6 +92,8 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+
 
     private void Awake()
     {

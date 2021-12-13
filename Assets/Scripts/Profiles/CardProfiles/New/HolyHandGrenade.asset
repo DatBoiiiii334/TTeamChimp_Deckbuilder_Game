@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Holy HandGrenade
-  _description: Name peaks for itself, eradicate all infidels in your path with this
-    handy portable grenade
+  _description: Deal 30 holy damage
   Image: {fileID: 21300000, guid: 5fe01e81d03f21648b4073ccd54a6129, type: 3}
   _mana: 5
   _attackDamage: 30
+  _tickDamage: 0
   _health: 0
-  _cardOfType: 0
+  _shield: 0
+  Effects:
+  - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}

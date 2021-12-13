@@ -8,29 +8,24 @@ public class DisplayCard : MonoBehaviour
 {
     public Card card;
 
-    public TextMeshProUGUI nameText, descriptionText, ManaValue, AttackValue, HealValue;
-    //public card.cardType myCardType;
-    //public Card.cardType _card;
+    public TextMeshProUGUI nameText, descriptionText, descriptionTextSecond, ManaValue;
     public Image CharCardArt;
-    //private CardController _instance_Card;
 
     private void Start()
     {
         nameText.text = card.Name;
         CharCardArt.sprite = card.Image;
         descriptionText.text = card.Description;
+        descriptionTextSecond.text = card.Description;
         ManaValue.text = card.Mana.ToString();
-        AttackValue.text = card.AttackDamage.ToString();
-        HealValue.text = card.Health.ToString();
     }
 
     public void SelectProfile()
     {
         print(card.Name + " Was selected");
-        // CardController.instance_CardController.AllCardProfiles.Add(card);
-       // CardController._instance_CC.PlayerCards.Add(card, 1);
-        CardPicker.instance_CardPicker.AllNewCardProfiles.Remove(card);
-        CardPicker.instance_CardPicker.CloseNewCardsWindow();
-        Destroy(gameObject);
+        WinState._instance.AllNewCardProfiles.Remove(card);
+        CardCreator._instance.PlayerCardProfiles.Add(card);
+        WinState._instance.GoToMap();
+        Destroy(gameObject.transform.gameObject);
     }
 }

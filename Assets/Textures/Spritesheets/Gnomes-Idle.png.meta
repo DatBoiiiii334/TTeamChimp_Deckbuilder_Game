@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 733c07cfa330cc24b8ee8282da40c1c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7337610992333192543
+    second: Gnomes-Idle_0
+  - first:
+      213: 537538245690137840
+    second: Gnomes-Idle_1
+  - first:
+      213: 4333531987507690459
+    second: Gnomes-Idle_2
+  - first:
+      213: -2665069979830950820
+    second: Gnomes-Idle_3
+  - first:
+      213: 1136544125744345035
+    second: Gnomes-Idle_4
+  - first:
+      213: -1003663648443316284
+    second: Gnomes-Idle_5
+  - first:
+      213: -549093690393581571
+    second: Gnomes-Idle_6
+  - first:
+      213: -6907292108358156474
+    second: Gnomes-Idle_7
+  - first:
+      213: -4600443136588318969
+    second: Gnomes-Idle_8
+  - first:
+      213: -3466083869961834210
+    second: Gnomes-Idle_9
+  - first:
+      213: -4937264470001045172
+    second: Gnomes-Idle_10
+  - first:
+      213: -8654657126270534589
+    second: Gnomes-Idle_11
+  - first:
+      213: -6970252680503408292
+    second: Gnomes-Idle_12
+  - first:
+      213: 6216772956801349815
+    second: Gnomes-Idle_13
+  - first:
+      213: -5503194241946353631
+    second: Gnomes-Idle_14
+  - first:
+      213: 8999548606300706803
+    second: Gnomes-Idle_15
+  - first:
+      213: 7166867955362786036
+    second: Gnomes-Idle_16
+  - first:
+      213: 3669111825727715650
+    second: Gnomes-Idle_17
+  - first:
+      213: 8241004083626158335
+    second: Gnomes-Idle_18
+  - first:
+      213: 6861554454073770043
+    second: Gnomes-Idle_19
+  - first:
+      213: -2403401467075147408
+    second: Gnomes-Idle_20
+  - first:
+      213: 8568337485281230143
+    second: Gnomes-Idle_21
+  - first:
+      213: -8220463248840214583
+    second: Gnomes-Idle_22
+  - first:
+      213: 6565606926127442018
+    second: Gnomes-Idle_23
+  - first:
+      213: 238509157185316996
+    second: Gnomes-Idle_24
+  - first:
+      213: -6476820286514621445
+    second: Gnomes-Idle_25
+  - first:
+      213: 6128973618393102056
+    second: Gnomes-Idle_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gnomes-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a28af5cda19b2a90800000000000000
+      internalID: -7337610992333192543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc1c8bbf28b57700800000000000000
+      internalID: 537538245690137840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb3032f16cc32c30800000000000000
+      internalID: 4333531987507690459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c546e9639f4c30bd0800000000000000
+      internalID: -2665069979830950820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf6c865cd0d5cf00800000000000000
+      internalID: 1136544125744345035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74098ba354212f0800000000000000
+      internalID: -1003663648443316284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7aea3a23a3168f0800000000000000
+      internalID: -549093690393581571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ff3718c6e5420a0800000000000000
+      internalID: -6907292108358156474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 1228
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707f44a6751f720c0800000000000000
+      internalID: -4600443136588318969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11b639951ff5efc0800000000000000
+      internalID: -3466083869961834210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c413e6f8f105b7bb0800000000000000
+      internalID: -4937264470001045172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c77dfa23b74e780800000000000000
+      internalID: -8654657126270534589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5941e7fd10b44f90800000000000000
+      internalID: -6970252680503408292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8366bf01a664650800000000000000
+      internalID: 6216772956801349815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12000de7ef9b0a3b0800000000000000
+      internalID: -5503194241946353631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f75a6996c1d4ec70800000000000000
+      internalID: 8999548606300706803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa67870f64d57360800000000000000
+      internalID: 7166867955362786036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 614
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2497fa504cd4be230800000000000000
+      internalID: 3669111825727715650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8a4152d8ded5270800000000000000
+      internalID: 8241004083626158335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3001120c63293f50800000000000000
+      internalID: 6861554454073770043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0794556791765aed0800000000000000
+      internalID: -2403401467075147408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3df9ddbb89d8e670800000000000000
+      internalID: 8568337485281230143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7b9b3aa3c0bed80800000000000000
+      internalID: -8220463248840214583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268aba696b8bd1b50800000000000000
+      internalID: 6565606926127442018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48865b590da5f4300800000000000000
+      internalID: 238509157185316996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3904cd346bd16a0800000000000000
+      internalID: -6476820286514621445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gnomes-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 0
+        width: 545
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6bf02880d7e0550800000000000000
+      internalID: 6128973618393102056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a8f83d6af55b0194bbc60f0de28818fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

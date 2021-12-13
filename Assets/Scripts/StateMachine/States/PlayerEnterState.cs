@@ -6,6 +6,25 @@ public class PlayerEnterState : State
 {
     public override void Enter()
     {
+        EnemyBody._instanceEnemyBody.ResetEnemy();
+        Player._player.ResetPlayerStats();
+        EnemyBody._instanceEnemyBody._core = GridMapState._instance.EnemyTypes[2];
+        if(CardSystemManager._instance.CardDeckPos.transform.childCount > 0){
+            foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
+                Destroy(_card.transform.gameObject);
+            }
+        }
+        if(CardSystemManager._instance.CardPilePos.transform.childCount > 0){
+            foreach(Transform _card in CardSystemManager._instance.CardPilePos.transform){
+                Destroy(_card.transform.gameObject);
+            }
+        }
+        if(CardSystemManager._instance.CardDiscardPilePos.transform.childCount > 0){
+            foreach(Transform _card in CardSystemManager._instance.CardDiscardPilePos.transform){
+                Destroy(_card.transform.gameObject);
+            }
+        }
+
         StartCoroutine(WaitToEnter());
     }
 
@@ -19,15 +38,20 @@ public class PlayerEnterState : State
         yield return new WaitForSeconds(2f);
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
         }
         foreach(Transform placedCard in GameManager._instance.CardSpawn.transform){
             placedCard.SetParent(CardSystemManager._instance.CardPilePos.transform);
+            placedCard.transform.gameObject.SetActive(false);
+            CardSystemManager._instance.UpdateChildCountUI();
         }
         myFSM.SetCurrentState(typeof(PlayerTurnState));
     }

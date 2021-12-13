@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: RedRidinghood
   m_EditorClassIdentifier: 
   _name: Red ridinghood
-  _maxHealth: 30
+  _maxHealth: 50
   _maxShield: 20
-  _basicAttack: 6
-  _specialAttack: 10
+  _basicAttack: 10
+  _specialAttack: 15
   _maxBuff: 10
   enemyGameObject: {fileID: 6043411528525553501, guid: 9fef6112bd001a7448d0440e4f7ae081, type: 3}

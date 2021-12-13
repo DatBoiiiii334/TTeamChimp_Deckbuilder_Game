@@ -24,6 +24,6 @@ public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
     {
         _droppedCard.ExecuteAction();
 
-        CardSystemManager._instance._MoveCardsToDiscard(_droppedCard.transform.gameObject);
+        CardSystemManager._instance._MoveCardsToDiscard(_droppedCard.transform);
     }
 }

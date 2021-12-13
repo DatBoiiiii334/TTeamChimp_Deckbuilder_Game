@@ -55,7 +55,7 @@ public class PlayerTurnState : State
         {
             for (int i = 0; i < CardSystemManager._instance.CardDiscardPilePos.transform.childCount; i++)
             {
-                CardSystemManager._instance._MoveCardsToPile(CardSystemManager._instance.CardDiscardPilePos.transform.GetChild(i).gameObject);
+                CardSystemManager._instance._MoveCardsToPile(CardSystemManager._instance.CardDiscardPilePos.transform.GetChild(i));
                 yield return null;
             }
             yield return new WaitForSeconds(1.5f);
@@ -71,10 +71,9 @@ public class PlayerTurnState : State
 
     IEnumerator ClearDeck()
     {
-
         for (int i = 0; i < CardSystemManager._instance.CardDeckPos.transform.childCount; i++)
         {
-            CardSystemManager._instance._MoveCardsToDiscard(CardSystemManager._instance.CardDeckPos.transform.GetChild(i).gameObject);
+            CardSystemManager._instance._MoveCardsToDiscard(CardSystemManager._instance.CardDeckPos.transform.GetChild(i));
             yield return null;
         }
     }

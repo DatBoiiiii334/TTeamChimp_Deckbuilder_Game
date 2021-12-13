@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 314429476238989601, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 314429476590430036, guid: cc824dfd701ea92428964bd3c5985e44, type: 3}
       propertyPath: m_Name
       value: Card
