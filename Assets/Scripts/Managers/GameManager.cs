@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager _instance;
     public GameObject CardSpawn, CardDeckBlocker, winScreen, LoseScreen, FightScene, ShopScene;
     public int forEnemyTickDamage, amountCardsSpawn;
+    public ParticleSystem attackPrticles;
     FSM myFSM;
 
     public Animator TransitionScreenAnim, ShopAnim;
@@ -20,6 +21,21 @@ public class GameManager : MonoBehaviour
             myFSM.Add(state.GetType(), state);
         }
         myFSM.SetCurrentState(typeof(MainMenuState));
+    }
+
+    private void Update() {
+        if(Input.GetKeyDown(KeyCode.Alpha1)){
+            AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha2)){
+            AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha3)){
+            AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha4)){
+            AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
+        }
     }
 
     public void isEnemyDead()

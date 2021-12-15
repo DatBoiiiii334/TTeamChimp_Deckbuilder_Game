@@ -5,6 +5,10 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour
 {
     public static AnimationController _instance;
+    public List<ParticleSystem> PowerUpAttackBelle; 
+    public List<ParticleSystem> ShieldParticleBelle; 
+    public List<ParticleSystem> UtilityParticleBelle; 
+    public List<ParticleSystem> FireDamageBelle; 
 
     //________PLAYER ANIMATIONS_________________________________________________________________________________________
     public void PlayerBasicAttackAnim(){
@@ -36,6 +40,11 @@ public class AnimationController : MonoBehaviour
         }
     }
 
+    public void PlayParticleList(List<ParticleSystem> _particleSystem){
+        foreach(ParticleSystem effect in _particleSystem){
+            effect.Play();
+        }
+    }
 
     private void Awake()
     {

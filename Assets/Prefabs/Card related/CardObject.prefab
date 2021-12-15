@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df5030b348bf2d49a3669a72ad871f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: e2a05d5c5008d0c49b14b76bed07dbe3, type: 2}
+  card: {fileID: 11400000, guid: 93d65b9136393dc428703f8f64dcce1e, type: 2}
   nameText: {fileID: 4191427353547381730}
   descriptionText: {fileID: 4191427354023327218}
   ManaValue: {fileID: 4191427353678473739}
