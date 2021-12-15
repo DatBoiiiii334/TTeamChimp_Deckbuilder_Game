@@ -22,30 +22,6 @@ public class GameManager : MonoBehaviour
         myFSM.SetCurrentState(typeof(MainMenuState));
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            myFSM.SetCurrentState(typeof(ShopState));
-        }
-
-        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            print("Input enemy basicAttack");
-            EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-        }
-        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            print("Input enemy Heal");
-            EnemyBody._instanceEnemyBody.transform.GetComponent<Animator>().SetTrigger("Heal");
-        }
-        if ( Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            print("Input enemy Heal");
-            EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
-        }
-    }
-
     public void isEnemyDead()
     {
         if (EnemyBody._instanceEnemyBody.Health <= 0)
@@ -62,7 +38,7 @@ public class GameManager : MonoBehaviour
         {
             int var;
             int kaartDamage = damage;
-            Player._player.anim.SetTrigger("DoAttackAnim");
+            Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
             var = kaartDamage -= EnemyBody._instanceEnemyBody.Shield;
             EnemyBody._instanceEnemyBody.Shield = 0;
             EnemyBody._instanceEnemyBody.Health -= var;
@@ -71,7 +47,7 @@ public class GameManager : MonoBehaviour
         }
         else if (damage < EnemyBody._instanceEnemyBody.Shield)
         {
-            Player._player.anim.SetTrigger("DoAttackAnim");
+            Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
             EnemyBody._instanceEnemyBody.Shield -= damage;
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = damage;
         }
@@ -102,7 +78,7 @@ public class GameManager : MonoBehaviour
     }
 
     IEnumerator ShowHit(){
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.4f);
         EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
     }
 

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerTurnState : State
 {
+    public static PlayerTurnState _instance;
     public int PlayerTurnAmount;
 
     public override void Enter()
@@ -78,6 +79,14 @@ public class PlayerTurnState : State
         {
             CardSystemManager._instance._MoveCardsToDiscard(CardSystemManager._instance.CardDeckPos.transform.GetChild(i));
             yield return null;
+        }
+    }
+
+    private void Awake() {
+        if(_instance != null){
+            Destroy(gameObject);
+        }else{
+            _instance = this;
         }
     }
 }

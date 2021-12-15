@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -25,7 +23,7 @@ public class DisplayCard : MonoBehaviour
         print(card.Name + " Was selected");
         WinState._instance.AllNewCardProfiles.Remove(card);
         CardCreator._instance.PlayerCardProfiles.Add(card);
-        WinState._instance.GoToMap();
         Destroy(gameObject.transform.gameObject);
+        WinState._instance.GoToMap();
     }
 }

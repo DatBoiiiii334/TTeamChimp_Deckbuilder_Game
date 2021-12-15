@@ -42,6 +42,7 @@ public class Player : Humanoid
         Health = maxHealth;
         Shield = maxShield;
         forPlayerTicks = 0;
+        PlayerTurnState._instance.PlayerTurnAmount = 0;
         UpdatePlayerUI();
     }
 

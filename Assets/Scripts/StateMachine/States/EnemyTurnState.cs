@@ -16,41 +16,44 @@ public class EnemyTurnState : State
         }
     }
 
-    public override void Exit()
-    {}
-
     public void EnemyAttackTurn()
     {
-        UIManager._instanceUI.UIBanner.SetActive(false);
         switch (EnemyBody._instanceEnemyBody.myNextAttack)
         {
             case 0:
+                StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.basicAttack, "BasicAttack");
-                EnemyBody._instanceEnemyBody.EnemyTurn();
+                // EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 1:
+                StartCoroutine(WaitToChangeIntent());
                 ComidRegen(EnemyBody._instanceEnemyBody._core.maxBuff, 0);
-                EnemyBody._instanceEnemyBody.EnemyTurn();
+                // EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 2:
+                StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.specialAttack, "BasicAttack");
-                EnemyBody._instanceEnemyBody.EnemyTurn();
+                // EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 3:
+                StartCoroutine(WaitToChangeIntent());
                 ComidRegen(0, EnemyBody._instanceEnemyBody._core.maxBuff);
-                EnemyBody._instanceEnemyBody.EnemyTurn();
+                // EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 4:
-                //Doe feared animatie en sound design
-                EnemyBody._instanceEnemyBody.EnemyTurn();
+                //Do feared animatie en sound design
+                StartCoroutine(GoToNextState());
+                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                StartCoroutine(WaitToChangeIntent());
                 break;
 
             default:
                 Debug.Log("Something went wrong");
+                StartCoroutine(WaitToChangeIntent());
                 break;
         }
     }
@@ -58,7 +61,6 @@ public class EnemyTurnState : State
     public void ComidRegen(int heal, int shield)
     {
          StartCoroutine(EnemyDoAction("Heal"));
-        //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger("Heal");
         EnemyBody._instanceEnemyBody.Shield += shield;
         EnemyBody._instanceEnemyBody.Health += heal;
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();
@@ -68,9 +70,7 @@ public class EnemyTurnState : State
     public void ComidAttack(int damage, string call)
     {
         Player._player.forPlayerTicks += 1;
-        //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger(call);
-        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-        // StartCoroutine(EnemyDoAction(call));
+        StartCoroutine(EnemyAttackSequence());
         if (Player._player.Shield >= damage)
         {
             Player._player.Shield -= damage;
@@ -98,11 +98,21 @@ public class EnemyTurnState : State
         myFSM.SetCurrentState(typeof(ApplyEnemyTicksOnPlayerState));
     }
 
+    IEnumerator WaitToChangeIntent(){
+        yield return new WaitForSeconds(2f);
+        EnemyBody._instanceEnemyBody.EnemyTurn();
+    }
+
+    IEnumerator EnemyAttackSequence(){
+        AnimationController._instance.EnemyBasicAttackAnim();
+        yield return new WaitForSeconds(0.5f);
+        AnimationController._instance.PlayerHitAnim();
+    }
+
     IEnumerator EnemyDoAction(string whatDo)
     {
         yield return new WaitForSeconds(0.5f);
         EnemyBody._instanceEnemyBody.myAnimator.SetTrigger(whatDo);
-        // yield return new WaitForSeconds(0.5f);
         yield return null;
     }
 
@@ -113,6 +123,7 @@ public class EnemyTurnState : State
         UIManager._instanceUI.undertitle.text =  "";
         UIManager._instanceUI.BannerAnimator.SetTrigger("ActivateBanner");
         yield return new WaitForSeconds(3f);
+        UIManager._instanceUI.UIBanner.SetActive(false);
         EnemyAttackTurn();
         StopCoroutine(ShowEnemyTurn());
     }

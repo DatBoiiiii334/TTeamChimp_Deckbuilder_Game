@@ -33,7 +33,7 @@ public class GridMapState: State{
     }
 
     public IEnumerator OnExit(){
-        GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
+        //GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         yield return new WaitForSeconds(2f);
         MapVisuals.SetActive(false);
     }

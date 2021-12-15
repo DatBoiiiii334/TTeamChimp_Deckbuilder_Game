@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShopState : State
@@ -17,7 +16,7 @@ public class ShopState : State
     {
         GameManager._instance.CardDeckBlocker.SetActive(true);
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
-        GameManager._instance.ShopAnim.SetBool("OpenShop", false);
+        
         StartCoroutine(PackUpShop());
     }
 
@@ -48,6 +47,7 @@ public class ShopState : State
 
     IEnumerator PackUpShop(){
         yield return new WaitForSeconds(2f);
+        GameManager._instance.ShopAnim.SetBool("OpenShop", false);
         GameManager._instance.FightScene.SetActive(true);
         GameManager._instance.ShopScene.SetActive(false);
     }
