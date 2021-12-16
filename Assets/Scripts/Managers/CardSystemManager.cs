@@ -91,11 +91,14 @@ public class CardSystemManager : MonoBehaviour
     {
         for (int i = 0; i < currentPos.transform.childCount; i++)
         {
-             //currentPos.transform.GetChild(i).gameObject.SetActive(true);
+             currentPos.transform.GetChild(i).gameObject.SetActive(true);
             StartCoroutine(LerpCardPosition(tragetPos, 0.3f, currentPos.transform.GetChild(i)));
-            //currentPos.transform.GetChild(i).gameObject.SetActive(false);
-            yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
             UpdateChildCountUI();
+            // currentPos.transform.GetChild(i).gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
+
+            // currentPos.transform.GetChild(i).gameObject.SetActive(false);
+            // UpdateChildCountUI();
         }
     }
 
