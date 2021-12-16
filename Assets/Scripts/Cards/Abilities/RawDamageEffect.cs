@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RawDamageEffect", menuName = "Effects/Raw Damage")]

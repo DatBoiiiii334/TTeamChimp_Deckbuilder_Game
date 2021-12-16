@@ -23,31 +23,31 @@ public class EnemyTurnState : State
             case 0:
                 StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.basicAttack, "BasicAttack");
-                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                 EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 1:
                 StartCoroutine(WaitToChangeIntent());
                 ComidRegen(EnemyBody._instanceEnemyBody._core.maxBuff, 0);
-                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                 EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 2:
                 StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.specialAttack, "BasicAttack");
-                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                 EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 3:
                 StartCoroutine(WaitToChangeIntent());
                 ComidRegen(0, EnemyBody._instanceEnemyBody._core.maxBuff);
-                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                 EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 4:
                 //Do feared animatie en sound design
                 StartCoroutine(GoToNextState());
-                // EnemyBody._instanceEnemyBody.EnemyTurn();
+                 EnemyBody._instanceEnemyBody.EnemyTurn();
                 StartCoroutine(WaitToChangeIntent());
                 break;
 
@@ -65,6 +65,7 @@ public class EnemyTurnState : State
         EnemyBody._instanceEnemyBody.Health += heal;
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();
         StartCoroutine(GoToNextState());
+        //EnemyBody._instanceEnemyBody.EnemyTurn();
     }
 
     public void ComidAttack(int damage, string call)
@@ -76,6 +77,7 @@ public class EnemyTurnState : State
             Player._player.Shield -= damage;
             Player._player.UpdatePlayerUI();
             StartCoroutine(GoToNextState());
+            //EnemyBody._instanceEnemyBody.EnemyTurn();
         }
         else if (Player._player.Shield < damage)
         {
@@ -85,6 +87,7 @@ public class EnemyTurnState : State
             Player._player.Shield = 0;
             Player._player.UpdatePlayerUI();
             StartCoroutine(GoToNextState());
+           // EnemyBody._instanceEnemyBody.EnemyTurn();
 
             if (Player._player.Health <= 0)
             {

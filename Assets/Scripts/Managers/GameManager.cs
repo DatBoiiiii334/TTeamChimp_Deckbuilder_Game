@@ -93,6 +93,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public IEnumerator TimedFireDamage(){
+        yield return new WaitForSeconds(0.4f);
+        AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
+    }
+
     IEnumerator ShowHit(){
         yield return new WaitForSeconds(0.4f);
         EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");

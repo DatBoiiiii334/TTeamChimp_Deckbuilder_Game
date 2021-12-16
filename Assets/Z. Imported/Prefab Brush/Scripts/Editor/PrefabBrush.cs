@@ -5,9 +5,10 @@
  *		www.archieandrews.games
  */
 
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using System.Collections.Generic;
 
 namespace ArchieAndrews.PrefabBrush
 {
@@ -95,7 +96,7 @@ namespace ArchieAndrews.PrefabBrush
         private bool moddingSingle = false;
         private GameObject objectToSingleMod = null, objectToChain;
         private const int maxFails = 10;
-   
+
         private LayerMask layerBeforeSingleMod, layerBeforeChaining;
         Event e;
         private GameObject selectedObject, clone;
@@ -125,7 +126,7 @@ namespace ArchieAndrews.PrefabBrush
             RefreshSaves();
         }
 
-#region SetUp
+        #region SetUp
         private void LoadResources()
         {
             //Load textures for use in UI.
@@ -134,7 +135,7 @@ namespace ArchieAndrews.PrefabBrush
             onButtonDark = Resources.Load("D_Button_On") as Texture2D;
             offButtonDark = Resources.Load("D_Button_Off") as Texture2D;
 
-            if(isOn)
+            if (isOn)
                 buttonIcon = (EditorGUIUtility.isProSkin) ? Resources.Load("D_Button_On") as Texture2D : Resources.Load("L_Button_On") as Texture2D;
             else
                 buttonIcon = (EditorGUIUtility.isProSkin) ? Resources.Load("D_Button_Off") as Texture2D : Resources.Load("L_Button_Off") as Texture2D;
@@ -144,9 +145,9 @@ namespace ArchieAndrews.PrefabBrush
             //Repaint for good mesure.
             Repaint();
         }
-#endregion
+        #endregion
 
-#region GUI
+        #region GUI
         void OnGUI()
         {
             CheckActiveSave();
@@ -1477,7 +1478,7 @@ namespace ArchieAndrews.PrefabBrush
         }
         #endregion
 
-#region Methods
+        #region Methods
         private void AddPrefab(Object[] objectsToAdd)
         {
             for (int i = 0; i < objectsToAdd.Length; i++)
@@ -1611,7 +1612,7 @@ namespace ArchieAndrews.PrefabBrush
 
                         //Apply prefabs mods
                         if (!physicsBrush)
-                            ApplyModifications(clone, hit, false, activeSave.parentingStyle, activeSave.rotateToMatchSurface, activeSave.randomizeRotation, (activeSave.scaleType != PB_ScaleType.None), false);                                    
+                            ApplyModifications(clone, hit, false, activeSave.parentingStyle, activeSave.rotateToMatchSurface, activeSave.randomizeRotation, (activeSave.scaleType != PB_ScaleType.None), false);
                         else
                             ApplyModifications(clone, hit, true, activeSave.parentingStyle, activeSave.rotateToMatchSurface, activeSave.randomizeRotation, (activeSave.scaleType != PB_ScaleType.None), true);
 
@@ -1720,14 +1721,14 @@ namespace ArchieAndrews.PrefabBrush
 
                 //If we get this far then it is a valid surface, we just need to check the distance;
                 float curDist = Vector3.Distance(origin, hits[i].point);
-                if(curDist < minDist)
+                if (curDist < minDist)
                 {
                     idToReturn = i;
                     minDist = curDist;
                 }
             }
 
-            if(hits.Count == 0 || idToReturn == -1)
+            if (hits.Count == 0 || idToReturn == -1)
             {
                 hit = new RaycastHit();
                 return false;
@@ -2062,7 +2063,7 @@ namespace ArchieAndrews.PrefabBrush
                 if (e.type == EventType.KeyDown)
                 {
                     if (tempTab)
-                    return;
+                        return;
 
                     previousTab = activeTab;
                     tempTab = true;
@@ -2135,9 +2136,9 @@ namespace ArchieAndrews.PrefabBrush
             isOn = !isOn;
             buttonIcon = GetButtonTexture();
         }
-#endregion
+        #endregion
 
-#region Tools
+        #region Tools
 
         private bool GetHoldKeyState(KeyCode code)
         {
@@ -2311,9 +2312,9 @@ namespace ArchieAndrews.PrefabBrush
             else
                 return (EditorGUIUtility.isProSkin) ? offButtonDark : offButtonLight;
         }
-#endregion
+        #endregion
 
-#region SaveAndLoad
+        #region SaveAndLoad
         private void CreateEmptySave()
         {
             MountSave();
@@ -2479,7 +2480,7 @@ namespace ArchieAndrews.PrefabBrush
             comfirmationName = nameToDelete;
             comfirmationId = idToDelete;
         }
-#endregion
+        #endregion
 
         void OnSceneGUI(SceneView sceneView)
         {

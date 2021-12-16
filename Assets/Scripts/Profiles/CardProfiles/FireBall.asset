@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: FireBall
-  _description: Deal 2 Damage and give 3 fire ticks
+  _description: Deal 5 Damage and apply 1 fire tick
   Image: {fileID: 21300000, guid: d6c6374f19c250942977d9ca5af16fe3, type: 3}
   _mana: 1
   _attackDamage: 5
@@ -22,5 +22,5 @@ MonoBehaviour:
   _health: 0
   _shield: 0
   Effects:
-  - {fileID: 11400000, guid: d761d071b52b267449c024a62ffb2986, type: 2}
   - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}
+  - {fileID: 11400000, guid: d67f325238774d649a1faddd474fcb67, type: 2}

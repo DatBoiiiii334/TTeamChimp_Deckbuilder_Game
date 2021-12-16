@@ -18,4 +18,4 @@ MonoBehaviour:
   _basicAttack: 20
   _specialAttack: 30
   _maxBuff: 5
-  enemyGameObject: {fileID: 595718039686400170, guid: cd96a29d743aee24a80961f8d77b4e95, type: 3}
+  enemyGameObject: {fileID: 8174583991459702992, guid: 08c3144bb4005b74991f8153b9b2b14c, type: 3}
