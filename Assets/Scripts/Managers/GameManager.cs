@@ -36,6 +36,10 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha4)){
             AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
         }
+        if(Input.GetKeyDown(KeyCode.M)){
+            myFSM.SetCurrentState(typeof(GridMapState));
+            print("Command go to GridMap");
+        }
     }
 
     public void isEnemyDead()
@@ -50,20 +54,19 @@ public class GameManager : MonoBehaviour
     public void DamageEnemy(int damage)
     {
         StartCoroutine(ShowHit());
+        Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
         if (damage >= EnemyBody._instanceEnemyBody.Shield)
         {
             int var;
             int kaartDamage = damage;
-            Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
             var = kaartDamage -= EnemyBody._instanceEnemyBody.Shield;
             EnemyBody._instanceEnemyBody.Shield = 0;
             EnemyBody._instanceEnemyBody.Health -= var;
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = var;
-            Debug.Log("damage to enemy: " + var);
+            //Debug.Log("Damage dealt to enemy: " + var);
         }
         else if (damage < EnemyBody._instanceEnemyBody.Shield)
         {
-            Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
             EnemyBody._instanceEnemyBody.Shield -= damage;
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = damage;
         }
@@ -93,8 +96,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public IEnumerator TimedUIUpdate(int damage){
+        yield return new WaitForSeconds(0.25f);
+        //Use to sync enemy UI update with the players basic attack animation
+    }
+
     public IEnumerator TimedFireDamage(){
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.5f);
         AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
     }
 
