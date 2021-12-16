@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: d9706c3dc61d015438d9d210e47bac11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9113244485733083520
+    second: Jaapie_Idle_0
+  - first:
+      213: 9080222325322552537
+    second: Jaapie_Idle_1
+  - first:
+      213: 9082604115202008174
+    second: Jaapie_Idle_2
+  - first:
+      213: 6573339315986032885
+    second: Jaapie_Idle_3
+  - first:
+      213: -1865798381578276295
+    second: Jaapie_Idle_4
+  - first:
+      213: -2381699622560135841
+    second: Jaapie_Idle_5
+  - first:
+      213: -7659681759586951222
+    second: Jaapie_Idle_6
+  - first:
+      213: -3011056322103037898
+    second: Jaapie_Idle_7
+  - first:
+      213: -2784164060810381579
+    second: Jaapie_Idle_8
+  - first:
+      213: -1676131253333154738
+    second: Jaapie_Idle_9
+  - first:
+      213: -6520410334814636602
+    second: Jaapie_Idle_10
+  - first:
+      213: -4569428572624781488
+    second: Jaapie_Idle_11
+  - first:
+      213: 838460313942266217
+    second: Jaapie_Idle_12
+  - first:
+      213: 865132961269508502
+    second: Jaapie_Idle_13
+  - first:
+      213: 2099976979930940163
+    second: Jaapie_Idle_14
+  - first:
+      213: 1785121921667161055
+    second: Jaapie_Idle_15
+  - first:
+      213: 4650971991018748547
+    second: Jaapie_Idle_16
+  - first:
+      213: 760730880479881043
+    second: Jaapie_Idle_17
+  - first:
+      213: -7404536856132968499
+    second: Jaapie_Idle_18
+  - first:
+      213: 8025065143072946229
+    second: Jaapie_Idle_19
+  - first:
+      213: 7964647689760898058
+    second: Jaapie_Idle_20
+  - first:
+      213: -6710743002072582279
+    second: Jaapie_Idle_21
+  - first:
+      213: -1681590492120935581
+    second: Jaapie_Idle_22
+  - first:
+      213: 1303669831542140021
+    second: Jaapie_Idle_23
+  - first:
+      213: 1841452047921602168
+    second: Jaapie_Idle_24
+  - first:
+      213: 1713018269676168610
+    second: Jaapie_Idle_25
+  - first:
+      213: -8672637563031671951
+    second: Jaapie_Idle_26
+  - first:
+      213: 4793509601984316196
+    second: Jaapie_Idle_27
+  - first:
+      213: 9034042857131884376
+    second: Jaapie_Idle_28
+  - first:
+      213: 3031859997988343551
+    second: Jaapie_Idle_29
+  - first:
+      213: -7514406672114650225
+    second: Jaapie_Idle_30
+  - first:
+      213: -3301703715540550688
+    second: Jaapie_Idle_31
+  - first:
+      213: 206005579630206148
+    second: Jaapie_Idle_32
+  - first:
+      213: 6128493251202997792
+    second: Jaapie_Idle_33
+  - first:
+      213: 6034564924746964254
+    second: Jaapie_Idle_34
+  - first:
+      213: 3450390729489875541
+    second: Jaapie_Idle_35
+  - first:
+      213: 4498834390111961764
+    second: Jaapie_Idle_36
+  - first:
+      213: -6434182726008759985
+    second: Jaapie_Idle_37
+  - first:
+      213: -2128538161029360252
+    second: Jaapie_Idle_38
+  - first:
+      213: -6199537378690742818
+    second: Jaapie_Idle_39
+  - first:
+      213: -1294469198219953693
+    second: Jaapie_Idle_40
+  - first:
+      213: -1770881240265340490
+    second: Jaapie_Idle_41
+  - first:
+      213: 1018791076575688226
+    second: Jaapie_Idle_42
+  - first:
+      213: 3228428968832327780
+    second: Jaapie_Idle_43
+  - first:
+      213: 4266107270860306665
+    second: Jaapie_Idle_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jaapie_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086979c9c60478180800000000000000
+      internalID: -9113244485733083520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41c66881e630e70800000000000000
+      internalID: 9080222325322552537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ed123254eb0e70800000000000000
+      internalID: 9082604115202008174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8e475e741393b50800000000000000
+      internalID: 6573339315986032885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9323783e14a5b16e0800000000000000
+      internalID: -1865798381578276295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550f93efc082fed0800000000000000
+      internalID: -2381699622560135841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfd74bb50853b590800000000000000
+      internalID: -7659681759586951222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ba527a349636d0800000000000000
+      internalID: -3011056322103037898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 8072
+        y: 5504
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6fcfea989ac59d0800000000000000
+      internalID: -2784164060810381579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a520718f2db8e0800000000000000
+      internalID: -1676131253333154738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5769bd859d285a0800000000000000
+      internalID: -6520410334814636602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ffd2e4ce02690c0800000000000000
+      internalID: -4569428572624781488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9619ac2963fc2ab00800000000000000
+      internalID: 838460313942266217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69963f738d1910c00800000000000000
+      internalID: 865132961269508502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3030845efed942d10800000000000000
+      internalID: 2099976979930940163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbdbb50ee606c810800000000000000
+      internalID: 1785121921667161055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab6f842629b8040800000000000000
+      internalID: 4650971991018748547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 8072
+        y: 4128
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3576cac84b8ae8a00800000000000000
+      internalID: 760730880479881043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf18e3d5fccd3990800000000000000
+      internalID: -7404536856132968499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5387b30aa32ce5f60800000000000000
+      internalID: 8025065143072946229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c755510ec188e60800000000000000
+      internalID: 7964647689760898058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977768e6bc6aed2a0800000000000000
+      internalID: -6710743002072582279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363157b5b5ac9a8e0800000000000000
+      internalID: -1681590492120935581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c667dfdc0971210800000000000000
+      internalID: 1303669831542140021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e584391e62e8910800000000000000
+      internalID: 1841452047921602168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56dc15a0dd5c710800000000000000
+      internalID: 1713018269676168610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 8072
+        y: 2752
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ba9c5061a94a780800000000000000
+      internalID: -8672637563031671951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42303bdf597f58240800000000000000
+      internalID: 4793509601984316196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f30093d1e5f5d70800000000000000
+      internalID: 9034042857131884376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffecfccca94531a20800000000000000
+      internalID: 3031859997988343551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f7cad1f677b790800000000000000
+      internalID: -7514406672114650225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb3e91c6fdfd22d0800000000000000
+      internalID: -3301703715540550688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc5b93bbf0ebd200800000000000000
+      internalID: 206005579630206148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e555e4428cc0550800000000000000
+      internalID: 6128493251202997792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d139993d41fb350800000000000000
+      internalID: 6034564924746964254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 8072
+        y: 1376
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5528b87661042ef20800000000000000
+      internalID: 3450390729489875541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a24fedba021f6e30800000000000000
+      internalID: 4498834390111961764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f491b4486e035b6a0800000000000000
+      internalID: -6434182726008759985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4855bfce1d9e572e0800000000000000
+      internalID: -2128538161029360252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c163c991d6f9a0800000000000000
+      internalID: -6199537378690742818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e93a636f1f190ee0800000000000000
+      internalID: -1294469198219953693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 5045
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9c49ef4e09c67e0800000000000000
+      internalID: -1770881240265340490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226b1ab1619732e00800000000000000
+      internalID: 1018791076575688226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 7063
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e4ddca0fadcc20800000000000000
+      internalID: 3228428968832327780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaapie_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 8072
+        y: 0
+        width: 1009
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8f655c5f1443b30800000000000000
+      internalID: 4266107270860306665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff5d3dcb5f550114cb8d78b495940e82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
