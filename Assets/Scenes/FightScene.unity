@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1578185875}
-  m_IndirectSpecularColor: {r: 7106.3203, g: 14788.516, b: 15868.6875, a: 1}
+  m_IndirectSpecularColor: {r: 7087.5117, g: 14772.031, b: 15851.531, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11872,7 +11872,7 @@ MonoBehaviour:
       Data2: 1254463634
       Data3: 15040143
       Data4: -409469813
-    Path: event:/Diegetic/Arena Enviroment/Arena Ambience
+    Path: event:/Diegetic/ArenaEnviroment/ArenaAmbience
   Event: 
   PlayEvent: 1
   StopEvent: 0
