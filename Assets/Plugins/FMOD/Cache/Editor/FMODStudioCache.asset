@@ -1,281 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5614660854613896980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CardClickAndDrag/L_R
-  m_EditorClassIdentifier: 
-  Name: L_R
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 753131382
-    data2: 1412099839
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4882319406841241741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PaperHitSound/DamageReveiced
-  m_EditorClassIdentifier: 
-  Name: DamageReveiced
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3993225422
-    data2: 42577953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-3169081890970548845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/Shield
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/Shield
-  Guid:
-    Data1: -621248196
-    Data2: 1292802390
-    Data3: -1568675174
-    Data4: -220939423
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5204
---- !u!114 &-2778161507937793142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ShopEnviroment/JaapieKrekelWings
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ShopEnviroment/JaapieKrekelWings
-  Guid:
-    Data1: 435296422
-    Data2: 1096952904
-    Data3: -1964944214
-    Data4: 1747679919
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 13500
---- !u!114 &-2476917048743441705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ShopEnviroment/Tinkerbell
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ShopEnviroment/Tinkerbell
-  Guid:
-    Data1: -1261325861
-    Data2: 1221152132
-    Data3: -463104114
-    Data4: -1685493268
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11928
---- !u!114 &-1759102146140339258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CardClickAndDrag/Speed
-  m_EditorClassIdentifier: 
-  Name: Speed
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 4267734051
-    data2: 1245745836
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 1116896135935954990}
-  - {fileID: 2029228079554022363}
-  EditorEvents:
-  - {fileID: 5940667650966587087}
-  - {fileID: -3169081890970548845}
-  - {fileID: 7634432110391202029}
-  - {fileID: 1610234895610196755}
-  - {fileID: 6783253590279672865}
-  - {fileID: 7302731698810673349}
-  - {fileID: -2778161507937793142}
-  - {fileID: 7313460212835435626}
-  - {fileID: -2476917048743441705}
-  EditorParameters:
-  - {fileID: 1458822304597717701}
-  MasterBanks:
-  - {fileID: 2029228079554022363}
-  StringsBanks:
-  - {fileID: 1116896135935954990}
-  cacheTime: 637753415094703512
-  cacheVersion: 10
---- !u!114 &1116896135935954990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637753415094703512
-  FileSizes:
-  - Name: 
-    Value: 1458
-  Exists: 1
---- !u!114 &1458822304597717701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/DamageReveiced
-  m_EditorClassIdentifier: 
-  Name: DamageReveiced
-  StudioPath: parameter:/DamageReveiced
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3993225422
-    data2: 42577953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &1610234895610196755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/Heal
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/Heal
-  Guid:
-    Data1: -1855920531
-    Data2: 1224371662
-    Data3: -78536537
-    Data4: 750498521
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5500
---- !u!114 &2029228079554022363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.bank
-  Name: Desktop/Master
-  StudioPath: bank:/Master
-  lastModified: 637753415094693280
-  FileSizes: []
-  Exists: 1
---- !u!114 &2381495105156180729
+--- !u!114 &-8438528169475398422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,7 +24,51 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &5940667650966587087
+--- !u!114 &-5559036446755393159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Build/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637745042346263822
+  FileSizes:
+  - Name: 
+    Value: 1184
+  Exists: 1
+--- !u!114 &-3884181438567905149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PaperHitSound/DamageReveiced
+  m_EditorClassIdentifier: 
+  Name: DamageReveiced
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3993225422
+    data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3136457955752879748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,137 +78,104 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/SwipeAttack
+  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/PaperHitSound
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/SwipeAttack
-  Guid:
-    Data1: -834337535
-    Data2: 1277304749
-    Data3: 1545889677
-    Data4: 1990563365
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 2381495105156180729}
-  - {fileID: 9035021984856074711}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 910
---- !u!114 &6783253590279672865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/CardClickAndDrag
-  m_EditorClassIdentifier: 
-  Path: event:/CardClickAndDrag
-  Guid:
-    Data1: -35252873
-    Data2: 1116536644
-    Data3: -381444161
-    Data4: -1693249388
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1759102146140339258}
-  - {fileID: -5614660854613896980}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6000
---- !u!114 &7302731698810673349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ShopEnviroment/ShopAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ShopEnviroment/ShopAmbience
-  Guid:
-    Data1: 137436293
-    Data2: 1320227552
-    Data3: 1571293833
-    Data4: 401008047
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &7313460212835435626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ArenaEnviroment/ArenaAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ArenaEnviroment/ArenaAmbience
-  Guid:
-    Data1: 1908554153
-    Data2: 1254463634
-    Data3: 15040143
-    Data4: -409469813
-  Banks:
-  - {fileID: 2029228079554022363}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56888
---- !u!114 &7634432110391202029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/PaperHitSound
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/ArenaEnviroment/CombatAndAblilities/PaperHitSound
+  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/PaperHitSound
   Guid:
     Data1: 249904233
     Data2: 1229742063
     Data3: -1087138151
     Data4: -160930216
   Banks:
-  - {fileID: 2029228079554022363}
+  - {fileID: 7270032446025055540}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -4882319406841241741}
+  - {fileID: -3884181438567905149}
   MinDistance: 1
   MaxDistance: 20
   Length: 2100
---- !u!114 &9035021984856074711
+--- !u!114 &-1485992445706998407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena Enviroment/Arena Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena Enviroment/Arena Ambience
+  Guid:
+    Data1: 1908554153
+    Data2: 1254463634
+    Data3: 15040143
+    Data4: -409469813
+  Banks:
+  - {fileID: 7270032446025055540}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -5559036446755393159}
+  - {fileID: 7270032446025055540}
+  EditorEvents:
+  - {fileID: 3386516780957515971}
+  - {fileID: -3136457955752879748}
+  - {fileID: 6434187139818361718}
+  - {fileID: -1485992445706998407}
+  EditorParameters:
+  - {fileID: 806434881819080250}
+  MasterBanks:
+  - {fileID: 7270032446025055540}
+  StringsBanks:
+  - {fileID: -5559036446755393159}
+  cacheTime: 637745042346263822
+  cacheVersion: 10
+--- !u!114 &806434881819080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DamageReveiced
+  m_EditorClassIdentifier: 
+  Name: DamageReveiced
+  StudioPath: parameter:/DamageReveiced
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3993225422
+    data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1233157106893010665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,4 +198,78 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &3386516780957515971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/SwipeAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/SwipeAttack
+  Guid:
+    Data1: -834337535
+    Data2: 1277304749
+    Data3: 1545889677
+    Data4: 1990563365
+  Banks:
+  - {fileID: 7270032446025055540}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8438528169475398422}
+  - {fileID: 1233157106893010665}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 910
+--- !u!114 &6434187139818361718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/Heal
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/Heal
+  Guid:
+    Data1: -1855920531
+    Data2: 1224371662
+    Data3: -78536537
+    Data4: 750498521
+  Banks:
+  - {fileID: 7270032446025055540}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5500
+--- !u!114 &7270032446025055540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Build/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 637745042346239092
+  FileSizes: []
   Exists: 1
