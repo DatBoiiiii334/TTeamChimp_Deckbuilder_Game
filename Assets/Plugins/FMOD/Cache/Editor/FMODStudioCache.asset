@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Build/Desktop/Master.bank
   Name: Build/Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 637745042346239092
+  lastModified: 637745042340000000
   FileSizes: []
   Exists: 1
 --- !u!114 &-2518796753351180439
@@ -128,7 +128,7 @@ MonoBehaviour:
   - {fileID: -3399749105671468777}
   StringsBanks:
   - {fileID: 6981861231099781822}
-  cacheTime: 637745042346263822
+  cacheTime: 637745042340000000
   cacheVersion: 10
 --- !u!114 &1329172795892975060
 MonoBehaviour:
@@ -263,12 +263,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Build/Desktop/Master.strings.bank
+  m_Name: bank:/Desktop/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets/Plugins/FMOD/Build/Desktop/Master.strings.bank
-  Name: Build/Desktop/Master.strings
+  Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637745042346263822
+  lastModified: 637745042340000000
   FileSizes:
   - Name: 
     Value: 1184

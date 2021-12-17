@@ -62,3 +62,13 @@ fmod_editor.log
 # FMOD 1.10.x (Legacy)
 /Assets/FMODAssets/*
 /Assets/FMODStudioCache.meta
+*.log
+*.log
+*.log
+*.log
+Logs/shadercompiler-UnityShaderCompiler.exe9.log
+Logs/shadercompiler-UnityShaderCompiler.exe8.log
+Logs/shadercompiler-UnityShaderCompiler.exe9.log
+Logs/shadercompiler-UnityShaderCompiler.exe8.log
+Logs/shadercompiler-UnityShaderCompiler.exe7.log
+*.log

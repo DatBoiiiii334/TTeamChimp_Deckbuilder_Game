@@ -1,128 +1,125 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.25f1 (b6f2b893ea32) revision 11989688'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16265 MB
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'nl' Physical Memory: 16224 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.25f1\Editor\Unity.exe
+C:\Program Files\2021.1.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/TTeamChimp_Deckbuilder_Game
+C:/Users/ninos/Dropbox/github/TTeamChimp_Deckbuilder_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61802
-Successfully changed project path to: D:/GitHub/TTeamChimp_Deckbuilder_Game
-D:/GitHub/TTeamChimp_Deckbuilder_Game
+54921
+Successfully changed project path to: C:/Users/ninos/Dropbox/github/TTeamChimp_Deckbuilder_Game
+C:/Users/ninos/Dropbox/github/TTeamChimp_Deckbuilder_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 238.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 186.53 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.25f1 (b6f2b893ea32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/TTeamChimp_Deckbuilder_Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ninos/Dropbox/github/TTeamChimp_Deckbuilder_Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
     Vendor:   NVIDIA
-    VRAM:     8081 MB
-    Driver:   27.21.14.6089
+    VRAM:     8044 MB
+    Driver:   30.0.14.7219
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Mono path[0] = 'C:/Program Files/2021.1.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003464 seconds.
+Register platform support module: C:/Program Files/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001666 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 315.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 170.27 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.376 seconds
+- Completed reload, in  2.704 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2376ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (2704ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (835ms)
-			LoadAssemblies (114ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (512ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (315ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (170ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005570 seconds.
+Registered in 0.009115 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ninos\Dropbox\github\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ninos\Dropbox\github\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 209.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.153 seconds
+- Completed reload, in  1.696 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2154ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1697ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1899ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (533ms)
+			SetupTypeCache (423ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (187ms)
-			SetupLoadedEditorAssemblies (953ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (742ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (210ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (170ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6589 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 310.3 MB.
-System memory in use after: 309.7 MB.
+Unloading 6713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 312.9 MB.
+System memory in use after: 312.5 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 7044.
-Total: 8.248000 ms (FindLiveObjects: 0.569600 ms CreateObjectMapping: 0.730700 ms MarkObjects: 6.477600 ms  DeleteObjects: 0.468400 ms)
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 7113.
+Total: 5.378400 ms (FindLiveObjects: 0.665600 ms CreateObjectMapping: 0.450400 ms MarkObjects: 3.928400 ms  DeleteObjects: 0.332500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,54 +132,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Plugins/FMOD/Build
+  artifactKey: Guid(a0478a99976c0cd498d7b27e1961c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Build using Guid(a0478a99976c0cd498d7b27e1961c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047970e9b7f6bcaa829d97e623831570') in 0.017471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Plugins/FMOD
+  artifactKey: Guid(06ae579381df01a4a87bb149dec89954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD using Guid(06ae579381df01a4a87bb149dec89954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335445ea01a2315fa278511dfd7e4f41') in 0.007528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Plugins/FMOD/FMODUnity.asmdef
+  artifactKey: Guid(0c752da273b17c547ae705acf0f2adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/FMODUnity.asmdef using Guid(0c752da273b17c547ae705acf0f2adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68220e79bb70b810607b171c8a0243b') in 0.018684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(3d804dbe319262547b335bb8b0c1186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(3d804dbe319262547b335bb8b0c1186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9d872f70f289758e5867d7d3ceaed1') in 0.007541 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007971 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.68 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.980 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1981ms)
-		BeginReloadAssembly (175ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1733ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (614ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (167ms)
-			SetupLoadedEditorAssemblies (639ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6079 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.1 MB.
-System memory in use after: 271.5 MB.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 152.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 7046.
-Total: 10.184000 ms (FindLiveObjects: 0.656700 ms CreateObjectMapping: 0.789400 ms MarkObjects: 8.182100 ms  DeleteObjects: 0.554400 ms)
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 7113.
+Total: 4.227300 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.410000 ms MarkObjects: 3.128300 ms  DeleteObjects: 0.234300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -197,252 +179,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Controllers/BuffController.cs
-  artifactKey: Guid(97ab19682420f5e4c95b64373abca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controllers/BuffController.cs using Guid(97ab19682420f5e4c95b64373abca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a85d030599ee1bd8fed5fa8f5202359') in 0.053115 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007975 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.883 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1883ms)
-		BeginReloadAssembly (237ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1569ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (540ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (148ms)
-			SetupLoadedEditorAssemblies (571ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (418ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6079 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.2 MB.
-System memory in use after: 271.7 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 7048.
-Total: 6.036800 ms (FindLiveObjects: 0.584400 ms CreateObjectMapping: 0.398000 ms MarkObjects: 4.636100 ms  DeleteObjects: 0.417200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 24.149445 seconds.
+  path: Assets/Plugins/FMOD/Build/Desktop/Master.bank
+  artifactKey: Guid(b123bb1ab1fe1114ea560f6c61a95c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Build/Desktop/Master.bank using Guid(b123bb1ab1fe1114ea560f6c61a95c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23f90468c59ab2cc0111eccabfe1408') in 0.034668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.297393 seconds.
-  path: Assets/Scripts/Controllers/BuffController.cs
-  artifactKey: Guid(97ab19682420f5e4c95b64373abca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controllers/BuffController.cs using Guid(97ab19682420f5e4c95b64373abca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd653a7ddd73959ece4aff7a0703c88b') in 0.007907 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006497 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.780 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1781ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1528ms)
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (540ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (392ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6079 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.3 MB.
-System memory in use after: 271.7 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 7050.
-Total: 11.705200 ms (FindLiveObjects: 0.799300 ms CreateObjectMapping: 0.699400 ms MarkObjects: 9.764600 ms  DeleteObjects: 0.439800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.036536 seconds.
+  path: Assets/Plugins/FMOD/Build/Desktop/Master.strings.bank
+  artifactKey: Guid(0cdb45ba78ba0d1419aaab9896c0dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Build/Desktop/Master.strings.bank using Guid(0cdb45ba78ba0d1419aaab9896c0dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9be36e712da54fb3fc926dd312f555a') in 0.005473 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 818.666179 seconds.
-  path: Assets/gras.png
-  artifactKey: Guid(1c3e091e2e0cfaa458c3c94d98f95f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/gras.png using Guid(1c3e091e2e0cfaa458c3c94d98f95f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f8923afa88b174a58606482601b1ad') in 0.089760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/tex_cutout_stone_var2_v2.png
-  artifactKey: Guid(3f943f07192f051448f60b4c9a66e533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_stone_var2_v2.png using Guid(3f943f07192f051448f60b4c9a66e533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e37f0d0fbabc456b05c300436794c8') in 0.023762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/tex_cutout_grass_var3_v2.png
-  artifactKey: Guid(ff071d2739b5ae64baac4117ae961e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_grass_var3_v2.png using Guid(ff071d2739b5ae64baac4117ae961e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df85b5da77a3d1801d6e4810636a89') in 0.011358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/tex_cutout_stone_var3_v2.png
-  artifactKey: Guid(96b081025550da640b03b0cfabac9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_stone_var3_v2.png using Guid(96b081025550da640b03b0cfabac9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee1dc44c9bb539ccfc48a162ae561d2') in 0.014420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/tex_ground_albedo_original_true-hue_v6.png
-  artifactKey: Guid(02a63965c8abc614abc501b082cebca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_ground_albedo_original_true-hue_v6.png using Guid(02a63965c8abc614abc501b082cebca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4577a93c6530edfd4ce9a8d4facc1') in 0.015580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/tex_cutout_grass_var2_v2.png
-  artifactKey: Guid(266afe2d68495f44f81b81d8e6020b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_grass_var2_v2.png using Guid(266afe2d68495f44f81b81d8e6020b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd1b9d12f76d1799cd378a4f30a389') in 0.011185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/tex_cutout_tree_var1_v2.png
-  artifactKey: Guid(cee4763c01cd8f94ea20399116ec6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_tree_var1_v2.png using Guid(cee4763c01cd8f94ea20399116ec6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0b188a378758773c7ae923d3054663') in 0.020714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/tex_cutout_tree_var2_v2.png
-  artifactKey: Guid(080a6117f68e51b44abc39de30460b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_tree_var2_v2.png using Guid(080a6117f68e51b44abc39de30460b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a686dcb16efa7ee2bef612bed8637d09') in 0.012462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/tex_cutout_stone_var1_v2.png
-  artifactKey: Guid(da240cbad18fc834e91616e9a0e07871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_stone_var1_v2.png using Guid(da240cbad18fc834e91616e9a0e07871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a7cf2652bfd6ccf463b4d1881b848d') in 0.011888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/tex_cutout_grass_var1_v2.png
-  artifactKey: Guid(8953a6fb7a9ec2942a1c50e8cc69cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tex_cutout_grass_var1_v2.png using Guid(8953a6fb7a9ec2942a1c50e8cc69cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd002b1ff2ab90316c73817bd44313a6c') in 0.012284 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006932 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2022ms)
-		BeginReloadAssembly (182ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1751ms)
-			LoadAssemblies (150ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (602ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (158ms)
-			SetupLoadedEditorAssemblies (601ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6089 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 293.8 MB.
-System memory in use after: 293.2 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 7206.
-Total: 5.682500 ms (FindLiveObjects: 0.528600 ms CreateObjectMapping: 0.472800 ms MarkObjects: 4.364500 ms  DeleteObjects: 0.314900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.003135 seconds.
+  path: Assets/Plugins/FMOD/Build/Desktop
+  artifactKey: Guid(9d6a017d33107a24183751272ec02938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Build/Desktop using Guid(9d6a017d33107a24183751272ec02938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabfc8ba8e19d8d7093645cb97e04f6a') in 0.005204 seconds 
