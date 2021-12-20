@@ -1,74 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8438528169475398422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SwipeAttack/DamageReveiced
-  m_EditorClassIdentifier: 
-  Name: DamageReveiced
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3993225422
-    data2: 42577953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-5559036446755393159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/Build/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637745042346263822
-  FileSizes:
-  - Name: 
-    Value: 1184
-  Exists: 1
---- !u!114 &-3884181438567905149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/PaperHitSound/DamageReveiced
-  m_EditorClassIdentifier: 
-  Name: DamageReveiced
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3993225422
-    data2: 42577953
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-3136457955752879748
+--- !u!114 &-7529985662351222993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,25 +10,371 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/PaperHitSound
+  m_Name: event:/NonDiegetic/Arena/UI/CardHover
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/PaperHitSound
+  Path: event:/NonDiegetic/Arena/UI/CardHover
+  Guid:
+    Data1: -1751376203
+    Data2: 1224418612
+    Data3: 770944436
+    Data4: 836231365
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1422
+--- !u!114 &-7406623668336043387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffUtility
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffUtility
+  Guid:
+    Data1: 737159024
+    Data2: 1197840811
+    Data3: -1176616803
+    Data4: 1280892344
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1205
+--- !u!114 &-6621796294494606156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SwipeAttack/DamageOutput
+  m_EditorClassIdentifier: 
+  Name: DamageOutput
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1305136501
+    data2: 3991429779
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6267873357976680404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Shop/JaapieKrekelWings
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Shop/JaapieKrekelWings
+  Guid:
+    Data1: 435296422
+    Data2: 1096952904
+    Data3: -1964944214
+    Data4: 1747679919
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13500
+--- !u!114 &-5896297447952750049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/Arena/UI/EndTurnHover
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/Arena/UI/EndTurnHover
+  Guid:
+    Data1: 1500983919
+    Data2: 1163719557
+    Data3: -1316073297
+    Data4: -1607109395
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4848768275990284036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Heal
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Heal
+  Guid:
+    Data1: -1855920531
+    Data2: 1224371662
+    Data3: -78536537
+    Data4: 750498521
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5500
+--- !u!114 &-4534533878616403840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CardClickAndDrag/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4267734051
+    data2: 1245745836
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3798466452792302031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/Arena/UI/EndTurnClick
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/Arena/UI/EndTurnClick
+  Guid:
+    Data1: -568935638
+    Data2: 1271151784
+    Data3: -1937966206
+    Data4: -743130149
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2732408766549154123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Shop/ShopAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Shop/ShopAmbience
+  Guid:
+    Data1: 137436293
+    Data2: 1320227552
+    Data3: 1571293833
+    Data4: 401008047
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-2687124009558068778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/Arena/UI/CardClickAndDrag
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/Arena/UI/CardClickAndDrag
+  Guid:
+    Data1: -35252873
+    Data2: 1116536644
+    Data3: -381444161
+    Data4: -1693249388
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4534533878616403840}
+  - {fileID: -1732947197243678320}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
+--- !u!114 &-2559655256396169571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Shield
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Shield
+  Guid:
+    Data1: -621248196
+    Data2: 1292802390
+    Data3: -1568675174
+    Data4: -220939423
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5204
+--- !u!114 &-2296923407498009792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/SwipeAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/SwipeAttack
+  Guid:
+    Data1: -834337535
+    Data2: 1277304749
+    Data3: 1545889677
+    Data4: 1990563365
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4257138155685894543}
+  - {fileID: -6621796294494606156}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 910
+--- !u!114 &-1895728690011541543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/PaperHitSound
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/PaperHitSound
   Guid:
     Data1: 249904233
     Data2: 1229742063
     Data3: -1087138151
     Data4: -160930216
   Banks:
-  - {fileID: 7270032446025055540}
+  - {fileID: 6566670151307144656}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3884181438567905149}
+  - {fileID: 8647454755009630572}
   MinDistance: 1
   MaxDistance: 20
   Length: 2100
---- !u!114 &-1485992445706998407
+--- !u!114 &-1732947197243678320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CardClickAndDrag/L_R
+  m_EditorClassIdentifier: 
+  Name: L_R
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 753131382
+    data2: 1412099839
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1110584752166820758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,23 +384,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Arena Enviroment/Arena Ambience
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffAttack
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Arena Enviroment/Arena Ambience
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffAttack
   Guid:
-    Data1: 1908554153
-    Data2: 1254463634
-    Data3: 15040143
-    Data4: -409469813
+    Data1: 1168566692
+    Data2: 1283986437
+    Data3: -463477605
+    Data4: -1041507552
   Banks:
-  - {fileID: 7270032446025055540}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 1185
+--- !u!114 &-971539020010934608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/Arena/UI/CardClick
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/Arena/UI/CardClick
+  Guid:
+    Data1: -1965719258
+    Data2: 1177754570
+    Data3: -1156437106
+    Data4: 1499246870
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1422
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,21 +441,61 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5559036446755393159}
-  - {fileID: 7270032446025055540}
+  - {fileID: 7103137577373140911}
+  - {fileID: 6566670151307144656}
   EditorEvents:
-  - {fileID: 3386516780957515971}
-  - {fileID: -3136457955752879748}
-  - {fileID: 6434187139818361718}
-  - {fileID: -1485992445706998407}
+  - {fileID: -2296923407498009792}
+  - {fileID: -971539020010934608}
+  - {fileID: -3798466452792302031}
+  - {fileID: -2559655256396169571}
+  - {fileID: -1895728690011541543}
+  - {fileID: -4848768275990284036}
+  - {fileID: -5896297447952750049}
+  - {fileID: -2687124009558068778}
+  - {fileID: -2732408766549154123}
+  - {fileID: -6267873357976680404}
+  - {fileID: 5444232460351851432}
+  - {fileID: -7529985662351222993}
+  - {fileID: 2854945261890757640}
+  - {fileID: 130887246919266562}
+  - {fileID: -1110584752166820758}
+  - {fileID: -7406623668336043387}
+  - {fileID: 4966749871221995326}
   EditorParameters:
   - {fileID: 806434881819080250}
   MasterBanks:
-  - {fileID: 7270032446025055540}
+  - {fileID: 6566670151307144656}
   StringsBanks:
-  - {fileID: -5559036446755393159}
-  cacheTime: 637745042346263822
+  - {fileID: 7103137577373140911}
+  cacheTime: 637756151689259339
   cacheVersion: 10
+--- !u!114 &130887246919266562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffShield
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffShield
+  Guid:
+    Data1: 1267024988
+    Data2: 1115948753
+    Data3: 288793267
+    Data4: -136247937
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1492
 --- !u!114 &806434881819080250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +520,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &1233157106893010665
+--- !u!114 &2854945261890757640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Shop/Tinkerbell
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Shop/Tinkerbell
+  Guid:
+    Data1: -1261325861
+    Data2: 1221152132
+    Data3: -463104114
+    Data4: -1685493268
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11928
+--- !u!114 &4257138155685894543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,21 +557,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SwipeAttack/DamageOutput
+  m_Name: parameter:/SwipeAttack/DamageReveiced
   m_EditorClassIdentifier: 
-  Name: DamageOutput
+  Name: DamageReveiced
   StudioPath: 
   Min: 0
   Max: 1
   Default: 0
   ID:
-    data1: 1305136501
-    data2: 3991429779
+    data1: 3993225422
+    data2: 42577953
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &3386516780957515971
+--- !u!114 &4966749871221995326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,53 +581,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/SwipeAttack
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/BelleAttack
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/SwipeAttack
+  Path: event:/Diegetic/Arena/CombatAndAblilities/BelleAttack
   Guid:
-    Data1: -834337535
-    Data2: 1277304749
-    Data3: 1545889677
-    Data4: 1990563365
+    Data1: 2115750421
+    Data2: 1131531082
+    Data3: 434896274
+    Data4: 933754416
   Banks:
-  - {fileID: 7270032446025055540}
+  - {fileID: 6566670151307144656}
   IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -8438528169475398422}
-  - {fileID: 1233157106893010665}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 910
---- !u!114 &6434187139818361718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Arena Enviroment/Combat And Ablilities/Heal
-  m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Arena Enviroment/Combat And Ablilities/Heal
-  Guid:
-    Data1: -1855920531
-    Data2: 1224371662
-    Data3: -78536537
-    Data4: 750498521
-  Banks:
-  - {fileID: 7270032446025055540}
-  IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5500
---- !u!114 &7270032446025055540
+  Length: 2637
+--- !u!114 &5444232460351851432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/ArenaAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/ArenaAmbience
+  Guid:
+    Data1: 1908554153
+    Data2: 1254463634
+    Data3: 15040143
+    Data4: -409469813
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56888
+--- !u!114 &6566670151307144656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,9 +637,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Desktop/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/Build/Desktop/Master.bank
+  Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 637745042346239092
+  lastModified: 637756151689224616
   FileSizes: []
+  Exists: 1
+--- !u!114 &7103137577373140911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637756151689259339
+  FileSizes:
+  - Name: 
+    Value: 1838
+  Exists: 1
+--- !u!114 &8647454755009630572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PaperHitSound/DamageReveiced
+  m_EditorClassIdentifier: 
+  Name: DamageReveiced
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3993225422
+    data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

@@ -1754,6 +1754,7 @@ GameObject:
   - component: {fileID: 297245251}
   - component: {fileID: 297245254}
   - component: {fileID: 297245253}
+  - component: {fileID: 297245252}
   m_Layer: 5
   m_Name: NextTurn
   m_TagString: Untagged
@@ -1783,6 +1784,36 @@ RectTransform:
   m_AnchoredPosition: {x: -10.123185, y: 467.6}
   m_SizeDelta: {x: 370, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &297245252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297245250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1500983919
+      Data2: 1163719557
+      Data3: -1316073297
+      Data4: -1607109395
+    Path: event:/NonDiegetic/Arena/UI/EndTurnHover
+  Event: 
+  PlayEvent: 13
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &297245253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6889,6 +6920,30 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5668916384896094085, guid: 89ee218bfd4da7e4b99bc623e3fbc1c6, type: 3}
   m_PrefabInstance: {fileID: 897067396}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1084814120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7195102122636318291, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+  m_PrefabInstance: {fileID: 1306714201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1084814123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084814120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f43ba92c86ced47b466eab7b50bcd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 2115750421
+      Data2: 1131531082
+      Data3: 434896274
+      Data4: 933754416
+    Path: event:/Diegetic/Arena/CombatAndAblilities/BelleAttack
 --- !u!1 &1086637329
 GameObject:
   m_ObjectHideFlags: 0
@@ -8267,6 +8322,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7195102122636318288, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7195102122636318288, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+      propertyPath: TriggerModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7195102122636318288, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+      propertyPath: CustomDataModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7195102122636318288, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+      propertyPath: TriggerModule.primitives.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7195102122636318288, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
+      propertyPath: TriggerModule.primitives.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7195102122678496045, guid: c6627771b9b5cdc46bc56553d59b4f9b, type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.0499997
@@ -9121,6 +9196,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1466314000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5096242281673841503, guid: 626fc61d091412f459cc077cebcbc772, type: 3}
+  m_PrefabInstance: {fileID: 595973190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1466314003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466314000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f43ba92c86ced47b466eab7b50bcd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 1168566692
+      Data2: 1283986437
+      Data3: -463477605
+      Data4: -1041507552
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffAttack
 --- !u!1 &1468778894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12113,6 +12212,30 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1883402633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4026103799387362945, guid: bebc48f6ca541a84c9c69ef3718cbf83, type: 3}
+  m_PrefabInstance: {fileID: 1191459845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1883402636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883402633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f43ba92c86ced47b466eab7b50bcd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 737159024
+      Data2: 1197840811
+      Data3: -1176616803
+      Data4: 1280892344
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffHeal
 --- !u!1 &1884978647
 GameObject:
   m_ObjectHideFlags: 0
@@ -12355,10 +12478,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
@@ -12370,11 +12497,19 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartGame
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenuState, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: MainMenuState, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5611914760481707990, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
@@ -12752,6 +12887,30 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5668916385755609660, guid: 89ee218bfd4da7e4b99bc623e3fbc1c6, type: 3}
   m_PrefabInstance: {fileID: 897067396}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2015145801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5668916385944128805, guid: 89ee218bfd4da7e4b99bc623e3fbc1c6, type: 3}
+  m_PrefabInstance: {fileID: 897067396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2015145804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015145801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f43ba92c86ced47b466eab7b50bcd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 1267024988
+      Data2: 1115948753
+      Data3: 288793267
+      Data4: -136247937
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffShield
 --- !u!1 &2018330691
 GameObject:
   m_ObjectHideFlags: 0
