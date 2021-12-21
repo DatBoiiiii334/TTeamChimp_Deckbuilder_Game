@@ -409,7 +409,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: Assets/Plugins/FMOD/Build
+  sourceBankPath: Assets/Plugins/FMOD
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
