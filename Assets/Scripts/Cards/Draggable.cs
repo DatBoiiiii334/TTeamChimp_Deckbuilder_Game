@@ -6,7 +6,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 {
     public Transform parentToReturnTo = null;
     public Transform cardDeckTransform;
-    public Card.cardType _CardType;
+    //public Card.cardType _CardType;
     public bool applyToPlayer;
     private CardTemplate myCardTemplate;
     public int TempMana;
