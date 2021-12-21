@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class BuffController : MonoBehaviour
 {
-    
+    public void BuffDamage(int damage){
+
+
+    }
 }
