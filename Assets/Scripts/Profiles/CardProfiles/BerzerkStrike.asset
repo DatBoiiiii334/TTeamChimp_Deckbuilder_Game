@@ -21,6 +21,5 @@ MonoBehaviour:
   _tickDamage: 0
   _health: 0
   _shield: 0
-  newCardType: 0
   Effects:
   - {fileID: 11400000, guid: 2872f2874daafb94789f5231a0ce0584, type: 2}
