@@ -8,7 +8,7 @@ public class PercentMissingHPEffect : BaseEffect
         int var;
         var = Player._player.maxHealth - Player._player.Health;
         var /= 2;
-        var += template.card.AttackDamage;
+        var += template.cardDamageValue;
         GameManager._instance.DamageEnemy(var);
         Debug.Log("MissingHpDmg: " + var);
     }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: FireBall
-  _description: Deal 5 Damage and apply 1 fire tick
+  _description: Cast a magical fireball at your enemy
   Image: {fileID: 21300000, guid: d6c6374f19c250942977d9ca5af16fe3, type: 3}
   _mana: 1
   _attackDamage: 5

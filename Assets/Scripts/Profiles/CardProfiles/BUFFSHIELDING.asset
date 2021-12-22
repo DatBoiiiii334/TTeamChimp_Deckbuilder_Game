@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a1030eb68c8bb8449a14bb371e382b4, type: 3}
-  m_Name: Strike
+  m_Name: BUFFSHIELDING
   m_EditorClassIdentifier: 
-  ID: 4
-  _name: Strike
-  _description: You strike your opponent dealing <color=red> 5 damage </color>
-  Image: {fileID: 21300000, guid: 22742bdc896f2734283663f21789e3d8, type: 3}
+  ID: 0
+  _name: Buff Shielding
+  _description: Mutliply all shielding from shielding cards
+  Image: {fileID: 21300000, guid: 99823894084b8474eab4d6eabab65bb4, type: 3}
   _mana: 1
-  _attackDamage: 5
+  _attackDamage: 0
   _tickDamage: 0
   _health: 0
   _shield: 0
   Effects:
-  - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}
+  - {fileID: 11400000, guid: 00cb8f8ce03100b4d9f456f0b921c23b, type: 2}

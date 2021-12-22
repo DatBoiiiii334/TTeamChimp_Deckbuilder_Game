@@ -9,13 +9,14 @@ public class VampiricEffect : BaseEffect
         if (EnemyBody._instanceEnemyBody.Shield <= 0)
         { 
             Player._player.Health += EnemyBody._instanceEnemyBody.lastDamageDealtTo;
-            GameManager._instance.DamageEnemy(template.card.AttackDamage);
+            //GameManager._instance.DamageEnemy(template.cardDamageValue);
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = 0;
             Player._player.anim.SetTrigger("DoAttackAnim");
         }
         else
         {
             Player._player.anim.SetTrigger("DoAttackAnim");
+            Debug.Log("Vampiric had no effect");
         }
     }
 }

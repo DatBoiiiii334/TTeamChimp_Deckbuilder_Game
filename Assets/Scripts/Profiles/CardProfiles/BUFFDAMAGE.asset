@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a1030eb68c8bb8449a14bb371e382b4, type: 3}
-  m_Name: Strike
+  m_Name: BUFFDAMAGE
   m_EditorClassIdentifier: 
-  ID: 4
-  _name: Strike
-  _description: You strike your opponent dealing <color=red> 5 damage </color>
-  Image: {fileID: 21300000, guid: 22742bdc896f2734283663f21789e3d8, type: 3}
+  ID: 0
+  _name: Buff Damage
+  _description: Mutliply all damage from damage cards
+  Image: {fileID: 21300000, guid: 4e5847845111a4c41b80db513b5a13ef, type: 3}
   _mana: 1
-  _attackDamage: 5
+  _attackDamage: 0
   _tickDamage: 0
   _health: 0
   _shield: 0
   Effects:
-  - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}
+  - {fileID: 11400000, guid: b5c5aacfabbf63f4ba09d869b81464d5, type: 2}

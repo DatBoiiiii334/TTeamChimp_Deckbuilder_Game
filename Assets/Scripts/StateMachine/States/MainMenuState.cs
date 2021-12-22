@@ -16,7 +16,7 @@ public class MainMenuState : State
     }
 
     public void StartGame(){
-        myFSM.SetCurrentState(typeof(PlayerEnterState));
+        myFSM.SetCurrentState(typeof(GridMapState));
     }
 
     public void QuitGame(){

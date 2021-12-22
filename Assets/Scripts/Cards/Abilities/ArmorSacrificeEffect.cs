@@ -5,7 +5,7 @@ public class ArmorSacrificeEffect : BaseEffect
 {
     public override void ApplyEffect()
     {
-       Player._player.Shield -= template.card.AttackDamage;
-       GameManager._instance.DamageEnemy(template.card.AttackDamage);
+       Player._player.Shield -= template.cardDamageValue;
+       GameManager._instance.DamageEnemy(template.cardDamageValue);
     }
 }

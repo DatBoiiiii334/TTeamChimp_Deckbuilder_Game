@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Slice n Dice
-  _description: You apply 1 bleed damage and deal 4 damage
+  _description: you slash your opponent
   Image: {fileID: 21300000, guid: b7c8aac09d3176f479f7bb5e8297a527, type: 3}
   _mana: 1
   _attackDamage: 4

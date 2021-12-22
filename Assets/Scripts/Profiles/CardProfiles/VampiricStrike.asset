@@ -17,7 +17,7 @@ MonoBehaviour:
   _description: Heal for the amount of damage last done to your enemy
   Image: {fileID: 21300000, guid: 4a9d1dd3dd05a40488abd0626821aedb, type: 3}
   _mana: 1
-  _attackDamage: 3
+  _attackDamage: 0
   _tickDamage: 0
   _health: 0
   _shield: 0
