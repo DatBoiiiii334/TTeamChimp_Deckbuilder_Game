@@ -23,7 +23,7 @@ public class CardCreator : MonoBehaviour
             foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
                 Destroy(_card.gameObject);
             }
-            //create 5 new cards
+
             foreach(Card profile in TestList){
                 GameObject myCard;
                 myCard = Instantiate(CardPrefab, CardSystemManager._instance.CardDeckPos.transform);

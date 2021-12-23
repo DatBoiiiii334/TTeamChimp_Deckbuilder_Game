@@ -10,13 +10,8 @@ public class MainMenuState : State
         MainMenu.SetActive(true);
     }
 
-    public override void Exit()
-    {
-        StartCoroutine(WaitExit());
-    }
-
     public void StartGame(){
-        myFSM.SetCurrentState(typeof(GridMapState));
+        StartCoroutine(WaitForTransition());
     }
 
     public void QuitGame(){
@@ -24,9 +19,10 @@ public class MainMenuState : State
         Application.Quit();
     }
 
-    private IEnumerator WaitExit(){
+    private IEnumerator WaitForTransition(){
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
+        myFSM.SetCurrentState(typeof(GridMapState));
         MainMenu.SetActive(false);
     }
 }

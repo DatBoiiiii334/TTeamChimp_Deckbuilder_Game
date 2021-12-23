@@ -26,13 +26,13 @@ public class EnemyBody : MonoBehaviour
         if(transform.childCount > 0){
             foreach(Transform enemy in transform){
                 Destroy(enemy.gameObject);
-                print("Enemy art wiped");
+                // print("Enemy art wiped");
             }
         }
         EnemyTurn();
         GameObject enemyArt;
         enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
-        print("Name: "+_core.enemyGameObject.name);
+        // print("Name: "+_core.enemyGameObject.name);
     }
 
 

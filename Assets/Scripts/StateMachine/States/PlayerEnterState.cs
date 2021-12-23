@@ -6,6 +6,8 @@ public class PlayerEnterState : State
 {
     public override void Enter()
     {
+        //AudioManager._instance.TriggerAudioEffect();
+        
         GameManager._instance.CardDeckBlocker.SetActive(true);
         EnemyBody._instanceEnemyBody.ResetEnemy();
         Player._player.ResetPlayerStats();

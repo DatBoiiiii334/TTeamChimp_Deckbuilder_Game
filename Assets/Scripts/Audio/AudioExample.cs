@@ -11,11 +11,7 @@ namespace FMODUnity
         public string parameter;
         public float paramValue;
 
- 
-
         private FMOD.Studio.EventInstance instance;
-
-
 
         private void Update()
         {

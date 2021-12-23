@@ -33,7 +33,7 @@ public class CardTemplate : MonoBehaviour
         PassiveText.text = "<color=black>Apply</color> " + card.TickDamage + " bleed";
         PassiveText.color = Color.blue;
         ManaValue.text = card.Mana.ToString();
-        print("changed value: " + cardDamageValue);
+        // print("changed value: " + cardDamageValue);
     }
 
     public void UpdateCardValues(){

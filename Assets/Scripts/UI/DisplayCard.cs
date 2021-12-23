@@ -20,10 +20,10 @@ public class DisplayCard : MonoBehaviour
 
     public void SelectProfile()
     {
-        print(card.Name + " Was selected");
+        //print(card.Name + " Was selected");
         WinState._instance.AllNewCardProfiles.Remove(card);
         CardCreator._instance.PlayerCardProfiles.Add(card);
         Destroy(gameObject.transform.gameObject);
-        WinState._instance.GoToMap();
+        //WinState._instance.GoToMap();
     }
 }

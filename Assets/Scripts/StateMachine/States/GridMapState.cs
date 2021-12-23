@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class GridMapState: State{
+public class GridMapState : State
+{
 
     public static GridMapState _instance;
     public GameObject MapVisuals;
@@ -14,34 +15,42 @@ public class GridMapState: State{
         MapVisuals.SetActive(true);
     }
 
-    public override void Exit()
+    public void ChangeEnemy()
     {
-        StartCoroutine(OnExit());
+        int var = Random.Range(0, EnemyTypes.Count);
+        EnemyBody._instanceEnemyBody._core = EnemyTypes[var];
+        StartCoroutine(TransitionToFightScene());
     }
 
-    public void ChangeEnemy(){
-        int var = Random.Range(0,EnemyTypes.Count);
-         EnemyBody._instanceEnemyBody._core = EnemyTypes[var];
-         print(var);
-        //EnemyBody._instanceEnemyBody._core = EnemyTypes[3];
-        myFSM.SetCurrentState(typeof(PlayerEnterState));
+    public void GoToStore()
+    {
+        StartCoroutine(TransitionToShopScene());
     }
 
-    public void GoToStore(){
-        //EnemyBody._instanceEnemyBody._core = EnemyTypes[Random.Range(0,EnemyTypes.Count)];
-        myFSM.SetCurrentState(typeof(ShopState));
-    }
-
-    public IEnumerator OnExit(){
-        //GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
+    public IEnumerator TransitionToFightScene()
+    {
+        GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         yield return new WaitForSeconds(2f);
+        myFSM.SetCurrentState(typeof(PlayerEnterState));
         MapVisuals.SetActive(false);
     }
 
-    private void Awake() {
-        if(_instance != null){
+    public IEnumerator TransitionToShopScene()
+    {
+        GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
+        yield return new WaitForSeconds(2f);
+        myFSM.SetCurrentState(typeof(ShopState));
+        MapVisuals.SetActive(false);
+    }
+
+    private void Awake()
+    {
+        if (_instance != null)
+        {
             Destroy(gameObject);
-        }else{
+        }
+        else
+        {
             _instance = this;
         }
     }
