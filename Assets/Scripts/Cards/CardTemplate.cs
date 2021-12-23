@@ -39,7 +39,7 @@ public class CardTemplate : MonoBehaviour
     public void UpdateCardValues(){
         TempDescription.text = card.Description;
         descriptionText.text = card.Description;
-        // DamageText.text = "<color=black>Deal</color> " + cardDamageValue + " damage";
+        DamageText.text = "<color=black>Deal</color> " + cardDamageValue + " damage";
         PassiveText.text = "<color=black>Apply</color> " + card.TickDamage + " bleed";
         ManaValue.text = card.Mana.ToString();
     }

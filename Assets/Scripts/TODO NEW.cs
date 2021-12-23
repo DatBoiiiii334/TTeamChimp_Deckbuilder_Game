@@ -4,14 +4,17 @@ using UnityEngine;
 public class TODONEW : MonoBehaviour
 {
     /* 
-    1. Buff controller added to gameManager prefab
-    2. 3 new Abilities added: BuffDamage, BuffHealing, BuffShielding
-    (So far only Buff damage ahs been tested and aproved)
-    3. New placeholder art added to 3 new cards using the above mention Abilities
-    4. Dev command added (press Space to clear current deck and add the profiles you selected in the Cardcreate script list on gamemanager prefab)
-    5. Animations linked to buff cards
-    6. Start At map instead of fightscene
+    1. Add luuks new animations
+    2. Write script to include new animations
+    3. sync new animations up in combat
 
-    
+
+
+    4. Fix transition between main menu and map
+    5. Fix transition between map and fightScene
+    6. Fix transition between map and shopScene
+
+    7. Make new FightScene clone for Yewelle
+    8. DeckHover Should be off when not in player state
     */
 }
