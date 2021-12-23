@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: 768deb6594d5fca42a4683c8de793c54
+guid: 7205ab11d440a8b4a94357591f0a60c0
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1635286205010326442
-    second: EndTurn_BG
-  - first:
-      213: -4864462959609891515
-    second: EndTurn_Button
-  - first:
-      213: -706139371416087315
-    second: EndTurn_Hands
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -29,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -41,16 +32,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 1
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,74 +89,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: EndTurn_BG
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 376
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65c43445cdb4e49e0800000000000000
-      internalID: -1635286205010326442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EndTurn_Button
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 122
-        width: 282
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 545386516b4fd7cb0800000000000000
-      internalID: -4864462959609891515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EndTurn_Hands
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 45
-        width: 239
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de493d4abf94336f0800000000000000
-      internalID: -706139371416087315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7e6dfbc88af515a4492fa609e933e79b
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
