@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7103.5664, g: 14785.672, b: 15865.969, a: 1}
+  m_IndirectSpecularColor: {r: 2201.0574, g: 8196.75, b: 14200.516, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5053,6 +5053,8 @@ GameObject:
   - component: {fileID: 736287252}
   - component: {fileID: 736287251}
   - component: {fileID: 736287248}
+  - component: {fileID: 736287254}
+  - component: {fileID: 736287253}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5262,6 +5264,44 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
+--- !u!114 &736287253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736287247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01458800696f8c24aa40f9a17826e594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 1908554153
+      Data2: 1254463634
+      Data3: 15040143
+      Data4: -409469813
+    Path: event:/Diegetic/Arena/ArenaAmbience
+--- !u!114 &736287254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736287247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01458800696f8c24aa40f9a17826e594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventReference:
+    Guid:
+      Data1: 1820619620
+      Data2: 1255398606
+      Data3: -1759245696
+      Data4: 1273678216
+    Path: event:/NonDiegetic/Music
 --- !u!1 &741567162
 GameObject:
   m_ObjectHideFlags: 0
@@ -12553,7 +12593,6 @@ GameObject:
   - component: {fileID: 1805358796}
   - component: {fileID: 1805358797}
   - component: {fileID: 1805358798}
-  - component: {fileID: 1805358799}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12935,25 +12974,6 @@ MonoBehaviour:
     Path: event:/Diegetic/Arena/CombatAndAblilities/SwipeAttack
   parameter: DamageReveiced
   paramValue: 1
---- !u!114 &1805358799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805358777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01458800696f8c24aa40f9a17826e594, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EventReference:
-    Guid:
-      Data1: 1908554153
-      Data2: 1254463634
-      Data3: 15040143
-      Data4: -409469813
-    Path: event:/Diegetic/Arena/ArenaAmbience
 --- !u!1 &1814286106
 GameObject:
   m_ObjectHideFlags: 0
