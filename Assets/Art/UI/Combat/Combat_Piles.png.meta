@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 7eb24e2837a562444947734745c25c8a
+guid: 9252f3012d7a6ed4599ab3bfbd2c5834
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6911423966336654023
-    second: SummonBtn_Stam
+      213: 4805634247027759660
+    second: Combat_Piles_Pull
   - first:
-      213: -2489835423253362340
-    second: SummonBtn_Tak
-  - first:
-      213: -1372609573049603830
-    second: SummonBtn_Ticket
-  - first:
-      213: -7291879119958523885
-    second: SummonBtn_Punt
-  - first:
-      213: 5681669916908494420
-    second: SummonBtn_Icon
+      213: 1873464624409711813
+    second: Combat_Piles_Discard
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,12 +38,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -106,97 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SummonBtn_Stam
+      name: Combat_Piles_Pull
       rect:
         serializedVersion: 2
-        x: 9
-        y: 13
-        width: 410
-        height: 494
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ca1e95aa7f4aef50800000000000000
-      internalID: 6911423966336654023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SummonBtn_Tak
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 122
-        width: 290
-        height: 377
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c598ccfcfd3527dd0800000000000000
-      internalID: -2489835423253362340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SummonBtn_Ticket
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 231
-        width: 147
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a09e31f9dd283fce0800000000000000
-      internalID: -1372609573049603830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SummonBtn_Punt
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 22
-        width: 45
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 310c8cd039a0eca90800000000000000
-      internalID: -7291879119958523885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SummonBtn_Icon
-      rect:
-        serializedVersion: 2
-        x: 769
-        y: 84
-        width: 100
-        height: 100
+        x: 0
+        y: 0
+        width: 829
+        height: 943
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +111,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e9a58cfa859de40800000000000000
-      internalID: 5681669916908494420
+      spriteID: c2a9a86e2ea01b240800000000000000
+      internalID: 4805634247027759660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combat_Piles_Discard
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 829
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4933d5622eff910800000000000000
+      internalID: 1873464624409711813
       vertices: []
       indices: 
       edges: []
@@ -213,7 +141,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1dacb8fb2e2853d4aa8a6be145a4a7f1
+    spriteID: f56672ef8b3639a46b8fccc0f9673314
     internalID: 0
     vertices: []
     indices: 
