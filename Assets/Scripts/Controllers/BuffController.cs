@@ -10,6 +10,7 @@ public class BuffController : MonoBehaviour
 
     //Go through each card in your DECK and apply the buff
     public void BuffDamage(){
+        print("BuffDamage applied");
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.AttackDamage > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;
@@ -22,6 +23,7 @@ public class BuffController : MonoBehaviour
     }
 
     public void BuffHealing(){
+        print("BuffHealing applied");
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.Health > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;
@@ -34,6 +36,7 @@ public class BuffController : MonoBehaviour
     }
 
     public void BuffShielding(){
+        print("BuffShielding applied");
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.Shield > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;

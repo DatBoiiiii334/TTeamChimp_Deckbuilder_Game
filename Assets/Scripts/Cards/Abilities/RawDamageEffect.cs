@@ -8,6 +8,6 @@ public class RawDamageEffect : BaseEffect
     {
         Debug.Log("RawDamageEffect");
         GameManager._instance.DamageEnemy(template.cardDamageValue);
-        Debug.Log("DamageDone: " + template.cardDamageValue);
+        Debug.Log("DamageDone: " + template.cardDamageValue + " with " + template.card.Name);
     }
 }
