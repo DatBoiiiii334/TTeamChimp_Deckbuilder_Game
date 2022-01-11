@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7105.6953, g: 14787.609, b: 15867.469, a: 1}
+  m_IndirectSpecularColor: {r: 7108.797, g: 14790.141, b: 15871.375, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2202,7 +2202,7 @@ MonoBehaviour:
       Data2: 1163719557
       Data3: -1316073297
       Data4: -1607109395
-    Path: event:/NonDiegetic/Arena/UI/EndTurnHover
+    Path: event:/NonDiegetic/ArenaUI/EndTurnHover
   Event: 
   PlayEvent: 13
   StopEvent: 2
@@ -12625,6 +12625,7 @@ GameObject:
   - component: {fileID: 1805358797}
   - component: {fileID: 1805358798}
   - component: {fileID: 1805358799}
+  - component: {fileID: 1805358800}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -13025,6 +13026,20 @@ MonoBehaviour:
       Data3: 15040143
       Data4: -409469813
     Path: event:/Diegetic/Arena/ArenaAmbience
+--- !u!114 &1805358800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805358777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1 &1814286106
 GameObject:
   m_ObjectHideFlags: 0

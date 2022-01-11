@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7108.797, g: 14790.141, b: 15871.375, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2123,7 +2123,7 @@ MonoBehaviour:
       Data2: 1163719557
       Data3: -1316073297
       Data4: -1607109395
-    Path: event:/NonDiegetic/Arena/UI/EndTurnHover
+    Path: event:/NonDiegetic/ArenaUI/EndTurnHover
   Event: 
   PlayEvent: 13
   StopEvent: 2
@@ -11849,6 +11849,7 @@ MonoBehaviour:
   NextEnemyAttack: {fileID: 811317151}
   lastDamageDealtToField: {fileID: 89937936}
   hpField: {fileID: 1196055293}
+  maxHpField: {fileID: 0}
   _forEnemyTicks: {fileID: 1829471909}
   hpSlider: {fileID: 1196055292}
   myAnimator: {fileID: 1725284162}
@@ -12829,6 +12830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 133b23a382b3e1f4eb30ec13503c0153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1884978653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13401,6 +13403,7 @@ MonoBehaviour:
   tickforPlayerDmg: 5
   ManaField: {fileID: 1757262476}
   _forPlayerTicks: {fileID: 1306551270}
+  MaxHealth: {fileID: 0}
   BleedIcon: {fileID: 142073388}
   hpSlider: {fileID: 802283333}
   anim: {fileID: 2018330697}
