@@ -27,7 +27,17 @@ namespace FMODUnity
         {
             if (Input.GetKeyDown(KeyCode.Z))
             {
-                //ChangeMainTheme(paramValue);
+                ChangeMainTheme(0);
+            }
+
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                RuntimeManager.StudioSystem.setParameterByName(parameter, 1);
+            }
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                RuntimeManager.StudioSystem.setParameterByName(parameter, 2);
             }
 
             if (Input.GetKeyDown(KeyCode.Z) && Input.GetKeyDown(KeyCode.Alpha1))

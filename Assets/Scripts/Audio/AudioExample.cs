@@ -27,6 +27,7 @@ namespace FMODUnity
                 instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
                 instance.start();
                 instance.release();
+                //instance.stop();
                 AudioManager._instance.TriggerCardHoverSounds(0);
             }
         }
