@@ -22,6 +22,9 @@ namespace FMODUnity
         public Slider MusicVolumeSlider, SfxVolumeSlider, UiVolumeSlider, AmbienceVolumeSlider;
         private float MusicVolumeValue, SfxVolumeValue, UiVolumeValue, AmbienceVolumeValue;
 
+        [Header("SoundsMenu")]
+        public GameObject SoundsMenu;
+
         private void Start() {
             RuntimeManager.StudioSystem.setParameterByName("SfxVolume", 0.8f);
             RuntimeManager.StudioSystem.setParameterByName("MusicVolume", 0.8f);
@@ -47,6 +50,10 @@ namespace FMODUnity
             }
 
             ChangeAudioVolume();
+        }
+
+        public void ShowSoundOptionsMenu(){
+            SoundsMenu.SetActive(true);
         }
 
         public void ChangeAudioVolume(){
