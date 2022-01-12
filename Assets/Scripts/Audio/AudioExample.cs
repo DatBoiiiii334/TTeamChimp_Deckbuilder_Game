@@ -28,7 +28,7 @@ namespace FMODUnity
                 instance.start();
                 instance.release();
                 //instance.stop();
-                AudioManager._instance.TriggerCardHoverSounds(0);
+                //AudioManager._instance.MainTheme(0);
             }
         }
     }

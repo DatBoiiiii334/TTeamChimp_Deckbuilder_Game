@@ -8,13 +8,7 @@ namespace FMODUnity
     public class AudioManager : MonoBehaviour
     {
         public static AudioManager _instance;
-        public EventReference[] BuffSounds;
 
-        public EventReference[] BelleAttackSounds;
-
-        public EventReference[] CardHoverSounds;
-
-        public EventReference[] EndTurnSounds;
 
         public EventReference MainTheme;
 
@@ -22,6 +16,7 @@ namespace FMODUnity
         [ParamRef]
         public string parameter;
         public float paramValue;
+        
 
         private void Update()
         {
@@ -39,49 +34,15 @@ namespace FMODUnity
             {
                 RuntimeManager.StudioSystem.setParameterByName(parameter, 2);
             }
-
-            if (Input.GetKeyDown(KeyCode.Z) && Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                TriggerBelleAttackSounds(0);
-                print("Audio 1");
-            }
-            // if (Input.GetKeyDown(KeyCode.Z) && Input.GetKeyDown(KeyCode.Alpha2))
-            // {
-            //     TriggerBelleAttackSounds(1);
-            //     print("Audio 2");
-            // }
-            // if (Input.GetKeyDown(KeyCode.Z) && Input.GetKeyDown(KeyCode.Alpha3))
-            // {
-            //     TriggerCardHoverSounds(0);
-            //     print("Audio 3");
-            // }
-            // if (Input.GetKeyDown(KeyCode.Z) && Input.GetKeyDown(KeyCode.Alpha4))
-            // {
-            //     TriggerCardHoverSounds(1);
-            //     print("Audio 4");
-            // }
         }
 
-        public void TriggerBelleAttackSounds(int num)
-        {
-            FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(BelleAttackSounds[num]);
-            FMOD_instance.start();
-            FMOD_instance.release();
-        }
+        // public void TriggerBelleAttackSounds(int num)
+        // {
+        //     //FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(BelleAttackSounds[num]);
+        //     FMOD_instance.start();
+        //     FMOD_instance.release();
+        // }
 
-        public void TriggerBuffSounds(int num)
-        {
-            FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(BuffSounds[num]);
-            FMOD_instance.start();
-            FMOD_instance.release();
-        }
-
-        public void TriggerCardHoverSounds(int num)
-        {
-            FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(CardHoverSounds[num]);
-            FMOD_instance.start();
-            FMOD_instance.release();
-        }
 
         public void ChangeMainTheme(float param)
         {
