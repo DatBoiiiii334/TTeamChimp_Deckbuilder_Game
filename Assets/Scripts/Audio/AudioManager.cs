@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace FMODUnity
 {
@@ -16,7 +17,17 @@ namespace FMODUnity
         [ParamRef]
         public string parameter;
         public float paramValue;
-        
+
+        [Header("Sliders")]
+        public Slider MusicVolumeSlider, SfxVolumeSlider, UiVolumeSlider, AmbienceVolumeSlider;
+        private float MusicVolumeValue, SfxVolumeValue, UiVolumeValue, AmbienceVolumeValue;
+
+        private void Start() {
+            RuntimeManager.StudioSystem.setParameterByName("SfxVolume", 0.8f);
+            RuntimeManager.StudioSystem.setParameterByName("MusicVolume", 0.8f);
+            RuntimeManager.StudioSystem.setParameterByName("UiVolume", 0.8f);
+            RuntimeManager.StudioSystem.setParameterByName("AmbienceVolume", 0.8f);
+        }        
 
         private void Update()
         {
@@ -34,6 +45,22 @@ namespace FMODUnity
             {
                 RuntimeManager.StudioSystem.setParameterByName(parameter, 2);
             }
+
+            ChangeAudioVolume();
+        }
+
+        public void ChangeAudioVolume(){
+            MusicVolumeValue = MusicVolumeSlider.value;
+            RuntimeManager.StudioSystem.setParameterByName("MusicVolume", MusicVolumeValue);
+
+            SfxVolumeValue = SfxVolumeSlider.value;
+            RuntimeManager.StudioSystem.setParameterByName("SfxVolume", SfxVolumeValue);
+
+            UiVolumeValue = UiVolumeSlider.value;
+            RuntimeManager.StudioSystem.setParameterByName("UiVolume", UiVolumeValue);
+
+            AmbienceVolumeValue = AmbienceVolumeSlider.value;
+            RuntimeManager.StudioSystem.setParameterByName("AmbienceVolume", AmbienceVolumeValue);
         }
 
         // public void TriggerBelleAttackSounds(int num)
