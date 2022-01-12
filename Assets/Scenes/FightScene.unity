@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7108.797, g: 14790.141, b: 15871.375, a: 1}
+  m_IndirectSpecularColor: {r: 7096.0312, g: 14779.844, b: 15857.594, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13019,13 +13019,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01458800696f8c24aa40f9a17826e594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventReference:
+  BuffSounds: []
+  BelleAttackSounds: []
+  CardHoverSounds:
+  - Guid:
+      Data1: -1965719258
+      Data2: 1177754570
+      Data3: -1156437106
+      Data4: 1499246870
+    Path: event:/NonDiegetic/ArenaUI/CardHover
+  - Guid:
+      Data1: -1751376203
+      Data2: 1224418612
+      Data3: 770944436
+      Data4: 836231365
+    Path: event:/NonDiegetic/ArenaUI/CardClick
+  EndTurnSounds: []
+  MainTheme:
     Guid:
-      Data1: 1908554153
-      Data2: 1254463634
-      Data3: 15040143
-      Data4: -409469813
-    Path: event:/Diegetic/Arena/ArenaAmbience
+      Data1: 1820619620
+      Data2: 1255398606
+      Data3: -1759245696
+      Data4: 1273678216
+    Path: event:/NonDiegetic/Music
+  parameter: SongSelect
+  paramValue: 0
 --- !u!114 &1805358800
 MonoBehaviour:
   m_ObjectHideFlags: 0

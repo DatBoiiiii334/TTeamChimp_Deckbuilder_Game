@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -16,6 +17,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         myCardTemplate = GetComponent<CardTemplate>();
         //_CardType = myCardTemplate._card;
         cardDeckTransform = this.transform.parent;
+        //AudioManager._instance.TriggerCardHoverSounds();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -29,6 +31,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     {
         this.transform.position = eventData.position;
         gameObject.transform.localScale = new Vector3(1f,1f,5f);
+        
     }
 
     public void OnEndDrag(PointerEventData eventData)

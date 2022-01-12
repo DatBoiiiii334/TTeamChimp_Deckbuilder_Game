@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     private void Update() {
         if(Input.GetKeyDown(KeyCode.Alpha1)){
             AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+            //AudioManager._instance.TriggerCardHoverSounds();
         }
         if(Input.GetKeyDown(KeyCode.Alpha2)){
             AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
