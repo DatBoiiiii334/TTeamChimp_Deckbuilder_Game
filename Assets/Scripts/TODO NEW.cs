@@ -4,7 +4,9 @@ using UnityEngine;
 public class TODONEW : MonoBehaviour
 {
     /* 
-        NEW SHIT
+        NEW STUFF
+        TODAY: Implement Nino's audio
+
 
         1. Implement cindy's UI
         2. Implement Nino's audio

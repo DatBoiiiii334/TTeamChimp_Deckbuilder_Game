@@ -5,25 +5,62 @@ using UnityEngine.UI;
 
 namespace FMODUnity
 {
-    [AddComponentMenu("FMOD Studio/FMOD Studio Event Emitter")]
+   // [AddComponentMenu("FMOD Studio/FMOD Studio Event Emitter")]
     public class AudioManager : MonoBehaviour
     {
         public static AudioManager _instance;
 
+        [Header("SoundEffects Characteurs")]
+        public EventReference BelleAttacks;
+        public EventReference BasicAttacks;
+        public EventReference Heal;
+        public EventReference PaperHitSound;
+        public EventReference RedHoodAttack;
+        public EventReference Shield;
+        public EventReference SwipeAttack;
 
+        [Header("SoundEffects for Cards")]
+        public EventReference CardClick;
+        public EventReference CardHover;
+        public EventReference CardClickAndDrag;
+
+        [Header("EndTurn Button")]
+        public EventReference EndTurnClick;
+        public EventReference EndTurnHover;
+
+        [Header("GenerisUIClick")]
+        public EventReference GenericUISound;
+
+        [Header("Summon Button")]
+        public EventReference SummonClick;
+        public EventReference SummonHover;
+
+        [Header("Buff SoundEffects")]
+        public EventReference AttackSoundeffect;
+        public EventReference HealSoundeffect;
+        public EventReference ShieldSoundeffect;
+        public EventReference UtilitySoundeffect;
+
+
+        [Space]
+        [Header("MusicVolume Main Theme")]
         public EventReference MainTheme;
 
-        private FMOD.Studio.EventInstance FMOD_instance;
+        [Header("Paramater for Music Volume")]
         [ParamRef]
         public string parameter;
         public float paramValue;
 
         [Header("Sliders")]
-        public Slider MusicVolumeSlider, SfxVolumeSlider, UiVolumeSlider, AmbienceVolumeSlider;
+        public Slider MusicVolumeSlider;
+        public Slider SfxVolumeSlider, UiVolumeSlider, AmbienceVolumeSlider;
         private float MusicVolumeValue, SfxVolumeValue, UiVolumeValue, AmbienceVolumeValue;
+        private FMOD.Studio.EventInstance FMOD_instance;
 
         [Header("SoundsMenu")]
         public GameObject SoundsMenu;
+
+        public enum Themes {StartScreen, MapScreen, FightScreen, WinScreen, LoseScreen};
 
         private void Start() {
             RuntimeManager.StudioSystem.setParameterByName("SfxVolume", 0.8f);
@@ -36,7 +73,8 @@ namespace FMODUnity
         {
             if (Input.GetKeyDown(KeyCode.Z))
             {
-                ChangeMainTheme(0);
+                //ChangeMainTheme(0);
+                StartMainTheme();
             }
 
             if (Input.GetKeyDown(KeyCode.X))
@@ -52,8 +90,31 @@ namespace FMODUnity
             ChangeAudioVolume();
         }
 
+        public void ChangeThemeSong(int paramValue){
+            RuntimeManager.StudioSystem.setParameterByName(parameter, paramValue);
+        }
+
+        // public void ChangeThemeSong(){
+        //     var Theme = Themes.FightScreen;
+        //     switch(Theme){
+
+        //         case Themes.StartScreen:
+        //         RuntimeManager.StudioSystem.setParameterByName(parameter, paramValue);
+        //         break;
+
+        //         case Themes.MapScreen:
+        //         RuntimeManager.StudioSystem.setParameterByName(parameter, paramValue);
+        //         break;
+
+        //         case Themes.FightScreen:
+        //         RuntimeManager.StudioSystem.setParameterByName(parameter, paramValue);
+        //         break;
+        //     }
+        // }
+
         public void ShowSoundOptionsMenu(){
             SoundsMenu.SetActive(true);
+            //ChangeMainTheme(0);
         }
 
         public void ChangeAudioVolume(){
@@ -70,22 +131,22 @@ namespace FMODUnity
             RuntimeManager.StudioSystem.setParameterByName("AmbienceVolume", AmbienceVolumeValue);
         }
 
-        // public void TriggerBelleAttackSounds(int num)
-        // {
-        //     //FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(BelleAttackSounds[num]);
-        //     FMOD_instance.start();
-        //     FMOD_instance.release();
-        // }
+        public void TriggerSoundEffect(EventReference Sound)
+        {
+            FMOD_instance = FMODUnity.RuntimeManager.CreateInstance(Sound);
+            FMOD_instance.start();
+            FMOD_instance.release();
+        }
 
 
-        public void ChangeMainTheme(float param)
+        public void StartMainTheme()
         {
             FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(MainTheme);
 
             //Hiermee kan je de sound koppelen aan een rigid body of iets anders
             //FMODUnity.RuntimeManager.AttachInstanceToGameObject(instance, GetComponent<Transform>(), GetComponent<Rigidbody>());
 
-            RuntimeManager.StudioSystem.setParameterByName(parameter, param);
+            RuntimeManager.StudioSystem.setParameterByName(parameter, paramValue);
             instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
             instance.start();
             //instance.release();

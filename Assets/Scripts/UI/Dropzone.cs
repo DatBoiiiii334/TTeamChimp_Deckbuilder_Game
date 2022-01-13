@@ -7,12 +7,12 @@ public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
 {
     public Color myColor;
     public void OnPointerEnter(PointerEventData eventData) { 
-        gameObject.GetComponent<Image>().color = myColor;
+        //gameObject.GetComponent<Image>().color = myColor;
     }
 
     public void OnPointerExit(PointerEventData eventData) {
-        gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
-     }
+        //gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
+    }
 
     public void OnDrop(PointerEventData eventData)
     {

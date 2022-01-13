@@ -9,6 +9,7 @@ public class ShopState : State
     {
         GameManager._instance.CardDeckBlocker.SetActive(false);
         StartCoroutine(SetupShop());
+        FMODUnity.AudioManager._instance.ChangeThemeSong(3);
     }
 
     public void PlaceNewCards()

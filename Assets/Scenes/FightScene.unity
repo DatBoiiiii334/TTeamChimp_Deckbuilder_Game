@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7090.2773, g: 14774.766, b: 15853.1875, a: 1}
+  m_IndirectSpecularColor: {r: 7101.6406, g: 14785.75, b: 15865.6875, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3206,6 +3206,7 @@ GameObject:
   - component: {fileID: 375057513}
   - component: {fileID: 375057515}
   - component: {fileID: 375057514}
+  - component: {fileID: 375057516}
   m_Layer: 5
   m_Name: Jaap
   m_TagString: Untagged
@@ -3270,6 +3271,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375057512}
   m_CullTransparentMesh: 1
+--- !u!95 &375057516
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375057512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 30dec8bc7491c9442ba664e2bf8a616e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &375059088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7056,13 +7076,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1805358801}
+        m_TargetAssemblyTypeName: TestingScriptForNino, Assembly-CSharp
+        m_MethodName: ClosePanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14806,8 +14826,9 @@ GameObject:
   - component: {fileID: 1805358796}
   - component: {fileID: 1805358797}
   - component: {fileID: 1805358798}
-  - component: {fileID: 1805358799}
   - component: {fileID: 1805358800}
+  - component: {fileID: 1805358799}
+  - component: {fileID: 1805358801}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -14884,6 +14905,7 @@ MonoBehaviour:
   attackPrticles: {fileID: 126420108}
   TransitionScreenAnim: {fileID: 1526656061}
   ShopAnim: {fileID: 924034808}
+  delayValue: 0.55
 --- !u!114 &1805358781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15201,6 +15223,139 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01458800696f8c24aa40f9a17826e594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BelleAttacks:
+    Guid:
+      Data1: 2115750421
+      Data2: 1131531082
+      Data3: 434896274
+      Data4: 933754416
+    Path: event:/Diegetic/Arena/CombatAndAblilities/BelleAttack
+  BasicAttacks:
+    Guid:
+      Data1: 900506667
+      Data2: 1332392651
+      Data3: -2134569844
+      Data4: -852941607
+    Path: event:/Diegetic/Arena/CombatAndAblilities/BasicAttack
+  Heal:
+    Guid:
+      Data1: -1855920531
+      Data2: 1224371662
+      Data3: -78536537
+      Data4: 750498521
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Heal
+  PaperHitSound:
+    Guid:
+      Data1: 249904233
+      Data2: 1229742063
+      Data3: -1087138151
+      Data4: -160930216
+    Path: event:/Diegetic/Arena/CombatAndAblilities/PaperHitSound
+  RedHoodAttack:
+    Guid:
+      Data1: 2054253346
+      Data2: 1332984159
+      Data3: 931980672
+      Data4: 189901942
+    Path: event:/Diegetic/Arena/CombatAndAblilities/RedHoodAttack
+  Shield:
+    Guid:
+      Data1: -621248196
+      Data2: 1292802390
+      Data3: -1568675174
+      Data4: -220939423
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Shield
+  SwipeAttack:
+    Guid:
+      Data1: -834337535
+      Data2: 1277304749
+      Data3: 1545889677
+      Data4: 1990563365
+    Path: event:/Diegetic/Arena/CombatAndAblilities/SwipeAttack
+  CardClick:
+    Guid:
+      Data1: -1751376203
+      Data2: 1224418612
+      Data3: 770944436
+      Data4: 836231365
+    Path: event:/NonDiegetic/ArenaUI/CardClick
+  CardHover:
+    Guid:
+      Data1: -1965719258
+      Data2: 1177754570
+      Data3: -1156437106
+      Data4: 1499246870
+    Path: event:/NonDiegetic/ArenaUI/CardHover
+  CardClickAndDrag:
+    Guid:
+      Data1: -35252873
+      Data2: 1116536644
+      Data3: -381444161
+      Data4: -1693249388
+    Path: event:/NonDiegetic/ArenaUI/CardClickAndDrag
+  EndTurnClick:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
+  EndTurnHover:
+    Guid:
+      Data1: 1500983919
+      Data2: 1163719557
+      Data3: -1316073297
+      Data4: -1607109395
+    Path: event:/NonDiegetic/ArenaUI/EndTurnHover
+  GenericUISound:
+    Guid:
+      Data1: -574004049
+      Data2: 1145398707
+      Data3: 1437980295
+      Data4: 1899544190
+    Path: event:/NonDiegetic/GenericUI/GenericUiClick
+  SummonClick:
+    Guid:
+      Data1: -587778755
+      Data2: 1246545858
+      Data3: -243017332
+      Data4: 389042325
+    Path: event:/NonDiegetic/ArenaUI/SummonClick
+  SummonHover:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  AttackSoundeffect:
+    Guid:
+      Data1: 1168566692
+      Data2: 1283986437
+      Data3: -463477605
+      Data4: -1041507552
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffAttack
+  HealSoundeffect:
+    Guid:
+      Data1: 1142717474
+      Data2: 1183077096
+      Data3: -597192775
+      Data4: -806438198
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffHeal
+  ShieldSoundeffect:
+    Guid:
+      Data1: 1267024988
+      Data2: 1115948753
+      Data3: 288793267
+      Data4: -136247937
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffShield
+  UtilitySoundeffect:
+    Guid:
+      Data1: 737159024
+      Data2: 1197840811
+      Data3: -1176616803
+      Data4: 1280892344
+    Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffUtility
   MainTheme:
     Guid:
       Data1: 1820619620
@@ -15229,6 +15384,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 0}
   ListenerNumber: -1
+--- !u!114 &1805358801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805358777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f20026a4e54336459832ddf3961e49b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicPanel: {fileID: 1152203021}
+  DelayAmountForBuffs: 0
+  DelayAmountForAttacks: 0
+  damageValue: 0
+  damageValueWhenPlayerGetsHit: 0
 --- !u!1 &1814286106
 GameObject:
   m_ObjectHideFlags: 0
