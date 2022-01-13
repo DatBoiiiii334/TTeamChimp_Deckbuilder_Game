@@ -47,10 +47,10 @@ public class GameManager : MonoBehaviour
             AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
             FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.SwipeAttack);
         }
-        if(Input.GetKeyDown(KeyCode.M)){
-            myFSM.SetCurrentState(typeof(GridMapState));
-            print("Command go to GridMap");
-        }
+        // if(Input.GetKeyDown(KeyCode.M)){
+        //     myFSM.SetCurrentState(typeof(GridMapState));
+        //     print("Command go to GridMap");
+        // }
     }
     // ____________________________ TESTING
     public IEnumerator Delay(List<ParticleSystem> myParticlelist, FMODUnity.EventReference SoundEffect){
