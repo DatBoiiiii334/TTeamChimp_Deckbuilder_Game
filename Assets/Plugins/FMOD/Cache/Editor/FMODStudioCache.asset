@@ -1,6 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7529985662351222993
+--- !u!114 &-9011132528530093360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/AccentVolume
+  m_EditorClassIdentifier: 
+  Name: AccentVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 552472508
+    data2: 3477156865
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8985519694695423679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +34,41 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NonDiegetic/Arena/UI/CardHover
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/RedHoodAttack
   m_EditorClassIdentifier: 
-  Path: event:/NonDiegetic/Arena/UI/CardHover
+  Path: event:/Diegetic/Arena/CombatAndAblilities/RedHoodAttack
   Guid:
-    Data1: -1751376203
-    Data2: 1224418612
-    Data3: 770944436
-    Data4: 836231365
+    Data1: 2054253346
+    Data2: 1332984159
+    Data3: 931980672
+    Data4: 189901942
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-8183121334557469719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/CardHover
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/CardHover
+  Guid:
+    Data1: -1965719258
+    Data2: 1177754570
+    Data3: -1156437106
+    Data4: 1499246870
   Banks:
   - {fileID: 6566670151307144656}
   IsStream: 0
@@ -26,7 +77,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1422
+  Length: 218
 --- !u!114 &-7406623668336043387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,7 +104,58 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1205
+  Length: 3256
+--- !u!114 &-7333075938984631713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UiVolume
+  m_EditorClassIdentifier: 
+  Name: UiVolume
+  StudioPath: parameter:/UiVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 3669707404
+    data2: 1854873676
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6655228829955534936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/EndTurnHover
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/EndTurnHover
+  Guid:
+    Data1: 1500983919
+    Data2: 1163719557
+    Data3: -1316073297
+    Data4: -1607109395
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 464
 --- !u!114 &-6621796294494606156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,7 +180,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-6267873357976680404
+--- !u!114 &-6282793671473220713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,23 +190,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Shop/JaapieKrekelWings
+  m_Name: event:/NonDiegetic/EnviromentIntroStinger
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Shop/JaapieKrekelWings
+  Path: event:/NonDiegetic/EnviromentIntroStinger
   Guid:
-    Data1: 435296422
-    Data2: 1096952904
-    Data3: -1964944214
-    Data4: 1747679919
+    Data1: 2092002131
+    Data2: 1206135001
+    Data3: -1716111728
+    Data4: -1549068718
   Banks:
   - {fileID: 6566670151307144656}
   IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 13500
+  Length: 8000
 --- !u!114 &-5901233391740487557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +231,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-5896297447952750049
+--- !u!114 &-5684170821310323546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,24 +240,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NonDiegetic/Arena/UI/EndTurnHover
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BelleAttack/DamageReveiced
   m_EditorClassIdentifier: 
-  Path: event:/NonDiegetic/Arena/UI/EndTurnHover
-  Guid:
-    Data1: 1500983919
-    Data2: 1163719557
-    Data3: -1316073297
-    Data4: -1607109395
-  Banks:
-  - {fileID: 6566670151307144656}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Name: DamageReveiced
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3993225422
+    data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5590010927017315184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AreaSelect
+  m_EditorClassIdentifier: 
+  Name: AreaSelect
+  StudioPath: parameter:/AreaSelect
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1263575733
+    data2: 999526580
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4848768275990284036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,57 +306,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5500
---- !u!114 &-4534533878616403840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CardClickAndDrag/Speed
-  m_EditorClassIdentifier: 
-  Name: Speed
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 4267734051
-    data2: 1245745836
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-3798466452792302031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NonDiegetic/Arena/UI/EndTurnClick
-  m_EditorClassIdentifier: 
-  Path: event:/NonDiegetic/Arena/UI/EndTurnClick
-  Guid:
-    Data1: -568935638
-    Data2: 1271151784
-    Data3: -1937966206
-    Data4: -743130149
-  Banks:
-  - {fileID: 6566670151307144656}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-2732408766549154123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,42 +326,13 @@ MonoBehaviour:
     Data4: 401008047
   Banks:
   - {fileID: 6566670151307144656}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
---- !u!114 &-2687124009558068778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NonDiegetic/Arena/UI/CardClickAndDrag
-  m_EditorClassIdentifier: 
-  Path: event:/NonDiegetic/Arena/UI/CardClickAndDrag
-  Guid:
-    Data1: -35252873
-    Data2: 1116536644
-    Data3: -381444161
-    Data4: -1693249388
-  Banks:
-  - {fileID: 6566670151307144656}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4534533878616403840}
-  - {fileID: -1732947197243678320}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6000
+  Length: 13500
 --- !u!114 &-2559655256396169571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +417,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2100
---- !u!114 &-1732947197243678320
+--- !u!114 &-1708752338223142588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -384,18 +427,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CardClickAndDrag/L_R
+  m_Name: parameter:/Music/AreaSelect
   m_EditorClassIdentifier: 
-  Name: L_R
+  Name: AreaSelect
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 3
   Default: 0
   ID:
-    data1: 753131382
-    data2: 1412099839
-  Type: 0
-  IsGlobal: 0
+    data1: 1263575733
+    data2: 999526580
+  Type: 1
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-1110584752166820758
@@ -424,8 +467,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1185
---- !u!114 &-971539020010934608
+  Length: 3909
+--- !u!114 &-517163193483758725
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -435,14 +478,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NonDiegetic/Arena/UI/CardClick
+  m_Name: event:/NonDiegetic/ArenaUI/CardClick
   m_EditorClassIdentifier: 
-  Path: event:/NonDiegetic/Arena/UI/CardClick
+  Path: event:/NonDiegetic/ArenaUI/CardClick
   Guid:
-    Data1: -1965719258
-    Data2: 1177754570
-    Data3: -1156437106
-    Data4: 1499246870
+    Data1: -1751376203
+    Data2: 1224418612
+    Data3: 770944436
+    Data4: 836231365
   Banks:
   - {fileID: 6566670151307144656}
   IsStream: 0
@@ -451,7 +494,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1422
+  Length: 281
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,31 +512,68 @@ MonoBehaviour:
   - {fileID: 6566670151307144656}
   EditorEvents:
   - {fileID: -2296923407498009792}
-  - {fileID: -971539020010934608}
-  - {fileID: -3798466452792302031}
   - {fileID: -2559655256396169571}
   - {fileID: -1895728690011541543}
   - {fileID: -4848768275990284036}
-  - {fileID: -5896297447952750049}
-  - {fileID: -2687124009558068778}
   - {fileID: -2732408766549154123}
-  - {fileID: -6267873357976680404}
   - {fileID: 5444232460351851432}
-  - {fileID: -7529985662351222993}
-  - {fileID: 2854945261890757640}
   - {fileID: 130887246919266562}
   - {fileID: -1110584752166820758}
   - {fileID: -7406623668336043387}
   - {fileID: 4966749871221995326}
+  - {fileID: 3613513157959085620}
+  - {fileID: 371606608238679451}
+  - {fileID: -8183121334557469719}
+  - {fileID: 7825199941461043358}
+  - {fileID: 3187657714693892959}
+  - {fileID: 4349924066361119887}
+  - {fileID: 1001327994608603062}
+  - {fileID: -6655228829955534936}
+  - {fileID: 3549549367535220890}
+  - {fileID: 4321537809656462304}
+  - {fileID: 9222024215935186708}
+  - {fileID: 6240995970349733837}
+  - {fileID: -517163193483758725}
+  - {fileID: -8985519694695423679}
+  - {fileID: -6282793671473220713}
   EditorParameters:
   - {fileID: 806434881819080250}
   - {fileID: -5901233391740487557}
+  - {fileID: -5590010927017315184}
+  - {fileID: 2366441190707743999}
+  - {fileID: 53517548778607100}
+  - {fileID: 5074676430713153995}
+  - {fileID: -7333075938984631713}
   MasterBanks:
   - {fileID: 6566670151307144656}
   StringsBanks:
   - {fileID: 7103137577373140911}
-  cacheTime: 637774030235057304
+  cacheTime: 637776773991734232
   cacheVersion: 10
+--- !u!114 &53517548778607100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SfxVolume
+  m_EditorClassIdentifier: 
+  Name: SfxVolume
+  StudioPath: parameter:/SfxVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 779877192
+    data2: 4062307828
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &130887246919266562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +600,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1492
+  Length: 4201
+--- !u!114 &371606608238679451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffHeal
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/Buff/BuffHeal
+  Guid:
+    Data1: 1142717474
+    Data2: 1183077096
+    Data3: -597192775
+    Data4: -806438198
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3750
 --- !u!114 &806434881819080250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,7 +652,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &2854945261890757640
+--- !u!114 &1001327994608603062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -555,23 +662,180 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Shop/Tinkerbell
+  m_Name: event:/NonDiegetic/Music
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Shop/Tinkerbell
+  Path: event:/NonDiegetic/Music
   Guid:
-    Data1: -1261325861
-    Data2: 1221152132
-    Data3: -463104114
-    Data4: -1685493268
+    Data1: 1820619620
+    Data2: 1255398606
+    Data3: -1759245696
+    Data4: 1273678216
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -9011132528530093360}
+  - {fileID: -1708752338223142588}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 238416
+--- !u!114 &2366441190707743999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicVolume
+  m_EditorClassIdentifier: 
+  Name: MusicVolume
+  StudioPath: parameter:/MusicVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 1251833536
+    data2: 2147406055
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3135068576104588253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CardClickAndDrag/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4267734051
+    data2: 1245745836
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3187657714693892959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/BasicAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/BasicAttack
+  Guid:
+    Data1: 900506667
+    Data2: 1332392651
+    Data3: -2134569844
+    Data4: -852941607
   Banks:
   - {fileID: 6566670151307144656}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7820355760925110452}
+  - {fileID: 3774506068247095367}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 627
+--- !u!114 &3549549367535220890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/BookOpeningAnimation
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/BookOpeningAnimation
+  Guid:
+    Data1: -396384397
+    Data2: 1274676043
+    Data3: -1402860873
+    Data4: -1421884682
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 11928
+  Length: 8123
+--- !u!114 &3613513157959085620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/SummonHover
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/SummonHover
+  Guid:
+    Data1: -1794180335
+    Data2: 1137811017
+    Data3: -915197285
+    Data4: 282498982
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 312
+--- !u!114 &3774506068247095367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BasicAttack/DamageOutput
+  m_EditorClassIdentifier: 
+  Name: DamageOutput
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1305136501
+    data2: 3991429779
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4257138155685894543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,6 +856,86 @@ MonoBehaviour:
   ID:
     data1: 3993225422
     data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4321537809656462304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/CardClickAndDrag
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/CardClickAndDrag
+  Guid:
+    Data1: -35252873
+    Data2: 1116536644
+    Data3: -381444161
+    Data4: -1693249388
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3135068576104588253}
+  - {fileID: 6616723288339593446}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
+--- !u!114 &4349924066361119887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/SummonClick
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/SummonClick
+  Guid:
+    Data1: -587778755
+    Data2: 1246545858
+    Data3: -243017332
+    Data4: 389042325
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 765
+--- !u!114 &4362302273944674853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BelleAttack/DamageOutput
+  m_EditorClassIdentifier: 
+  Name: DamageOutput
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1305136501
+    data2: 3991429779
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -619,10 +963,36 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -5684170821310323546}
+  - {fileID: 4362302273944674853}
   MinDistance: 0
   MaxDistance: 10000
-  Length: 2637
+  Length: 2468
+--- !u!114 &5074676430713153995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienceVolume
+  m_EditorClassIdentifier: 
+  Name: AmbienceVolume
+  StudioPath: parameter:/AmbienceVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 3448363809
+    data2: 3657823876
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5444232460351851432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,7 +1019,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 56888
+  Length: 2000
+--- !u!114 &6240995970349733837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/GenericUI/GenericUiClick
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/GenericUI/GenericUiClick
+  Guid:
+    Data1: -574004049
+    Data2: 1145398707
+    Data3: 1437980295
+    Data4: 1899544190
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 187
 --- !u!114 &6566670151307144656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,8 +1062,32 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 637774030235036835
+  lastModified: 637776773991734232
   FileSizes: []
+  Exists: 1
+--- !u!114 &6616723288339593446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CardClickAndDrag/L_R
+  m_EditorClassIdentifier: 
+  Name: L_R
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 753131382
+    data2: 1412099839
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &7103137577373140911
 MonoBehaviour:
@@ -683,11 +1104,62 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637774030235057304
+  lastModified: 637775944482540711
   FileSizes:
   - Name: 
-    Value: 1838
+    Value: 2818
   Exists: 1
+--- !u!114 &7820355760925110452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BasicAttack/DamageReveiced
+  m_EditorClassIdentifier: 
+  Name: DamageReveiced
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3993225422
+    data2: 42577953
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7825199941461043358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NonDiegetic/ArenaUI/EndTurnClick
+  m_EditorClassIdentifier: 
+  Path: event:/NonDiegetic/ArenaUI/EndTurnClick
+  Guid:
+    Data1: -568935638
+    Data2: 1271151784
+    Data3: -1937966206
+    Data4: -743130149
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2680
 --- !u!114 &8647454755009630572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,3 +1184,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &9222024215935186708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Map/MapAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Map/MapAmbience
+  Guid:
+    Data1: -668017772
+    Data2: 1292163709
+    Data3: 1070168995
+    Data4: 1024616886
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
