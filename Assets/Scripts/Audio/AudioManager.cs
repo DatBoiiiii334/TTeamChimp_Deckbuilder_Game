@@ -14,7 +14,7 @@ namespace FMODUnity
         public EventReference BelleAttacks;
         public EventReference BasicAttacks;
         public EventReference Heal;
-        public EventReference PaperHitSound;
+        //public EventReference PaperHitSound;
         public EventReference RedHoodAttack;
         public EventReference Shield;
         public EventReference SwipeAttack;
