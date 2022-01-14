@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7156671531676734105}
   - component: {fileID: 5617699396236945280}
   - component: {fileID: 3588373111244468708}
+  - component: {fileID: -7865939562494547786}
   m_Layer: 0
   m_Name: CardObject-DisplayOnly
   m_TagString: Untagged
@@ -96,6 +97,32 @@ MonoBehaviour:
   descriptionTextSecond: {fileID: 5098589698647426273}
   ManaValue: {fileID: 857520859812092906}
   CharCardArt: {fileID: 2086746292199828707}
+--- !u!114 &-7865939562494547786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133663955935136020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  onClickSound:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
 --- !u!1 &6085354335949310782
 GameObject:
   m_ObjectHideFlags: 0

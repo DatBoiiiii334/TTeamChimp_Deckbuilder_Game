@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 7101.6406, g: 14785.75, b: 15865.6875, a: 1}
+  m_IndirectSpecularColor: {r: 7104.953, g: 14786.906, b: 15866.594, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1749,6 +1749,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145949193}
   m_CullTransparentMesh: 1
+--- !u!1 &156831035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5611914759616154604, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+  m_PrefabInstance: {fileID: 1904065398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &156831040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156831035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  onClickSound:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
 --- !u!1 &172609602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,6 +2788,7 @@ GameObject:
   - component: {fileID: 297245254}
   - component: {fileID: 297245253}
   - component: {fileID: 297245252}
+  - component: {fileID: 297245255}
   m_Layer: 5
   m_Name: NextTurn
   m_TagString: Untagged
@@ -2793,7 +2825,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297245250}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -2854,6 +2886,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297245250}
   m_CullTransparentMesh: 1
+--- !u!114 &297245255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297245250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: 1500983919
+      Data2: 1163719557
+      Data3: -1316073297
+      Data4: -1607109395
+    Path: event:/NonDiegetic/ArenaUI/EndTurnHover
+  onClickSound:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
 --- !u!1 &299817404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,6 +4890,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568422669}
   m_CullTransparentMesh: 1
+--- !u!1 &575948217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5611914759712608726, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+  m_PrefabInstance: {fileID: 1904065398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &575948222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575948217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  onClickSound:
+    Guid:
+      Data1: -574004049
+      Data2: 1145398707
+      Data3: 1437980295
+      Data4: 1899544190
+    Path: event:/NonDiegetic/GenericUI/GenericUiClick
 --- !u!1 &581691584
 GameObject:
   m_ObjectHideFlags: 0
@@ -5272,6 +5361,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628291318}
   m_CullTransparentMesh: 1
+--- !u!1 &628738073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6473953151691643824, guid: f2eba3ae63219d64f89852414fc8b1d6, type: 3}
+  m_PrefabInstance: {fileID: 975186734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &628738077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628738073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  onClickSound:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
 --- !u!1 &631778726
 GameObject:
   m_ObjectHideFlags: 0
@@ -9877,6 +9997,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203324019}
   m_CullTransparentMesh: 1
+--- !u!1 &1208790729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5611914760481707988, guid: 4636db0f1521eee4b89de1731927ca43, type: 3}
+  m_PrefabInstance: {fileID: 1904065398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1208790734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208790729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06991e81ebc36434eb55d7f6035445b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterSound:
+    Guid:
+      Data1: -1794180335
+      Data2: 1137811017
+      Data3: -915197285
+      Data4: 282498982
+    Path: event:/NonDiegetic/ArenaUI/SummonHover
+  onClickSound:
+    Guid:
+      Data1: -568935638
+      Data2: 1271151784
+      Data3: -1937966206
+      Data4: -743130149
+    Path: event:/NonDiegetic/ArenaUI/EndTurnClick
 --- !u!1 &1212928975
 GameObject:
   m_ObjectHideFlags: 0
@@ -14864,7 +15015,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bddb8c60bcab3ce46abcf4cab7f97d69, type: 2}
   - {fileID: 11400000, guid: 9077bee36503bea48ae996862ef8c8a8, type: 2}
   - {fileID: 11400000, guid: e2a05d5c5008d0c49b14b76bed07dbe3, type: 2}
-  - {fileID: 11400000, guid: 4ba3e8f1e4bba7e40869587daec33a6f, type: 2}
+  - {fileID: 11400000, guid: 5a337e08789f74842952216952988a55, type: 2}
   - {fileID: 11400000, guid: eeae971aa21b8e74daf38ef4630e57ef, type: 2}
   CardSpawnPoint: {fileID: 131226514}
   CardPrefab: {fileID: 4501315983149349109, guid: 661e7c7fac8a7544ebf0569d415a621c, type: 3}
@@ -14876,7 +15027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805358777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15176,6 +15327,8 @@ MonoBehaviour:
   - {fileID: 744160528}
   - {fileID: 1715250637}
   - {fileID: 1740647686}
+  delaySound: 0
+  delayAnim: 0
 --- !u!114 &1805358797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15190,6 +15343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buffTextColor: {r: 0.9150943, g: 0.6593366, b: 0.047481313, a: 1}
   buffTextSize: 30
+  value: 0.55
 --- !u!114 &1805358798
 MonoBehaviour:
   m_ObjectHideFlags: 0

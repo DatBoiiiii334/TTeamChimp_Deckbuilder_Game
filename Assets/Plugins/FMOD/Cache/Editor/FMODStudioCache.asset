@@ -24,6 +24,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8985519694695423679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Diegetic/Arena/CombatAndAblilities/RedHoodAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Diegetic/Arena/CombatAndAblilities/RedHoodAttack
+  Guid:
+    Data1: 2054253346
+    Data2: 1332984159
+    Data3: 931980672
+    Data4: 189901942
+  Banks:
+  - {fileID: 6566670151307144656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-8183121334557469719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,6 +105,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3256
+--- !u!114 &-7333075938984631713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UiVolume
+  m_EditorClassIdentifier: 
+  Name: UiVolume
+  StudioPath: parameter:/UiVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 3669707404
+    data2: 1854873676
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6655228829955534936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +180,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-6267873357976680404
+--- !u!114 &-6282793671473220713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,23 +190,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Shop/JaapieKrekelWings
+  m_Name: event:/NonDiegetic/EnviromentIntroStinger
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Shop/JaapieKrekelWings
+  Path: event:/NonDiegetic/EnviromentIntroStinger
   Guid:
-    Data1: 435296422
-    Data2: 1096952904
-    Data3: -1964944214
-    Data4: 1747679919
+    Data1: 2092002131
+    Data2: 1206135001
+    Data3: -1716111728
+    Data4: -1549068718
   Banks:
   - {fileID: 6566670151307144656}
   IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
+  Is3D: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 13500
+  Length: 8000
 --- !u!114 &-5901233391740487557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,10 +265,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SongSelect
+  m_Name: parameter:/AreaSelect
   m_EditorClassIdentifier: 
-  Name: SongSelect
-  StudioPath: parameter:/SongSelect
+  Name: AreaSelect
+  StudioPath: parameter:/AreaSelect
   Min: 0
   Max: 3
   Default: 0
@@ -255,54 +306,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5500
---- !u!114 &-4779030539492417060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/ShopAmbience/SongSelect
-  m_EditorClassIdentifier: 
-  Name: SongSelect
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1263575733
-    data2: 999526580
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-2927581514210038903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/ArenaAmbience/SongSelect
-  m_EditorClassIdentifier: 
-  Name: SongSelect
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1263575733
-    data2: 999526580
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &-2732408766549154123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,14 +326,13 @@ MonoBehaviour:
     Data4: 401008047
   Banks:
   - {fileID: 6566670151307144656}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: -4779030539492417060}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 13500
 --- !u!114 &-2559655256396169571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,9 +427,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music/SongSelect
+  m_Name: parameter:/Music/AreaSelect
   m_EditorClassIdentifier: 
-  Name: SongSelect
+  Name: AreaSelect
   StudioPath: 
   Min: 0
   Max: 3
@@ -514,9 +516,7 @@ MonoBehaviour:
   - {fileID: -1895728690011541543}
   - {fileID: -4848768275990284036}
   - {fileID: -2732408766549154123}
-  - {fileID: -6267873357976680404}
   - {fileID: 5444232460351851432}
-  - {fileID: 2854945261890757640}
   - {fileID: 130887246919266562}
   - {fileID: -1110584752166820758}
   - {fileID: -7406623668336043387}
@@ -534,16 +534,46 @@ MonoBehaviour:
   - {fileID: 9222024215935186708}
   - {fileID: 6240995970349733837}
   - {fileID: -517163193483758725}
+  - {fileID: -8985519694695423679}
+  - {fileID: -6282793671473220713}
   EditorParameters:
   - {fileID: 806434881819080250}
   - {fileID: -5901233391740487557}
   - {fileID: -5590010927017315184}
+  - {fileID: 2366441190707743999}
+  - {fileID: 53517548778607100}
+  - {fileID: 5074676430713153995}
+  - {fileID: -7333075938984631713}
   MasterBanks:
   - {fileID: 6566670151307144656}
   StringsBanks:
   - {fileID: 7103137577373140911}
-  cacheTime: 637775255739265372
+  cacheTime: 637776773991734232
   cacheVersion: 10
+--- !u!114 &53517548778607100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SfxVolume
+  m_EditorClassIdentifier: 
+  Name: SfxVolume
+  StudioPath: parameter:/SfxVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 779877192
+    data2: 4062307828
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &130887246919266562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,8 +680,8 @@ MonoBehaviour:
   - {fileID: -1708752338223142588}
   MinDistance: 1
   MaxDistance: 20
-  Length: 162975
---- !u!114 &2854945261890757640
+  Length: 238416
+--- !u!114 &2366441190707743999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -660,24 +690,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Diegetic/Shop/Tinkerbell
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicVolume
   m_EditorClassIdentifier: 
-  Path: event:/Diegetic/Shop/Tinkerbell
-  Guid:
-    Data1: -1261325861
-    Data2: 1221152132
-    Data3: -463104114
-    Data4: -1685493268
-  Banks:
-  - {fileID: 6566670151307144656}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11928
+  Name: MusicVolume
+  StudioPath: parameter:/MusicVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 1251833536
+    data2: 2147406055
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3135068576104588253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,7 +968,31 @@ MonoBehaviour:
   - {fileID: 4362302273944674853}
   MinDistance: 0
   MaxDistance: 10000
-  Length: 2086
+  Length: 2468
+--- !u!114 &5074676430713153995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienceVolume
+  m_EditorClassIdentifier: 
+  Name: AmbienceVolume
+  StudioPath: parameter:/AmbienceVolume
+  Min: 0
+  Max: 1
+  Default: 0.8
+  ID:
+    data1: 3448363809
+    data2: 3657823876
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5444232460351851432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -965,11 +1016,10 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: -2927581514210038903}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2500
+  Length: 2000
 --- !u!114 &6240995970349733837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1012,7 +1062,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 637775255739210826
+  lastModified: 637776773991734232
   FileSizes: []
   Exists: 1
 --- !u!114 &6616723288339593446
@@ -1054,10 +1104,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/FMODbanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637775255739265372
+  lastModified: 637775944482540711
   FileSizes:
   - Name: 
-    Value: 2448
+    Value: 2818
   Exists: 1
 --- !u!114 &7820355760925110452
 MonoBehaviour:
@@ -1110,30 +1160,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2680
---- !u!114 &8559748326034100060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MapAmbience/SongSelect
-  m_EditorClassIdentifier: 
-  Name: SongSelect
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 1263575733
-    data2: 999526580
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
 --- !u!114 &8647454755009630572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,8 +1207,7 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: 8559748326034100060}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 8000

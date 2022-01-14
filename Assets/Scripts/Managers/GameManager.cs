@@ -27,26 +27,26 @@ public class GameManager : MonoBehaviour
     }
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.Alpha1)){
-            StartCoroutine(Delay(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
-            AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
-            FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.AttackSoundeffect);
-        }
-        if(Input.GetKeyDown(KeyCode.Alpha2)){
-            StartCoroutine(Delay(AnimationController._instance.ShieldParticleBelle, FMODUnity.AudioManager._instance.ShieldSoundeffect));
-            AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
-            FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.ShieldSoundeffect);
-        }
-        if(Input.GetKeyDown(KeyCode.Alpha3)){
-            StartCoroutine(Delay(AnimationController._instance.UtilityParticleBelle, FMODUnity.AudioManager._instance.UtilitySoundeffect));
-            AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
-            FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.UtilitySoundeffect);
-        }
-        if(Input.GetKeyDown(KeyCode.Alpha4)){
-            StartCoroutine(Delay(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.SwipeAttack));
-            AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
-            FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.SwipeAttack);
-        }
+        // if(Input.GetKeyDown(KeyCode.Alpha1)){
+        //     StartCoroutine(Delay(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.AttackSoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha2)){
+        //     StartCoroutine(Delay(AnimationController._instance.ShieldParticleBelle, FMODUnity.AudioManager._instance.ShieldSoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.ShieldSoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha3)){
+        //     StartCoroutine(Delay(AnimationController._instance.UtilityParticleBelle, FMODUnity.AudioManager._instance.UtilitySoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.UtilitySoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha4)){
+        //     StartCoroutine(Delay(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.SwipeAttack));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.SwipeAttack);
+        // }
         // if(Input.GetKeyDown(KeyCode.M)){
         //     myFSM.SetCurrentState(typeof(GridMapState));
         //     print("Command go to GridMap");
