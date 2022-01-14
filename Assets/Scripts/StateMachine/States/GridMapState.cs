@@ -13,7 +13,6 @@ public class GridMapState : State
     {
         print("GridMapState");
         MapVisuals.SetActive(true);
-        FMODUnity.AudioManager._instance.ChangeThemeSong(2);
     }
 
     public void ChangeEnemy()

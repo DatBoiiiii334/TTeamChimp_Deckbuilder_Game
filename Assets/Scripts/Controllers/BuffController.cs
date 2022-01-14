@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 
@@ -10,14 +8,8 @@ public class BuffController : MonoBehaviour
     public Color buffTextColor;
     public int buffTextSize;
 
-    [Header("buff delay sound")]
-    public float value;
-
     //Go through each card in your DECK and apply the buff
     public void BuffDamage(){
-        print("BuffDamage applied");
-        //play sound clip
-        StartCoroutine(Delay(value, FMODUnity.AudioManager._instance.AttackSoundeffect));
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.AttackDamage > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;
@@ -30,7 +22,6 @@ public class BuffController : MonoBehaviour
     }
 
     public void BuffHealing(){
-        print("BuffHealing applied");
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.Health > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;
@@ -43,7 +34,6 @@ public class BuffController : MonoBehaviour
     }
 
     public void BuffShielding(){
-        print("BuffShielding applied");
         foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
             if(_card.GetComponent<CardTemplate>().card.Shield > 0){
                 _card.GetComponent<CardTemplate>().DamageText.color = buffTextColor;
@@ -53,13 +43,6 @@ public class BuffController : MonoBehaviour
                 _card.GetComponent<CardTemplate>().UpdateCardValues();
             }
         }
-    }
-
-    public IEnumerator Delay(float time, FMODUnity.EventReference soundEffect){
-        FMODUnity.AudioManager._instance.TriggerSoundEffect(soundEffect);
-        print("Trigger sound");
-        yield return new WaitForSeconds(time);
-        AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
     }
 
     private void Awake() {

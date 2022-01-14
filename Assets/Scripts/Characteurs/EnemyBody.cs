@@ -6,7 +6,7 @@ public class EnemyBody : MonoBehaviour
 {
     public static EnemyBody _instanceEnemyBody;
     public EnemyCore _core;
-    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, maxHpField, _forEnemyTicks;
+    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, _forEnemyTicks;
     public Slider hpSlider;
     public Animator myAnimator;
     public GameObject BleedIconEnemy;
@@ -15,7 +15,6 @@ public class EnemyBody : MonoBehaviour
     public void Start()
     {
         Health = _core.maxHealth;
-        maxHpField.text = _core.maxHealth.ToString();
         Shield = _core.maxShield;
         //myAnimator = _core.animController;
         myAnimator = gameObject.GetComponent<Animator>();

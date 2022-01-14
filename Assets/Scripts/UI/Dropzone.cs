@@ -1,18 +1,12 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public Color myColor;
-    public void OnPointerEnter(PointerEventData eventData) { 
-        //gameObject.GetComponent<Image>().color = myColor;
-    }
+    public void OnPointerEnter(PointerEventData eventData) { }
 
-    public void OnPointerExit(PointerEventData eventData) {
-        //gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
-    }
+    public void OnPointerExit(PointerEventData eventData) { }
 
     public void OnDrop(PointerEventData eventData)
     {

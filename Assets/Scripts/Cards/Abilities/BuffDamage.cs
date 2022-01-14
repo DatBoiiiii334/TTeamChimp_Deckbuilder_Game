@@ -7,6 +7,6 @@ public class BuffDamage : BaseEffect
     {
         //    BuffController._instance.BuffStats(template.cardDamageValue);
         BuffController._instance.BuffDamage();
-        //AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+        AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
     }
 }

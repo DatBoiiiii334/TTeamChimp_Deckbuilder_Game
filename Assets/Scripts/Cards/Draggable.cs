@@ -1,9 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
+public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public Transform parentToReturnTo = null;
     public Transform cardDeckTransform;
@@ -12,32 +11,18 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private CardTemplate myCardTemplate;
     public int TempMana;
 
-    //public FMODUnity.AudioManager AM;
-
     public void Start()
     {
         myCardTemplate = GetComponent<CardTemplate>();
         //_CardType = myCardTemplate._card;
         cardDeckTransform = this.transform.parent;
-        //AudioManager._instance.TriggerCardHoverSounds();
     }
-
-    public void OnPointerEnter(PointerEventData eventData) { 
-        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.CardHover);
-    }
-
-    public void OnPointerExit(PointerEventData eventData) {
-        //gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
-     }
-
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.CardClickAndDrag);
         parentToReturnTo = this.transform.parent;
         this.transform.SetParent(this.transform.parent.parent);
         GetComponent<CanvasGroup>().blocksRaycasts = false;
-        
     }
 
     public void OnDrag(PointerEventData eventData)

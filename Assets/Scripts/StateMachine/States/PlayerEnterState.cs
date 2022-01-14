@@ -6,7 +6,8 @@ public class PlayerEnterState : State
 {
     public override void Enter()
     {
-        FMODUnity.AudioManager._instance.ChangeThemeSong(1);
+        //AudioManager._instance.TriggerAudioEffect();
+        
         GameManager._instance.CardDeckBlocker.SetActive(true);
         EnemyBody._instanceEnemyBody.ResetEnemy();
         Player._player.ResetPlayerStats();
