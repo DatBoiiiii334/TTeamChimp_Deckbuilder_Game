@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 49b484df6fb739146ac167dc7a342f25, type: 3}
+        m_Texture: {fileID: 2800000, guid: 82396fcec4e253342a74f721b68cbf7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -106,7 +106,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UnlitColorMap:
-        m_Texture: {fileID: 2800000, guid: 49b484df6fb739146ac167dc7a342f25, type: 3}
+        m_Texture: {fileID: 2800000, guid: 82396fcec4e253342a74f721b68cbf7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.25f1 (b6f2b893ea32) revision 11989688'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19042.508; Version 2009; 64bit' Language: 'en' Physical Memory: 65438 MB
+OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'nl' Physical Memory: 16272 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,115 +11,115 @@ C:\Program Files\Unity\Hub\Editor\2021.1.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Student/Documents/GitHub/TTeamChimp_Deckbuilder_Game
+D:/HKU/Jaar 4/Project Vrij III/Build/TTeamChimp_Deckbuilder_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56577
-Successfully changed project path to: C:/Users/Student/Documents/GitHub/TTeamChimp_Deckbuilder_Game
-C:/Users/Student/Documents/GitHub/TTeamChimp_Deckbuilder_Game
+50905
+Successfully changed project path to: D:/HKU/Jaar 4/Project Vrij III/Build/TTeamChimp_Deckbuilder_Game
+D:/HKU/Jaar 4/Project Vrij III/Build/TTeamChimp_Deckbuilder_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 140.37 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 339.25 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.25f1 (b6f2b893ea32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Student/Documents/GitHub/TTeamChimp_Deckbuilder_Game/Assets
+[Subsystems] Discovering subsystems at path D:/HKU/Jaar 4/Project Vrij III/Build/TTeamChimp_Deckbuilder_Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   NVIDIA
-    VRAM:     10078 MB
-    Driver:   27.21.14.5671
+    VRAM:     4018 MB
+    Driver:   27.21.14.6280
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001074 seconds.
+Registered in 0.002684 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 144.97 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 169.64 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  1.645 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (1646ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (251ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (328ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (145ms)
+				RefreshPlugins (170ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005406 seconds.
+Registered in 0.008474 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\HKU\Jaar 4\Project Vrij III\Build\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\HKU\Jaar 4\Project Vrij III\Build\TTeamChimp_Deckbuilder_Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 161.31 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 165.49 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
+- Completed reload, in  1.915 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1824ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (1916ms)
+		BeginReloadAssembly (215ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1545ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1638ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (551ms)
+			SetupTypeCache (467ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (691ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (816ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (161ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (115ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (202ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6038 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 252.7 MB.
-System memory in use after: 253.2 MB.
+System memory in use before: 253.0 MB.
+System memory in use after: 253.5 MB.
 
-Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 6444.
-Total: 5.327000 ms (FindLiveObjects: 0.777200 ms CreateObjectMapping: 0.686100 ms MarkObjects: 3.776200 ms  DeleteObjects: 0.085900 ms)
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 6447.
+Total: 4.324100 ms (FindLiveObjects: 0.438900 ms CreateObjectMapping: 0.349600 ms MarkObjects: 3.447800 ms  DeleteObjects: 0.086500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -128,726 +128,403 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/EnvironmentComposition.unity
-  artifactKey: Guid(602b9ffb3314dd44a8ac0a266aaea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EnvironmentComposition.unity using Guid(602b9ffb3314dd44a8ac0a266aaea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb41077438d835e10b80965c0a2f25c6') in 0.019831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 117.176781 seconds.
-  path: Assets/Jewelle/Backdrop cutouts
-  artifactKey: Guid(daa7451cb0065e043ba42adba276a766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts using Guid(daa7451cb0065e043ba42adba276a766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c50950a73ce5581bf8caf02cc59da8') in 0.004626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.101521 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat
-  artifactKey: Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat using Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80dd63d433be50b92aa2670c71e5d8c') in 0.514868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
-  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474750683b88181270587e447fccee3') in 0.034285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
   artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f8e70240cdcb1b6a35b4b5008c9277') in 0.011262 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1bbd7accccf9e78b49ed030e157aa9') in 0.133140 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/Tree_test_01.mat
-  artifactKey: Guid(5d8be8c32327b6645aea7bcd573ad9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/Tree_test_01.mat using Guid(5d8be8c32327b6645aea7bcd573ad9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f4846a6bced15586cd32d094b57b10') in 0.020070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat
-  artifactKey: Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat using Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2404bed0ecbdd78de7feedf731b0d99e') in 0.044205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_01.mat
-  artifactKey: Guid(8511931ab345e914cb24b7d5d5beeec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_01.mat using Guid(8511931ab345e914cb24b7d5d5beeec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ea7a0f50a0ebf56e9a9d112eb0b5c2') in 0.022976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/nose_tree_test.mat
-  artifactKey: Guid(9129572b8d5ebf44c8ddcfb4a310d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/nose_tree_test.mat using Guid(9129572b8d5ebf44c8ddcfb4a310d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9e2184592bc21e45981398661b3ac6') in 0.043666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat
-  artifactKey: Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e555b704882e49872f956de242079a') in 0.180833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.tga
-  artifactKey: Guid(221cf4c8f9b95c943bfb3be631b2380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.tga using Guid(221cf4c8f9b95c943bfb3be631b2380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8187be5165d1789f42548b0937fc6562') in 0.048523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
+  Time since last request: 0.000560 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
   artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d5b284c38435c09261c19dea8aaa09') in 0.026890 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29bfc376cc86ca4e199226de9f3c899') in 0.012394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tree_test_3_flipped.tga
-  artifactKey: Guid(763b7a63713109c4aa099c77a53d9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3_flipped.tga using Guid(763b7a63713109c4aa099c77a53d9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a62ebeebcb445bc6ae7e344e4c47ce') in 0.026377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tree_test.tga
-  artifactKey: Guid(076d0687ba770fb4f9517a54c0a8de6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tree_test.tga using Guid(076d0687ba770fb4f9517a54c0a8de6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d269b1ae6b693879e8999c6488f97f1') in 0.026491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
+  Time since last request: 0.000265 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
   artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fdc3a800c22cebe385fd6f7adab3ba') in 0.023618 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d2bdfbc25789454c594b8905237cb9') in 0.012419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat
-  artifactKey: Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat using Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845247da99fa66ff6d440ccc9f0a8181') in 0.026964 seconds 
+  Time since last request: 0.000293 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.psd
+  artifactKey: Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.psd using Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3da64553668d339ea593210399af29') in 0.014698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat
-  artifactKey: Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat using Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cb301fbc90682718f538e75b7a2a33') in 0.023675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
+  Time since last request: 0.000245 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga
   artifactKey: Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga using Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecc698ed4c89c7749474e15b190f43d') in 0.026583 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga using Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b0f78ef012f2d7121997eb6ecd6ae9') in 0.012403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
+  Time since last request: 0.000301 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
   artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d33dd4c17dc1c40b400790c3ab8037') in 0.025326 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3ff3ca0122c8d37c6357b73e08b968') in 0.016535 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 703.693781 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0ccdb3e1c69f9e42b3de8749f5ce97') in 0.040791 seconds 
+  Time since last request: 119.250684 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat
+  artifactKey: Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat using Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f94e703c3bcff7446a0f594cbbe5a08') in 0.653057 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.935263 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4337683a8d6da40f9bee4ad2363eccf') in 0.048586 seconds 
+  Time since last request: 17.137322 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat
+  artifactKey: Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c315fc079e50ee09e9e27cf63997575') in 0.011402 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.905538 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd392d35be6ee8c6cf0713601cbf2d3eb') in 0.026445 seconds 
+  Time since last request: 0.000287 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat
+  artifactKey: Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat using Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eeb36e6f464973733185871c38f313') in 0.054702 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 660.052079 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149fc2570cd01a052446f980c3187de') in 0.008761 seconds 
+  Time since last request: 24.149097 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat
+  artifactKey: Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fca72c4a93ee15e7920da0b73633d1') in 0.022979 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.634252 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat
-  artifactKey: Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat using Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699cfbb303a91d8bbdaeec344afcff3') in 0.014318 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat
+  artifactKey: Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat using Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9603d8558f0a11a20a89bccc4b420c16') in 0.010307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 335.884191 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb08f72c686ac4a931945b8b8b4326b') in 0.039442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.400855 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7771ad114ae9eb9dfadaea6cbed7fa') in 0.044591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.017084 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6cd7463978ffe48af40985e5f17d0') in 0.031487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.193304 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9bfed8e27f8dd1ca4944b43f8aa165') in 0.031612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.920239 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3224cc89c711e508ddbd32257f13397c') in 0.007940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 260.590817 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c80bc6c7a1463acc4379f9d1c953d4') in 0.024746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 448.324692 seconds.
-  path: Assets/Hasan/Materials
-  artifactKey: Guid(b1a853fa187d00849b1d4eb0a3f6e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials using Guid(b1a853fa187d00849b1d4eb0a3f6e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7116afbf207376c65ec9bdafaa81ffa9') in 0.019293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.404262 seconds.
-  path: Assets/Hasan/Materials/Materials
-  artifactKey: Guid(231264c055727f84bb277ed662fd776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials using Guid(231264c055727f84bb277ed662fd776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0f7538479fb2d0b5553f2fed0901ac') in 0.001517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.076137 seconds.
-  path: Assets/Hasan/Materials/Materials/New Material.mat
-  artifactKey: Guid(7c89c21e96c3aeb428f5e21ac81d571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/New Material.mat using Guid(7c89c21e96c3aeb428f5e21ac81d571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f037f1b0f98ff2c951880506b86e90a') in 0.017127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.201759 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1
-  artifactKey: Guid(6b66849198f15e24983efd34e80d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1 using Guid(6b66849198f15e24983efd34e80d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c94e82e484bcae4c7c42f282720f09e') in 0.004494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.234069 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat
-  artifactKey: Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat using Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c18af3bf35410308b98a9ac65499d2') in 0.029027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
-  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9b2a791f807de9baa2cabe44c27de') in 0.033166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.960873 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Leaves/mat_Tree1_Leaves.mat
-  artifactKey: Guid(bb431ae7f38189a448ddb1457db3dc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Leaves/mat_Tree1_Leaves.mat using Guid(bb431ae7f38189a448ddb1457db3dc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88655012e29d8b948098f03f5f4a0387') in 0.017916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Leaves/TreePaint(StalkFix)_mat_Leaves_far.png
-  artifactKey: Guid(7012010345e73bd4f9a3eeb1a2c36c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Leaves/TreePaint(StalkFix)_mat_Leaves_far.png using Guid(7012010345e73bd4f9a3eeb1a2c36c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae01b083ff20ec7796ded17bccf17ac4') in 0.009312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Leaves/New Material.mat
-  artifactKey: Guid(fc01d71ee4abd1f4ba26545087172af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Leaves/New Material.mat using Guid(fc01d71ee4abd1f4ba26545087172af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a18b0247bb1dd9d98d840d5780d67a5') in 0.064129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.514771 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks.mat
-  artifactKey: Guid(0ae0f854ee37a1548be392b1348defb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks.mat using Guid(0ae0f854ee37a1548be392b1348defb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18228cb15e3684f0df8d49996087a87c') in 0.016951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.630510 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks 1.mat
-  artifactKey: Guid(d2c8905b1702e4641a80cb540571480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks 1.mat using Guid(d2c8905b1702e4641a80cb540571480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10493013d1fb2f9b4997afa52a3356f7') in 0.018046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.061146 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat
-  artifactKey: Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat using Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cdda1949e9c214f18f5b109f22bc03') in 0.018858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_Tree_Trunk.mat
-  artifactKey: Guid(a01c319c6eee5554f9d12d031232141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_Tree_Trunk.mat using Guid(a01c319c6eee5554f9d12d031232141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b19346e1659bc7b83cadfbf1cd87c5') in 0.015913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 184.364561 seconds.
-  path: Assets/Hasan/Materials/Materials/Mushrooms/mat_Mushrooms.mat
-  artifactKey: Guid(aac7a47a8f900254591068c47e59776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Mushrooms/mat_Mushrooms.mat using Guid(aac7a47a8f900254591068c47e59776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bf32a1b07e3f0a32d0c61411c249d6') in 0.018970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.820165 seconds.
-  path: Assets/Hasan/Prefabs/Shrooms
-  artifactKey: Guid(9b03b8f2e32c5e042a4c9197f63a1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Shrooms using Guid(9b03b8f2e32c5e042a4c9197f63a1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b5bd43c4b9336b76f4d768b20ca31b') in 0.004617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.087767 seconds.
-  path: Assets/Hasan/Prefabs/Shrooms/md_ShroomCurvy.prefab
-  artifactKey: Guid(5eaa976b55fb9e444b39a3bc0a56f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Shrooms/md_ShroomCurvy.prefab using Guid(5eaa976b55fb9e444b39a3bc0a56f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f3d7edc856daff64cd4879db2e1a55') in 0.043358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Hasan/Prefabs/Shrooms/md_ShroomDroopy.prefab
-  artifactKey: Guid(4082c89cf7daf164aa16e2342c437553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Shrooms/md_ShroomDroopy.prefab using Guid(4082c89cf7daf164aa16e2342c437553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bd7e533ae00d566b2fcb2846e1badf') in 0.052004 seconds 
+  Time since last request: 54.185337 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat
+  artifactKey: Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat using Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0073a187218cc99a54cc7a44d861e1') in 0.013259 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/Hasan/Prefabs/Shrooms/md_ShroomLarge.prefab
-  artifactKey: Guid(f9c345d6aad4ff84eba9ff6fab1df638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Shrooms/md_ShroomLarge.prefab using Guid(f9c345d6aad4ff84eba9ff6fab1df638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195fd86b602eb921783985c37e8aaec') in 0.025273 seconds 
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat
+  artifactKey: Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat using Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b4b3fffbd36098d60b749b75fc2718') in 0.040277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.125902 seconds.
-  path: Assets/Hasan/Materials/Materials/Mushrooms/mat_Mushrooms 1.mat
-  artifactKey: Guid(91fbcfe291a75c544b291adda3b7b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Mushrooms/mat_Mushrooms 1.mat using Guid(91fbcfe291a75c544b291adda3b7b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfc6fdbff64412b6eb77c4bdd7f21c3') in 0.018011 seconds 
+  Time since last request: 40.902234 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat
+  artifactKey: Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat using Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be4707be9195152efced2e044a85aea') in 0.040571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 453.359717 seconds.
-  path: Assets/Hasan/Materials/Materials/PlaceHolders/mat_Tri Planar Shader Lit.mat
-  artifactKey: Guid(3484596710442ac47bc941bd659f79e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/PlaceHolders/mat_Tri Planar Shader Lit.mat using Guid(3484596710442ac47bc941bd659f79e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a661357a7418c002598496ce2358c7') in 0.016560 seconds 
+  Time since last request: 1651.076593 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat__cutout_bush_01.mat
+  artifactKey: Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat__cutout_bush_01.mat using Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787205846d8a004a4cdb6c141ad8377c') in 0.013931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 200.203114 seconds.
-  path: Assets/Hasan/Prefabs/Books/BookCacheAnimation.prefab
-  artifactKey: Guid(f33d26508a98b9c4098ce3465dfc9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Books/BookCacheAnimation.prefab using Guid(f33d26508a98b9c4098ce3465dfc9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cc770c78bd3d3f020b9c202a5a6ffe') in 0.156246 seconds 
+  Time since last request: 0.000551 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat
+  artifactKey: Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_tree_02.mat using Guid(2c79979ed3df7924ea54a971781a1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a22d1189fb4972869c953a229b0e280') in 0.021469 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Hasan/Prefabs/Books/BookNoAnim.prefab
-  artifactKey: Guid(3ce426f14fcec57418aae39fae582ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Prefabs/Books/BookNoAnim.prefab using Guid(3ce426f14fcec57418aae39fae582ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bcd64d50d14978f81986b8f295bef0') in 0.083627 seconds 
+  Time since last request: 0.000302 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/nose_tree_test.mat
+  artifactKey: Guid(9129572b8d5ebf44c8ddcfb4a310d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/nose_tree_test.mat using Guid(9129572b8d5ebf44c8ddcfb4a310d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e4a33877512757f7437dc804b9b7dc') in 0.041486 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.533357 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_BaseMap.png
-  artifactKey: Guid(d8aee4c62fb45494bac9f308c1cc7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_BaseMap.png using Guid(d8aee4c62fb45494bac9f308c1cc7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7f66d978173b5945f4162abcf90c69') in 0.027589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_Normal.png
-  artifactKey: Guid(2355088d8388637429f0e373f66d216e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_Normal.png using Guid(2355088d8388637429f0e373f66d216e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a98f2de6c82e08f571ac37be662648') in 0.011523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Tentacles.mat
-  artifactKey: Guid(00971daf1f7c504499d07244e06a0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Tentacles.mat using Guid(00971daf1f7c504499d07244e06a0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5e076258850cedc33587099d21be44') in 0.045715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_BaseMap.png
-  artifactKey: Guid(b26cf7cc3801ecc4babae11aa999e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_BaseMap.png using Guid(b26cf7cc3801ecc4babae11aa999e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0e66e35d4467fef9a0fd898a1f68c9') in 0.020959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Pages.mat
-  artifactKey: Guid(f59b6965ea8cb9944a1c9f203b371bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Pages.mat using Guid(f59b6965ea8cb9944a1c9f203b371bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c6cd9be0f9185eddd8c90ee6eb6186') in 0.039792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_MaskMap.png
-  artifactKey: Guid(c4b0defd968bb5341b21c54f6306ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Tentacles_MaskMap.png using Guid(c4b0defd968bb5341b21c54f6306ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e447a2d4908b8005d1bc36f564065') in 0.043553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_Normal.png
-  artifactKey: Guid(1895fd0056b47f846aeb994940d68c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_Normal.png using Guid(1895fd0056b47f846aeb994940d68c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97976619c3b2e867c22b4f1fb0d326c7') in 0.022069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_MaskMap.png
-  artifactKey: Guid(4d7a2dd1a28258c48b0be4a8a1ee23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Book_Painting_mat_Book_MaskMap.png using Guid(4d7a2dd1a28258c48b0be4a8a1ee23a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce6973ec79f51606dc0fd4c4c79744b') in 0.043846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior.mat
-  artifactKey: Guid(5fcb0bdf34912ef4dae5457a742fe8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior.mat using Guid(5fcb0bdf34912ef4dae5457a742fe8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1358da047b00a242768eee300a6a7dd7') in 0.066905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/Pages_Painting2_flip_new.jpg
-  artifactKey: Guid(0a118712d8949e14793c8685840d906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/Pages_Painting2_flip_new.jpg using Guid(0a118712d8949e14793c8685840d906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675b4f66753115589d02f53f84d0e3ea') in 0.027465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.933091 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Pages 1.mat
-  artifactKey: Guid(d7bb68f81edf42f4eb1f6747992404ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Pages 1.mat using Guid(d7bb68f81edf42f4eb1f6747992404ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0df2ffcdf0058982dcde26e71612d4') in 0.013579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.288424 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior 1.mat
-  artifactKey: Guid(e1e050511afc4d44a8d73dce0ca37df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior 1.mat using Guid(e1e050511afc4d44a8d73dce0ca37df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23570e95aca3a8a8c5909b6999807d47') in 0.031238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Pages 1.mat
-  artifactKey: Guid(d7bb68f81edf42f4eb1f6747992404ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Pages 1.mat using Guid(d7bb68f81edf42f4eb1f6747992404ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8698f027a0446fbedd3e37b86df39396') in 0.024475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 110.517454 seconds.
-  path: Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior 1.mat
-  artifactKey: Guid(e1e050511afc4d44a8d73dce0ca37df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Book/mat_Book_Exterior 1.mat using Guid(e1e050511afc4d44a8d73dce0ca37df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539f41711a9d19fa1029d9cedeeea939') in 0.017587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2041.688921 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat
-  artifactKey: Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat using Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340a835b8e4694d903ec6a07da5e1454') in 0.015970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.237465 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11d96c3da0b5ed9d2665505d5811e08') in 0.045481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.378350 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826e0fb88ebef298fe8e54873c8f2d34') in 0.040382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.899532 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1654f44fa1def6200cac88a463ed4a') in 0.046552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.048461 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c58ba4a2966435b7b735cb9e2c772c') in 0.042767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.921623 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cd8acc57f66c3441bf0ce88c3a74fa') in 0.025536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.960463 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69035dcc97537928e72c244be002fccd') in 0.042927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.668500 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffd54b7f0eedb5b05d8aaeb61a4b523') in 0.051758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.356211 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98e820ebbd26bea8d3cda68ffdef0d9') in 0.047396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.878276 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e38df8402d86cfc5e2f7099e8de4b9') in 0.046501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 364.568134 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
-  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a2616e896f4418c2e4f7726033a5ab') in 0.016540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 539.425534 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
-  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f01935ee97f81dcd1332aef2bd8b9c') in 0.026111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.767466 seconds.
+  Time since last request: 0.000308 seconds.
   path: Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat
   artifactKey: Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f17a11d110b1e16aca562e9d679382') in 0.014211 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6097c325a366a5945f1ef148204a579f') in 0.029843 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 120.375035 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
-  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59913fad5a1bb147d3c6c6afab60f10') in 0.042305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 246.256326 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
-  artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5d9758118092d89c82975abbdf8481') in 0.026856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 177.579922 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga
-  artifactKey: Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga using Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73682267982d2639c55adeb7f12fd9e4') in 0.043098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 203.573652 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adcd30caa09b603c57886cd6a0fe864') in 0.011980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 230.954937 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ebe77a6385e2c8add0098dee4f51b1') in 0.008712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.891704 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga
-  artifactKey: Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_02.tga using Guid(cac20cd03137ef54e8c8a4de1a4f9fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372639a2ef937a79a36c0b79f2685754') in 0.045885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.067660 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat
-  artifactKey: Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_02.mat using Guid(587f1bff0d334d64bba4ee29717874ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47a0067a3d051737347a5e21a642cb3') in 0.012527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
+  Time since last request: 0.000318 seconds.
   path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat
   artifactKey: Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat using Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80255fe5a2a1e035df2472d623047d38') in 0.025223 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower.mat using Guid(57157275bee210d458addec5e9f1bc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655a81193f1fbec90b3c0073dc7ba795') in 0.037654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.342711 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_shadow.tga
-  artifactKey: Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_shadow.tga using Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e503cf990310f122c2f0b5712dc649bd') in 0.012647 seconds 
+  Time since last request: 0.000403 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat
+  artifactKey: Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat using Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43bf9e30e8a8d50482b5fd103d7ac1f') in 0.036825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2528.671929 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_shadow.mat
-  artifactKey: Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_shadow.mat using Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e517e224deb75c788344d97548b78057') in 0.029392 seconds 
+  Time since last request: 9.902325 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat
+  artifactKey: Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat using Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9343d458155324c353df8e2a840de1ae') in 0.015850 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 389.125847 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_shadow.tga
-  artifactKey: Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_shadow.tga using Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1b3a3fa480f389692cc598b33247d9') in 0.044917 seconds 
+  Time since last request: 144.466667 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat
+  artifactKey: Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_cutout_bush_01.mat using Guid(54c7567e0556e7a43b79784b8e6db38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f7a9b5761f0db097f5f2ec593a0c93') in 0.013200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.744721 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_shadow.tga
-  artifactKey: Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_shadow.tga using Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0011b66ad51b6c8abc2d8671818cf9fb') in 0.008554 seconds 
+  Time since last request: 150.591431 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.psd
+  artifactKey: Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.psd using Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78822cf0bef5f152949f014ec3f1a0ef') in 0.022191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.393924 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_shadow.mat
-  artifactKey: Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_shadow.mat using Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66263c5ca84b08940d0fbc04a9749778') in 0.082635 seconds 
+  Time since last request: 4982.851039 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.psd
+  artifactKey: Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.psd using Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7e79ccdb7ff40e97a752053889b2fd') in 0.049003 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.777017 seconds.
+  Time since last request: 218.309284 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
   artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94052150b0a36e8c81db759351da617') in 0.040688 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9731be0e0d0b501902cea235226ae094') in 0.011413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 152.520208 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_shadow.tga
-  artifactKey: Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_shadow.tga using Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4227fbc75dafc330393f6de454295df3') in 0.052824 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d813355526bf9bb6f947e3757e206e8') in 0.006776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.324324 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_shadow.tga
-  artifactKey: Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_shadow.tga using Guid(ab2c5bfed8457af46aafc0be9216faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5e019af05ddb9d81041f88832bb64') in 0.038270 seconds 
+  Time since last request: 0.000186 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
+  artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca857c51d17c0136cefaddc2776eb66') in 0.007269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.707957 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_shadow.mat
-  artifactKey: Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_shadow.mat using Guid(3086502435efedd47ae2b23fb028c306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8da13d7484599edfe2e3060d5583e') in 0.014061 seconds 
+  Time since last request: 178.672501 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga
+  artifactKey: Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_bush_01.tga using Guid(74d470acce43a6947a8a281e2c20c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40f443d28630c77782a009bee4b7ada') in 0.007639 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.920296 seconds.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530930570983d4d6209bfbd229050837') in 0.029249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebc1fe44e009ced7f560717edac201f') in 0.011457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.585640 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3c9e8df4100066b2f2bc8e7b9d0dcc') in 0.013996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.880513 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074e4056f7929d6b58985184020f55af') in 0.013777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a66ae655e2023be0a68d51f871bb56') in 0.038778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.614732 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8d8a2e8f235a12771cb08089875b3') in 0.012467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 552.124669 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdd64a1256a4f6b99de8ecbc70dacb6') in 0.065938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.804581 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffc4591f7185b78aba4dd99ff7527d3') in 0.015088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.091685 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f844281ee8ae28d270a715dfa373cda') in 0.012460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.045513 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056ee147ab7bbc85b7581253ede9674d') in 0.013689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.367402 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcc88ec61b84ade061af2c15107b4e7') in 0.011280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.251049 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366ab43d7bcb794cbdca9b6ddf7e6c13') in 0.012119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.498048 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga
+  artifactKey: Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_02.tga using Guid(6cd7c5ef0319d0548a8c87bbd396a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e91d5a5b3e6f33abacdda802acccbf8') in 0.021202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.265872 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga
+  artifactKey: Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_cutout_tree_01.tga using Guid(8de4991aada5b7140a79d105afefe2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169fc8a759d79db7e92b7ee7fe318ca5') in 0.013787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.386101 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
+  artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22523d902b99c917ab1ae481557f81d') in 0.008460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.155784 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
+  artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e952ca44ad55da611d209a1eeed34482') in 0.009131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.646185 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga
+  artifactKey: Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_front.tga using Guid(c1bff717219f4e442b2342647a81bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b09014364f8bd1611c43ac2eabfb0f') in 0.008343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.663721 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c525a4d43cb5ae3265915a5805cdf7a') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.psd
+  artifactKey: Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.psd using Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309ab22dace6532bd5e295275727ae77') in 0.034078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 304.847221 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1e4d93f2c7742003c30bff3aadbc54') in 0.009448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.369499 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb75ad43d446eea2ee8c6be347c178dc') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.872044 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d9e5a9ba5de2c2c86cc52075930f6f') in 0.010034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.790323 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8098c258ada9f28fed52bce1a451e001') in 0.010424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.604012 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bd4fd7a404854c748de916686fb30') in 0.024869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.656965 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga
+  artifactKey: Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_trees_back.tga using Guid(001d55ac57ad32340842c6eb4ae195d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509df13ed02e7b15266b0ad7dd5adcb') in 0.009210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.642903 seconds.
   path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
   artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b59612120b980788cab8057d5d6ac3') in 0.026355 seconds 
+Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0149813a7f35e64b77288668d5fc2f8') in 0.016024 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.991346 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15606efe42a7a062af46c6da24c3ccfd') in 0.048138 seconds 
+  Time since last request: 190.404951 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3_flipped.tga
+  artifactKey: Guid(763b7a63713109c4aa099c77a53d9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3_flipped.tga using Guid(763b7a63713109c4aa099c77a53d9dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ee4c480bb3a3f7a502b8a70242defa') in 0.011711 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.264145 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5ed40c765ff03702fcf7a2113779a4') in 0.028464 seconds 
+  Time since last request: 121.778068 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat
+  artifactKey: Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/mat_tree_color_corrected.mat using Guid(6f131ed91f928ca4a9eeaaa24e549cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9475a5dd3a4634107e7bc72dec820d91') in 0.053902 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.809124 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6118378c12b56f2619e30f30d604b69') in 0.043381 seconds 
+  Time since last request: 19.381628 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581e54b2eebcf5365119416803cc60c9') in 0.010776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.599676 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294f7dc63f2d288e115caaa547159c24') in 0.031502 seconds 
+  Time since last request: 2.781492 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb42a37230fdd602575b8d21528c6e3') in 0.001569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 556.443917 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks 1.mat
-  artifactKey: Guid(d2c8905b1702e4641a80cb540571480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Stalks/mat_Tree1_Stalks 1.mat using Guid(d2c8905b1702e4641a80cb540571480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39153305a9167675f3b4ccc1b05201b') in 0.014802 seconds 
+  Time since last request: 12.053677 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3db5ea62a6e8d37227cfb680ea45b6') in 0.034496 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.932866 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Leaves/mat_Tree1_Leaves 1.mat
-  artifactKey: Guid(66b33c495afe9544a99e165ecb531284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Leaves/mat_Tree1_Leaves 1.mat using Guid(66b33c495afe9544a99e165ecb531284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0403814d98bdec6e01fe24857fa43d8e') in 0.017768 seconds 
+  Time since last request: 51.892557 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7db6fafd396b174b2498229b7cee8') in 0.009914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1162.036222 seconds.
-  path: Assets/Hasan/Materials/Materials/Tree1/Stalks
-  artifactKey: Guid(034ffb3baf8730943b4a9620db469c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hasan/Materials/Materials/Tree1/Stalks using Guid(034ffb3baf8730943b4a9620db469c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7604ce3802d7964f1a755fbb3718b9af') in 0.004298 seconds 
+  Time since last request: 41.270858 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fcf1516990a4330be55efe980d2281') in 0.021312 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 549.436852 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_bush_standalone.tga
-  artifactKey: Guid(1f45b11c1f72e13439335b176aa2e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_bush_standalone.tga using Guid(1f45b11c1f72e13439335b176aa2e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9fe1b7cf5b1fbac0bef72d76487fe') in 0.010001 seconds 
+  Time since last request: 57.093917 seconds.
+  path: Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png
+  artifactKey: Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hasan/Materials/Materials/Tree1/Trunk/TreePaint(StalkFix)_mat_TreeTrunk_BaseMap_yellow.png using Guid(49b484df6fb739146ac167dc7a342f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364d588e4ba2ca26ce050860b4894e44') in 0.010515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga
-  artifactKey: Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga using Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb1a9dc11d2b0245cbfef6f0131d708') in 0.009857 seconds 
+  Time since last request: 14.089805 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat
+  artifactKey: Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_back.mat using Guid(b632fef0778d5c44eb37e5eb385ba70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a0b947c880da426892522cf0b9e905') in 0.324438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga
-  artifactKey: Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower.tga using Guid(017b209b999a25b4faf1110623dc074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e1af1b57025a99186de76a311d91bc') in 0.060926 seconds 
+  Time since last request: 0.000318 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat
+  artifactKey: Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_front.mat using Guid(fe8d51533ab1a9245abfb1f590b601ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef9003dd818db5549c9ee7ff5caaa90') in 0.012086 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga
-  artifactKey: Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga using Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d16635b9e81e51e41401b2f046262c') in 0.020967 seconds 
+  Time since last request: 101.883771 seconds.
+  path: Assets/Jewelle/Backdrop cutouts/tree_test_3.psd
+  artifactKey: Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewelle/Backdrop cutouts/tree_test_3.psd using Guid(0ecf2b73fa87aa544b33c53fd7cf9b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5d4627ff1b1efe34a890e6bec769fd') in 0.011441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.065850 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower 1.mat
-  artifactKey: Guid(6016a762a1f91644bb8f4c32737d4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower 1.mat using Guid(6016a762a1f91644bb8f4c32737d4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036e10a217259119945425faecc57e09') in 0.012264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.940626 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_layer_tower 1.mat
-  artifactKey: Guid(6016a762a1f91644bb8f4c32737d4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_layer_tower 1.mat using Guid(6016a762a1f91644bb8f4c32737d4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3473b283b140fca0280387b595c68f78') in 0.012171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/mat_tree.mat
-  artifactKey: Guid(6863b21393892164fad9129aaf479a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/mat_tree.mat using Guid(6863b21393892164fad9129aaf479a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4145c9dad363cb308d8891286aed5ae') in 0.027218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 517.705589 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_tower.tga
-  artifactKey: Guid(c9f374d1ddfbe0a419ea821e0ef58e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_tower.tga using Guid(c9f374d1ddfbe0a419ea821e0ef58e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21e2f5d3a446167a32a376b6686384c') in 0.051730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.604045 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_tower.tga
-  artifactKey: Guid(c9f374d1ddfbe0a419ea821e0ef58e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_tower.tga using Guid(c9f374d1ddfbe0a419ea821e0ef58e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4897dd30990ea4def6a7d4b307f2e0d') in 0.060036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.632816 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga
-  artifactKey: Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga using Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f726e4905c7be6a3beb4587c5f8de5') in 0.046290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.603505 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga
-  artifactKey: Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga using Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b718fe3ea30a3cb9eae1332840522f9d') in 0.025064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.635619 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga
-  artifactKey: Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga using Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745f7288018950661146f0872cc86514') in 0.022713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 137.179753 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga
-  artifactKey: Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tower_standalone.tga using Guid(ffd99918231a4044587272f954b93b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec1103e3ef717b3ac536cef642edf89') in 0.045885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 369.413216 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga
-  artifactKey: Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga using Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8772a8fdc7a78c7ec85e31c6af8f46') in 0.022618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.367477 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_background.tga
-  artifactKey: Guid(e757358f0a8ea1a4e9dee457042f8613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_background.tga using Guid(e757358f0a8ea1a4e9dee457042f8613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f598c68e90f2bfdaf6904c590fac93') in 0.025838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga
-  artifactKey: Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jewelle/Backdrop cutouts/tex_layer_tree_standalone.tga using Guid(b8c419bdeeb11094ab936b39ba617f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a656fb45055b78ef53e7a263b3a45c') in 0.021890 seconds 
+  Time since last request: 323.323601 seconds.
+  path: Assets/Z. Imported/Fantasy Skybox FREE/Materials/Classic/layer back.mat
+  artifactKey: Guid(9855c1f9dea8c464fbb4cf541effc121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z. Imported/Fantasy Skybox FREE/Materials/Classic/layer back.mat using Guid(9855c1f9dea8c464fbb4cf541effc121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fcd157abb51e260e850b5471e39774') in 0.057199 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
