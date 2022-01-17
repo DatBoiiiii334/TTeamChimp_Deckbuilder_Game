@@ -70,6 +70,7 @@ namespace FMODUnity
             {
                 FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
                 StartCoroutine(Delay( FMODUnity.AudioManager._instance.BasicAttacks));
+                EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
                 Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
             }
 

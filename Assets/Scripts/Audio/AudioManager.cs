@@ -8,6 +8,8 @@ namespace FMODUnity
    // [AddComponentMenu("FMOD Studio/FMOD Studio Event Emitter")]
     public class AudioManager : MonoBehaviour
     {
+        // void Load();
+        // bool PreloadSamples;
         public static AudioManager _instance;
 
         [Header("SoundEffects Characteurs")]
@@ -151,9 +153,12 @@ namespace FMODUnity
             instance.start();
             //instance.release();
         }
+        
 
         private void Awake()
         {
+            
+
             if (_instance != null)
             {
                 Destroy(gameObject);
