@@ -4,6 +4,36 @@ using UnityEngine;
 public class TODONEW : MonoBehaviour
 {
     /* 
+        NEW STUFF
+        TODAY: Implement Nino's audio
+        Mijn taken deze week:
+
+        1. fix the main branch (Github heeft de scene zodanig veranderd dat alle nieuwe code is weg gewiped)
+        2. sync audio met attacks
+        3. Fix UI card BUGS
+        4. cry
+        5. enemie intend laat de juiste icoontjes zien
+
+
+        1. Implement cindy's UI
+        2. Implement Nino's audio
+        3. Implement Luuks animations
+
+        IDEAS
+        1. Geen rode vierkant meer voor het leggen van kaarten
+            - Enemy word rood en krijgt grotere scale wanneer je over ze hoverd
+            - Player word blauw en krijgt een grotere scale wanneer je hoverd met healing kaarten
+
+        2. Cardpile and card discard icons conseal cards that are being placed in them
+            - Their size becomes bigger and are always in the foreground
+
+
+        BUGS
+        1. all damage cards only ever do 10 damage
+
+        ______________________________________________________________________
+
+
         NEED NEW ANIMATIONS
         1. Add luuks new animations
         2. Write script to include new animations
@@ -13,11 +43,7 @@ public class TODONEW : MonoBehaviour
 
 
 
-        4. [DONE] Fix transition between main menu and map
-        5. [DONE] Fix transition between map and fightScene
-        6. [DONE] Fix transition between map and shopScene
-
-        7. [REDO] Make new FightScene clone for Yewelle
+        
         8. DeckHover Should be off when not in player state (should be part of the card deck do over)
 
         NEED MORE AUDIO
