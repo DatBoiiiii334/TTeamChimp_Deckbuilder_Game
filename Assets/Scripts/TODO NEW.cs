@@ -6,6 +6,13 @@ public class TODONEW : MonoBehaviour
     /* 
         NEW STUFF
         TODAY: Implement Nino's audio
+        Mijn taken deze week:
+
+        1. fix the main branch (Github heeft de scene zodanig veranderd dat alle nieuwe code is weg gewiped)
+        2. sync audio met attacks
+        3. Fix UI card BUGS
+        4. cry
+        5. enemie intend laat de juiste icoontjes zien
 
 
         1. Implement cindy's UI

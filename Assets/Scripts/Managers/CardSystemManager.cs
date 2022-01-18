@@ -14,6 +14,9 @@ public class CardSystemManager : MonoBehaviour
     public TextMeshProUGUI CardPileText, DiscardPileText;
     private float timer;
 
+    [Header("Testing size lerp")]
+    public float CardSizeLerp;
+
     public void _MoveCardsSpawnedCards()
     {
         StartCoroutine(MoveCards(CardPilePos.transform, CardSpawnPoint));
@@ -22,6 +25,7 @@ public class CardSystemManager : MonoBehaviour
     public void _MoveCardsToDiscard(Transform _card)
     {
         StartCoroutine(MoveToDiscard(_card));
+        //StartCoroutine(LerpCardSize(_card, CardSizeLerp));
     }
 
     public void _MoveCardsToPile(Transform _card)
@@ -102,6 +106,32 @@ public class CardSystemManager : MonoBehaviour
             // currentPos.transform.GetChild(i).gameObject.SetActive(false);
             // UpdateChildCountUI();
         }
+    }
+
+    public IEnumerator LerpCardSize(Transform _card, float durationCardSize){
+        print("LerpCardSize is activated");
+        float time = 0;
+        Vector3 initialScale = _card.transform.localScale;
+        //Vector3 oldSize = _card.transform.GetComponent<RectTransform>().sizeDelta;
+        Vector3 newSize = new Vector3(initialScale.x / 2.5f, initialScale.y / 2.5f);
+        
+
+        while(time <= 1){
+            _card.transform.localScale = Vector3.Lerp(initialScale, newSize, time);
+            time += Time.deltaTime * 0.5f;
+            yield return null;
+        }
+        transform.localScale = newSize;
+
+        // while (time < durationCardSize)
+        // {   print("size: "+_card.transform.GetComponent<RectTransform>().sizeDelta);
+        //     _card.transform.GetComponent<RectTransform>().sizeDelta = Vector2.Lerp(oldSize, newSize, time / durationCardSize);
+        //     time += Time.deltaTime;
+        //     yield return null;
+        // }
+        print("LerpCardSize is done");
+        print("NewSize: " + _card.transform.localScale);
+        //currentCardPosition.position = targetPosition.transform.position;
     }
 
     public IEnumerator LerpCardPosition(Transform targetPosition, float duration, Transform currentCardPosition)

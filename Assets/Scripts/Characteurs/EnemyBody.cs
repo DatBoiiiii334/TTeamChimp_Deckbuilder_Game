@@ -12,6 +12,12 @@ public class EnemyBody : MonoBehaviour
     public GameObject BleedIconEnemy;
     public int Health, Shield, lastDamageDealtTo, enemyState, myNextAttack, forEnemyTicks;
 
+    [Header("EnemyIntendSymbol")]
+    public Image EnemyIntendImage;
+    public GameObject EnemyIntendGameObject;
+    public TextMeshProUGUI EnemyIntendAmount;
+    public Sprite _enemyIntAttack, _enemyIntHeal, _enemyIntShield, _enemyIntSpecialAttack, _enemyFeared;
+
     public void Start()
     {
         Health = _core.maxHealth;
@@ -57,27 +63,37 @@ public class EnemyBody : MonoBehaviour
 
     public void EnemyTurn()
     {
+        EnemyIntendGameObject.SetActive(true);
         myNextAttack = Random.Range(0, 4);
         switch (myNextAttack)
         {
             case 0: //Basic attack
                 ShowNextAttack("Basic Attack");
+                EnemyIntendImage.sprite= _enemyIntAttack;
+                EnemyIntendAmount.text = _core.basicAttack.ToString();
                 break;
 
             case 1: //Heal self
                 ShowNextAttack("Healing self");
+                EnemyIntendImage.sprite= _enemyIntHeal;
+                EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
             case 2: //Special attack
                 ShowNextAttack("Special Attack");
+                EnemyIntendImage.sprite= _enemyIntSpecialAttack;
+                EnemyIntendAmount.text = _core.specialAttack.ToString();
                 break;
 
             case 3: // Shield self
                 ShowNextAttack("Shield self");
+                EnemyIntendImage.sprite= _enemyIntShield;
+                EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
             case 4: // Shield self
                 ShowNextAttack("Feared");
+                EnemyIntendImage.sprite = _enemyFeared;
                 break;
 
             default: //Something must went wrong
