@@ -12615,15 +12615,14 @@ MonoBehaviour:
   PlayerCardProfiles:
   - {fileID: 11400000, guid: fb288fbc59e1b6345a19cc765b553b28, type: 2}
   - {fileID: 11400000, guid: 5a337e08789f74842952216952988a55, type: 2}
-  - {fileID: 11400000, guid: eeae971aa21b8e74daf38ef4630e57ef, type: 2}
+  - {fileID: 11400000, guid: f6d05748032011542bc0bbe79bb7e76c, type: 2}
   - {fileID: 11400000, guid: 4ba3e8f1e4bba7e40869587daec33a6f, type: 2}
   - {fileID: 11400000, guid: e2a05d5c5008d0c49b14b76bed07dbe3, type: 2}
-  - {fileID: 11400000, guid: fb288fbc59e1b6345a19cc765b553b28, type: 2}
-  - {fileID: 11400000, guid: 5a337e08789f74842952216952988a55, type: 2}
-  - {fileID: 11400000, guid: eeae971aa21b8e74daf38ef4630e57ef, type: 2}
-  - {fileID: 11400000, guid: 4ba3e8f1e4bba7e40869587daec33a6f, type: 2}
-  - {fileID: 11400000, guid: e2a05d5c5008d0c49b14b76bed07dbe3, type: 2}
-  - {fileID: 11400000, guid: bddb8c60bcab3ce46abcf4cab7f97d69, type: 2}
+  - {fileID: 11400000, guid: 7babc2f3583da3b4c99da88de2ba3f73, type: 2}
+  - {fileID: 11400000, guid: 915294556a04d894d996025e8451d559, type: 2}
+  - {fileID: 11400000, guid: 8d88ffb0a6022a443ba78f16605818d4, type: 2}
+  - {fileID: 11400000, guid: 667a82366c554804994ba1c89fdbfa75, type: 2}
+  - {fileID: 11400000, guid: 72b876ec8fee7854981c55cf3e06eb3b, type: 2}
   TestList:
   - {fileID: 11400000, guid: bddb8c60bcab3ce46abcf4cab7f97d69, type: 2}
   - {fileID: 11400000, guid: 9077bee36503bea48ae996862ef8c8a8, type: 2}
