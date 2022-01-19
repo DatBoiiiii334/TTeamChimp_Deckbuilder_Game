@@ -8,6 +8,7 @@ public class MainMenuState : State
     public override void Enter()
     {
         MainMenu.SetActive(true);
+        FMODUnity.AudioManager._instance.StartMainTheme();
     }
 
     public void StartGame(){

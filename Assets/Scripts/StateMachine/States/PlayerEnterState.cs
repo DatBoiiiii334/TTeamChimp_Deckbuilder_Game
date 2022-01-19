@@ -6,6 +6,7 @@ public class PlayerEnterState : State
 {
     public override void Enter()
     {
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName(FMODUnity.AudioManager._instance.parameter, 1);
         //AudioManager._instance.TriggerAudioEffect();
         
         GameManager._instance.CardDeckBlocker.SetActive(true);

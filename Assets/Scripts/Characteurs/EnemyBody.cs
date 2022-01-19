@@ -64,7 +64,8 @@ public class EnemyBody : MonoBehaviour
     {
         EnemyIntendGameObject.SetActive(true);
         myNextAttack = Random.Range(0, 4);
-        switch (myNextAttack)
+        enemyState = myNextAttack;
+        switch (enemyState)
         {
             case 0: //Basic attack
                 ShowNextAttack("Basic Attack");
