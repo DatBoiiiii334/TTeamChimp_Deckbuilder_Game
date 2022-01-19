@@ -46,8 +46,8 @@ public class WinState : State
     }
 
     public void GoToMap(){
-        myFSM.SetCurrentState(typeof(GridMapState));
-        print("GO to map pls");
+         myFSM.SetCurrentState(typeof(GridMapState));
+         print("GO to map pls");
     }
 
     private IEnumerator OnEnter(){

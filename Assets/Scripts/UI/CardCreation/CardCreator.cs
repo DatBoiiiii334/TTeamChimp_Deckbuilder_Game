@@ -6,6 +6,7 @@ public class CardCreator : MonoBehaviour
 {
     public static CardCreator _instance;
     public List<Card> PlayerCardProfiles;
+    public List<Card> TestList;
     public GameObject CardSpawnPoint; 
     public GameObject CardPrefab;
 
@@ -14,7 +15,22 @@ public class CardCreator : MonoBehaviour
             GameObject myCard;
             myCard = Instantiate(CardPrefab, CardSpawnPoint.transform);
             myCard.GetComponent<CardTemplate>().card = profile;
-            print("print card");
+        }
+    }
+
+    private void Update() {
+        if(Input.GetKeyDown(KeyCode.P)){
+            Player._player.Mana = 5;
+            foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
+                Destroy(_card.gameObject);
+            }
+
+            foreach(Card profile in TestList){
+                GameObject myCard;
+                myCard = Instantiate(CardPrefab, CardSystemManager._instance.CardDeckPos.transform);
+                myCard.GetComponent<CardTemplate>().card = profile;
+            }
+            print("TEEEEEEEEEEST");
         }
     }
 

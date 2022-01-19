@@ -12,6 +12,7 @@ public class FireEffect : BaseEffect
         //TickManager._tickManager.forEnemyTicks += 3;
         //GameManager._instance.forEnemyTickDamage = template.card.AttackDamage;
         //TickManager._tickManager.ApplyTickToEnemy(template.card.AttackDamage);
+        GameManager._instance.StartCoroutine(GameManager._instance.TimedFireDamage());
         Debug.Log("Fire");
     }
 }

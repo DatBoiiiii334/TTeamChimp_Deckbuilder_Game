@@ -9,6 +9,6 @@ ShaderImporter:
   - _Texture2NormalMap2: {fileID: 2800000, guid: 6c41a2cea80b4fc499bac2a6c14a4514, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
-  userData: 
+  userData: '{"shaderPath":"shd_Terrain_Fix","attributes":[{"isBaseTexture":true,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_Texture3","mask":0},{"isBaseTexture":false,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_texcoord","mask":0},{"isBaseTexture":false,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_Texture4","mask":0},{"isBaseTexture":false,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_Texture2NormalMap2","mask":0}]}'
   assetBundleName: 
   assetBundleVariant: 

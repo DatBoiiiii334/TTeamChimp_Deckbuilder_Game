@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ShieldUp
   m_EditorClassIdentifier: 
   ID: 0
-  _name: Use shield
-  _description: You shield yourself against the next eney attack
-  Image: {fileID: 21300000, guid: b01c29a3e66d44b46baf315997d26be0, type: 3}
+  _name: Shield
+  _description: Gain <color=blue> 5 armor </color>
+  Image: {fileID: 21300000, guid: 0bdfd93ecf02d5c41bda3628e9589947, type: 3}
   _mana: 1
   _attackDamage: 0
   _tickDamage: 0

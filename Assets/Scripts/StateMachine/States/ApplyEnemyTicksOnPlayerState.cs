@@ -7,6 +7,7 @@ public class ApplyEnemyTicksOnPlayerState : State
 
     public override void Enter()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         if (Player._player.forPlayerTicks > 0)
         {
             StartCoroutine(DoTimedAction());
@@ -19,6 +20,7 @@ public class ApplyEnemyTicksOnPlayerState : State
 
     public override void Exit()
     {
+        GameManager._instance.CardDeckBlocker.SetActive(false);
         StopCoroutine(DoTimedAction());
     }
 

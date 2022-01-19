@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Shout
-  _description: You fear your enemy
+  _description: Enemy is feared for his next turn
   Image: {fileID: 0}
   _mana: 1
   _attackDamage: 0

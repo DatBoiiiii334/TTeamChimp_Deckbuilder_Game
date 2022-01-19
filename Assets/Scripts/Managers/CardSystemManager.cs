@@ -14,6 +14,9 @@ public class CardSystemManager : MonoBehaviour
     public TextMeshProUGUI CardPileText, DiscardPileText;
     private float timer;
 
+    [Header("Testing size lerp")]
+    public float CardSizeLerp;
+
     public void _MoveCardsSpawnedCards()
     {
         StartCoroutine(MoveCards(CardPilePos.transform, CardSpawnPoint));
@@ -22,6 +25,7 @@ public class CardSystemManager : MonoBehaviour
     public void _MoveCardsToDiscard(Transform _card)
     {
         StartCoroutine(MoveToDiscard(_card));
+        //StartCoroutine(LerpCardSize(_card, CardSizeLerp));
     }
 
     public void _MoveCardsToPile(Transform _card)
@@ -89,15 +93,45 @@ public class CardSystemManager : MonoBehaviour
 
     public IEnumerator MoveCards(Transform tragetPos, GameObject currentPos)
     {
-        for (int i = 0; i < currentPos.transform.childCount; i++)
+        // for (int i = 0; i < currentPos.transform.childCount; i++)
+        for (int i = 10; i >= 0; i--) //It goes frm top to bottom
         {
-             //currentPos.transform.GetChild(i).gameObject.SetActive(true);
+            //print(i);
+            currentPos.transform.GetChild(i).gameObject.SetActive(true);
             StartCoroutine(LerpCardPosition(tragetPos, 0.3f, currentPos.transform.GetChild(i)));
-            //currentPos.transform.GetChild(i).gameObject.SetActive(false);
-            yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
             UpdateChildCountUI();
-            
+            // currentPos.transform.GetChild(i).gameObject.SetActive(false);
+            yield return new WaitForSeconds(0.1f);//DO NOT CHANGE DURATION OR IT WILL GET FUCKY
+
+            // currentPos.transform.GetChild(i).gameObject.SetActive(false);
+            // UpdateChildCountUI();
         }
+    }
+
+    public IEnumerator LerpCardSize(Transform _card, float durationCardSize){
+        print("LerpCardSize is activated");
+        float time = 0;
+        Vector3 initialScale = _card.transform.localScale;
+        //Vector3 oldSize = _card.transform.GetComponent<RectTransform>().sizeDelta;
+        Vector3 newSize = new Vector3(initialScale.x / 2.5f, initialScale.y / 2.5f);
+        
+
+        while(time <= 1){
+            _card.transform.localScale = Vector3.Lerp(initialScale, newSize, time);
+            time += Time.deltaTime * 0.5f;
+            yield return null;
+        }
+        transform.localScale = newSize;
+
+        // while (time < durationCardSize)
+        // {   print("size: "+_card.transform.GetComponent<RectTransform>().sizeDelta);
+        //     _card.transform.GetComponent<RectTransform>().sizeDelta = Vector2.Lerp(oldSize, newSize, time / durationCardSize);
+        //     time += Time.deltaTime;
+        //     yield return null;
+        // }
+        print("LerpCardSize is done");
+        print("NewSize: " + _card.transform.localScale);
+        //currentCardPosition.position = targetPosition.transform.position;
     }
 
     public IEnumerator LerpCardPosition(Transform targetPosition, float duration, Transform currentCardPosition)
@@ -115,13 +149,18 @@ public class CardSystemManager : MonoBehaviour
         //currentCardPosition.SetParent(targetPosition.transform);
     }
 
+    public IEnumerator CardSizeChanger( GameObject _card,float seconds){
+        
+        RectTransform rt = _card.GetComponent<RectTransform>();
+        yield return new WaitForSeconds(seconds);
+    }
+
     public void UpdateChildCountUI(){
         CardPileChildAmount = CardPilePos.transform.childCount;
         CardPileText.text = CardPileChildAmount.ToString();
         
         DiscardChildAmount = CardDiscardPilePos.transform.childCount;
         DiscardPileText.text = DiscardChildAmount.ToString();
-
     }
 
     private void Awake()

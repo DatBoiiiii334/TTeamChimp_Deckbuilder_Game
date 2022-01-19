@@ -5,11 +5,15 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
-    public GameObject CardSpawn, winScreen, LoseScreen, FightScene, ShopScene;
+    public GameObject CardSpawn, CardDeckBlocker, winScreen, LoseScreen, FightScene, ShopScene;
     public int forEnemyTickDamage, amountCardsSpawn;
+    public ParticleSystem attackPrticles;
     FSM myFSM;
 
     public Animator TransitionScreenAnim, ShopAnim;
+
+    [Header("Delay Amount for Volume")]
+    public float delayValue;
 
     public void Start()
     {
@@ -22,13 +26,41 @@ public class GameManager : MonoBehaviour
         myFSM.SetCurrentState(typeof(MainMenuState));
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            myFSM.SetCurrentState(typeof(ShopState));
-        }
+    private void Update() {
+        // if(Input.GetKeyDown(KeyCode.Alpha1)){
+        //     StartCoroutine(Delay(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.AttackSoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha2)){
+        //     StartCoroutine(Delay(AnimationController._instance.ShieldParticleBelle, FMODUnity.AudioManager._instance.ShieldSoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.ShieldSoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha3)){
+        //     StartCoroutine(Delay(AnimationController._instance.UtilityParticleBelle, FMODUnity.AudioManager._instance.UtilitySoundeffect));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.UtilitySoundeffect);
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha4)){
+        //     StartCoroutine(Delay(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.SwipeAttack));
+        //     AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
+        //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.SwipeAttack);
+        // }
+        // if(Input.GetKeyDown(KeyCode.M)){
+        //     myFSM.SetCurrentState(typeof(GridMapState));
+        //     print("Command go to GridMap");
+        // }
     }
+    // ____________________________ TESTING
+    public IEnumerator Delay(List<ParticleSystem> myParticlelist, FMODUnity.EventReference SoundEffect){
+        FMODUnity.AudioManager._instance.TriggerSoundEffect(SoundEffect);
+        yield return new WaitForSeconds(delayValue);
+        AnimationController._instance.PlayParticleList(myParticlelist);
+    }
+    //_______________________________________________________________________
+
+
 
     public void isEnemyDead()
     {
@@ -41,20 +73,21 @@ public class GameManager : MonoBehaviour
 
     public void DamageEnemy(int damage)
     {
+        StartCoroutine(ShowHit());
+        //print("TAKE THAT TASTE THE PAIN");
+        Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
         if (damage >= EnemyBody._instanceEnemyBody.Shield)
         {
             int var;
             int kaartDamage = damage;
-            Player._player.anim.SetTrigger("DoAttackAnim");
             var = kaartDamage -= EnemyBody._instanceEnemyBody.Shield;
             EnemyBody._instanceEnemyBody.Shield = 0;
             EnemyBody._instanceEnemyBody.Health -= var;
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = var;
-            Debug.Log("damage to enemy: " + var);
+            //Debug.Log("Damage dealt to enemy: " + var);
         }
         else if (damage < EnemyBody._instanceEnemyBody.Shield)
         {
-            Player._player.anim.SetTrigger("DoAttackAnim");
             EnemyBody._instanceEnemyBody.Shield -= damage;
             EnemyBody._instanceEnemyBody.lastDamageDealtTo = damage;
         }
@@ -66,15 +99,6 @@ public class GameManager : MonoBehaviour
         {
             TickManager._tickManager.ApplyTickToEnemy(damage);
         }
-    }
-
-    public void GiveHand()
-    {
-        // RemoveCards(CardSpawn.transform);
-        // for (int i = 0; i < amountCardsSpawn; i++)
-        // {
-        //     CardCreator._instance.SpawnCardList();
-        // }
     }
 
     public void RemoveCards(Transform cardSpawn)
@@ -93,14 +117,31 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public IEnumerator TimedUIUpdate(int damage){
+        yield return new WaitForSeconds(0.25f);
+        //Use to sync enemy UI update with the players basic attack animation
+    }
 
+    public IEnumerator TimedFireDamage(){
+        yield return new WaitForSeconds(0.5f);
+        AnimationController._instance.PlayParticleList(AnimationController._instance.FireDamageBelle);
+    }
+
+    IEnumerator ShowHit(){
+        yield return new WaitForSeconds(0.4f);
+        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
+        yield return new WaitForSeconds(0.2f);
+        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.BelleAttacks);
+        //FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.BasicAttacks);
+    }
 
     private void Awake()
     {
         if (_instance != null)
         {
             Destroy(gameObject);
+        }else{
+            _instance = this;
         }
-        _instance = this;
     }
 }

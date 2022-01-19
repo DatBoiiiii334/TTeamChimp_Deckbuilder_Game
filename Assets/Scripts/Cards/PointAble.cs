@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -8,10 +6,11 @@ public class PointAble : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     public GameObject TempDescription;
 
     public void OnPointerEnter(PointerEventData eventData){
-        TempDescription.SetActive(true);
+        //TempDescription.SetActive(true);
+        //Eneable to show description instead of main char art
     }
 
     public void OnPointerExit(PointerEventData eventData){
-        TempDescription.SetActive(false);
+        //TempDescription.SetActive(false);
     }
 }

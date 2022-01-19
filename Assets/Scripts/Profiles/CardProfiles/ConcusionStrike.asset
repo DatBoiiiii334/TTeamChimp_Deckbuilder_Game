@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   _name: Concusion Strike
-  _description: Deal 10 rawDamage
-  Image: {fileID: 21300000, guid: 550780f4094034f4a9cc60a023ff3a68, type: 3}
+  _description: Deal <color=red>10 damage</color>
+  Image: {fileID: 21300000, guid: 62d37de2d41f1584186b762af0165416, type: 3}
   _mana: 2
   _attackDamage: 10
   _tickDamage: 0
@@ -23,3 +23,4 @@ MonoBehaviour:
   _shield: 0
   Effects:
   - {fileID: 11400000, guid: 1bce33607829c474087e775cdb4a7ac5, type: 2}
+  - {fileID: 11400000, guid: d0ec9af3df4161e4292b7b4f05ce9030, type: 2}

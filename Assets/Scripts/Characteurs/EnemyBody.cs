@@ -6,35 +6,46 @@ public class EnemyBody : MonoBehaviour
 {
     public static EnemyBody _instanceEnemyBody;
     public EnemyCore _core;
-    public TextMeshProUGUI nameField, shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, _forEnemyTicks;
+    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, maxHpField, _forEnemyTicks;
     public Slider hpSlider;
     public Animator myAnimator;
     public GameObject BleedIconEnemy;
     public int Health, Shield, lastDamageDealtTo, enemyState, myNextAttack, forEnemyTicks;
 
-    private void Awake()
-    {
-        if (_instanceEnemyBody != null)
-        {
-            Destroy(gameObject);
-        }
-        _instanceEnemyBody = this;
-
-        EnemyTurn();
-        GameObject enemyArt;
-        enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
-    }
+    [Header("EnemyIntendSymbol")]
+    public Image EnemyIntendImage;
+    public GameObject EnemyIntendGameObject;
+    public TextMeshProUGUI EnemyIntendAmount;
+    public Sprite _enemyIntAttack, _enemyIntHeal, _enemyIntShield, _enemyIntSpecialAttack, _enemyFeared;
 
     public void Start()
     {
-        //nameField.text = _core.Name;
-        Health = _core.maxHealth;
-        Shield = _core.maxShield;
-        //myAnimator = _core.animController;
         myAnimator = gameObject.GetComponent<Animator>();
+    }
+
+    public void UpdateEnemyValuesBasedOnCore(){
+        Health = _core.maxHealth;
+        hpField.text = Health.ToString();
+        maxHpField.text = Health.ToString();
+        Shield = _core.maxShield;
         hpSlider.maxValue = _core.maxHealth;
         UpdateEnemyUI();
     }
+
+    public void SpawnEnemy(){
+        if(transform.childCount > 0){
+            foreach(Transform enemy in transform){
+                Destroy(enemy.gameObject);
+                // print("Enemy art wiped");
+            }
+        }
+        EnemyTurn();
+        GameObject enemyArt;
+        enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
+        UpdateEnemyValuesBasedOnCore();
+        // print("Name: "+_core.enemyGameObject.name);
+    }
+
 
     public void UpdateEnemyUI()
     {
@@ -56,27 +67,44 @@ public class EnemyBody : MonoBehaviour
 
     public void EnemyTurn()
     {
+        EnemyIntendGameObject.SetActive(true);
         myNextAttack = Random.Range(0, 4);
-        switch (myNextAttack)
+        EnemyIntend(myNextAttack);
+    }
+
+    public void EnemyIntend(int _nextAttack){
+        switch (_nextAttack)
         {
             case 0: //Basic attack
                 ShowNextAttack("Basic Attack");
+                EnemyIntendImage.sprite= _enemyIntAttack;
+                EnemyIntendAmount.text = _core.basicAttack.ToString();
                 break;
 
             case 1: //Heal self
                 ShowNextAttack("Healing self");
+                EnemyIntendImage.sprite= _enemyIntHeal;
+                EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
             case 2: //Special attack
                 ShowNextAttack("Special Attack");
+                EnemyIntendImage.sprite= _enemyIntSpecialAttack;
+                EnemyIntendAmount.text = _core.specialAttack.ToString();
                 break;
 
             case 3: // Shield self
                 ShowNextAttack("Shield self");
+                EnemyIntendImage.sprite= _enemyIntShield;
+                EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
             case 4: // Shield self
                 ShowNextAttack("Feared");
+                //print("fear is shown");
+                EnemyIntendImage.sprite = _enemyFeared;
+                EnemyIntendAmount.text = "";
+                UpdateEnemyUI();
                 break;
 
             default: //Something must went wrong
@@ -97,5 +125,16 @@ public class EnemyBody : MonoBehaviour
         forEnemyTicks = 0;
         EnemyTurn();
         UpdateEnemyUI();
+    }
+
+    private void Awake()
+    {
+        if (_instanceEnemyBody != null)
+        {
+            Destroy(gameObject);
+        }else{
+            _instanceEnemyBody = this;
+        }
+        
     }
 }

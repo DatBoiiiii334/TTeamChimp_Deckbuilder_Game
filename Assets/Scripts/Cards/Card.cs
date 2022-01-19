@@ -1,7 +1,3 @@
-using System;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.IO;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,9 +11,9 @@ public class Card : ScriptableObject
     [SerializeField]
     public Sprite Image;
     [SerializeField]
-    private int _mana, _attackDamage, _tickDamage,_health, _shield;
+    private int _mana, _attackDamage, _tickDamage, _health, _shield;
 
-    public enum cardType { DAMAGE, HEALING, VAMPIRIC, DEFENSE}
+    public enum cardType { DAMAGE, HEALING, VAMPIRIC, DEFENSE }
     public string Name { get { return _name; } }
     public string Description { get { return _description; } }
     public int Mana { get { return _mana; } }
@@ -26,5 +22,5 @@ public class Card : ScriptableObject
     public int Health { get { return _health; } }
     public int Shield { get { return _shield; } }
 
-     public List<BaseEffect> Effects = new List<BaseEffect>();
+    public List<BaseEffect> Effects = new List<BaseEffect>();
 }

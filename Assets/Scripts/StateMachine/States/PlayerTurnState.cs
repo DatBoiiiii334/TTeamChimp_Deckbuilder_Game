@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerTurnState : State
 {
-    public GameObject CardDeckBlocker;
+    public static PlayerTurnState _instance;
     public int PlayerTurnAmount;
 
     public override void Enter()
@@ -13,13 +13,13 @@ public class PlayerTurnState : State
             StopAllCoroutines();
             myFSM.SetCurrentState(typeof(PlayerLoseState));
         }
-        GameManager._instance.FightScene.SetActive(true);
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         StartCoroutine(ShowPlayerTurn());
     }
 
     public override void Exit()
     {
-        CardDeckBlocker.SetActive(true);
+        GameManager._instance.CardDeckBlocker.SetActive(true);
         StartCoroutine(ClearDeck());
     }
 
@@ -32,7 +32,7 @@ public class PlayerTurnState : State
     {
         Player._player.Mana = 5;
         Player._player.UpdatePlayerUI();
-        CardDeckBlocker.SetActive(false);
+        // GameManager._instance.CardDeckBlocker.SetActive(false);
         UIManager._instanceUI.UIBanner.SetActive(false);
         StopAllCoroutines();
         StartCoroutine(WaitForCards());
@@ -60,12 +60,16 @@ public class PlayerTurnState : State
             }
             yield return new WaitForSeconds(1.5f);
             CardSystemManager._instance._MoveCardsToDeck();
+            yield return new WaitForSeconds(2f);
+            GameManager._instance.CardDeckBlocker.SetActive(false);
             yield return null;
         }
         else
         {
             CardSystemManager._instance._MoveCardsToDeck();
             StopCoroutine(WaitForCards());
+            yield return new WaitForSeconds(2f);
+            GameManager._instance.CardDeckBlocker.SetActive(false);
         }
     }
 
@@ -75,6 +79,14 @@ public class PlayerTurnState : State
         {
             CardSystemManager._instance._MoveCardsToDiscard(CardSystemManager._instance.CardDeckPos.transform.GetChild(i));
             yield return null;
+        }
+    }
+
+    private void Awake() {
+        if(_instance != null){
+            Destroy(gameObject);
+        }else{
+            _instance = this;
         }
     }
 }

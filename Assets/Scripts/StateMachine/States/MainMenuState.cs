@@ -3,20 +3,22 @@ using UnityEngine;
 
 public class MainMenuState : State
 {
+    public static MainMenuState _instance;
     public GameObject MainMenu;
+    private bool hasThemeBegan;
 
     public override void Enter()
     {
         MainMenu.SetActive(true);
-    }
-
-    public override void Exit()
-    {
-        StartCoroutine(WaitExit());
+        if(hasThemeBegan == false){
+            FMODUnity.AudioManager._instance.StartMainTheme();
+            hasThemeBegan = true;
+        }
+        FMODUnity.AudioManager._instance.ChangeThemeSong(0);
     }
 
     public void StartGame(){
-        myFSM.SetCurrentState(typeof(PlayerEnterState));
+        StartCoroutine(WaitForTransition());
     }
 
     public void QuitGame(){
@@ -24,9 +26,18 @@ public class MainMenuState : State
         Application.Quit();
     }
 
-    private IEnumerator WaitExit(){
+    private IEnumerator WaitForTransition(){
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
+        myFSM.SetCurrentState(typeof(GridMapState));
         MainMenu.SetActive(false);
+    }
+
+    private void Awake() {
+        if(_instance != null){
+            Destroy(gameObject);
+        }else{
+            _instance = this;
+        }
     }
 }
