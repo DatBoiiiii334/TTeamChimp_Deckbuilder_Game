@@ -96,7 +96,7 @@ public class CardSystemManager : MonoBehaviour
         // for (int i = 0; i < currentPos.transform.childCount; i++)
         for (int i = 10; i >= 0; i--) //It goes frm top to bottom
         {
-            print(i);
+            //print(i);
             currentPos.transform.GetChild(i).gameObject.SetActive(true);
             StartCoroutine(LerpCardPosition(tragetPos, 0.3f, currentPos.transform.GetChild(i)));
             UpdateChildCountUI();

@@ -86,7 +86,7 @@ namespace FMODUnity
             if (Input.GetKeyDown(KeyCode.N))
             {
                 GridMapState._instance.ChangeEnemy();
-                MainMenuState._instance.MainMenu.SetActive(false);
+                //MainMenuState._instance.MainMenu.SetActive(false);
                 print("Command go Directly to FightScene");
             }
 
