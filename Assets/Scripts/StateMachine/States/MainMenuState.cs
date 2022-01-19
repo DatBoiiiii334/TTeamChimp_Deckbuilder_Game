@@ -3,12 +3,18 @@ using UnityEngine;
 
 public class MainMenuState : State
 {
+    public static MainMenuState _instance;
     public GameObject MainMenu;
+    private bool hasThemeBegan;
 
     public override void Enter()
     {
         MainMenu.SetActive(true);
-        FMODUnity.AudioManager._instance.StartMainTheme();
+        if(hasThemeBegan == false){
+            FMODUnity.AudioManager._instance.StartMainTheme();
+            hasThemeBegan = true;
+        }
+        FMODUnity.AudioManager._instance.ChangeThemeSong(0);
     }
 
     public void StartGame(){
@@ -25,5 +31,13 @@ public class MainMenuState : State
         yield return new WaitForSeconds(2f);
         myFSM.SetCurrentState(typeof(GridMapState));
         MainMenu.SetActive(false);
+    }
+
+    private void Awake() {
+        if(_instance != null){
+            Destroy(gameObject);
+        }else{
+            _instance = this;
+        }
     }
 }

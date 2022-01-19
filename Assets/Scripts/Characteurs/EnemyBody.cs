@@ -6,7 +6,7 @@ public class EnemyBody : MonoBehaviour
 {
     public static EnemyBody _instanceEnemyBody;
     public EnemyCore _core;
-    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, _forEnemyTicks;
+    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, maxHpField, _forEnemyTicks;
     public Slider hpSlider;
     public Animator myAnimator;
     public GameObject BleedIconEnemy;
@@ -20,10 +20,14 @@ public class EnemyBody : MonoBehaviour
 
     public void Start()
     {
-        Health = _core.maxHealth;
-        Shield = _core.maxShield;
-        //myAnimator = _core.animController;
         myAnimator = gameObject.GetComponent<Animator>();
+    }
+
+    public void UpdateEnemyValuesBasedOnCore(){
+        Health = _core.maxHealth;
+        hpField.text = Health.ToString();
+        maxHpField.text = Health.ToString();
+        Shield = _core.maxShield;
         hpSlider.maxValue = _core.maxHealth;
         UpdateEnemyUI();
     }
@@ -38,6 +42,7 @@ public class EnemyBody : MonoBehaviour
         EnemyTurn();
         GameObject enemyArt;
         enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
+        UpdateEnemyValuesBasedOnCore();
         // print("Name: "+_core.enemyGameObject.name);
     }
 
@@ -64,8 +69,11 @@ public class EnemyBody : MonoBehaviour
     {
         EnemyIntendGameObject.SetActive(true);
         myNextAttack = Random.Range(0, 4);
-        enemyState = myNextAttack;
-        switch (enemyState)
+        EnemyIntend(myNextAttack);
+    }
+
+    public void EnemyIntend(int _nextAttack){
+        switch (_nextAttack)
         {
             case 0: //Basic attack
                 ShowNextAttack("Basic Attack");
@@ -93,7 +101,10 @@ public class EnemyBody : MonoBehaviour
 
             case 4: // Shield self
                 ShowNextAttack("Feared");
+                //print("fear is shown");
                 EnemyIntendImage.sprite = _enemyFeared;
+                EnemyIntendAmount.text = "";
+                UpdateEnemyUI();
                 break;
 
             default: //Something must went wrong

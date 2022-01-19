@@ -60,9 +60,15 @@ public class EnemyTurnState : State
 
     public void ComidRegen(int heal, int shield)
     {
-         StartCoroutine(EnemyDoAction("Heal"));
+        StartCoroutine(EnemyDoAction("Heal"));
         EnemyBody._instanceEnemyBody.Shield += shield;
         EnemyBody._instanceEnemyBody.Health += heal;
+        if(EnemyBody._instanceEnemyBody.Shield + shield > EnemyBody._instanceEnemyBody._core.maxShield){
+            EnemyBody._instanceEnemyBody.Shield = EnemyBody._instanceEnemyBody._core.maxShield;
+        }
+        if(EnemyBody._instanceEnemyBody.Health + heal > EnemyBody._instanceEnemyBody._core.maxHealth){
+            EnemyBody._instanceEnemyBody.Health = EnemyBody._instanceEnemyBody._core.maxHealth;
+        }
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();
         StartCoroutine(GoToNextState());
         //EnemyBody._instanceEnemyBody.EnemyTurn();

@@ -11,8 +11,8 @@ public class GridMapState : State
     public List<EnemyCore> EnemyTypes;
     public override void Enter()
     {
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByName(FMODUnity.AudioManager._instance.parameter, 2);
         MapVisuals.SetActive(true);
+        FMODUnity.AudioManager._instance.ChangeThemeSong(2);
     }
 
     public void ChangeEnemy()

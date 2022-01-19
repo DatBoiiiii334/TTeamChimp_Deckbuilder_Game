@@ -7,9 +7,9 @@ public class ShopState : State
 
     public override void Enter()
     {
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByName(FMODUnity.AudioManager._instance.parameter, 3);
         GameManager._instance.CardDeckBlocker.SetActive(false);
         StartCoroutine(SetupShop());
+        FMODUnity.AudioManager._instance.ChangeThemeSong(3);
     }
 
     public void PlaceNewCards()

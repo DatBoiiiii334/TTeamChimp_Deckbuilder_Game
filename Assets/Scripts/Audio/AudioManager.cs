@@ -73,25 +73,20 @@ namespace FMODUnity
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Z)) // intro
+            if (Input.GetKeyDown(KeyCode.Z))
             {
                 //ChangeMainTheme(0);
                 StartMainTheme();
             }
 
-            if (Input.GetKeyDown(KeyCode.X)) //Gridmap
+            if (Input.GetKeyDown(KeyCode.X))
             {
                 RuntimeManager.StudioSystem.setParameterByName(parameter, 1);
             }
 
-            if (Input.GetKeyDown(KeyCode.C)) // not clear
+            if (Input.GetKeyDown(KeyCode.C))
             {
                 RuntimeManager.StudioSystem.setParameterByName(parameter, 2);
-            }
-
-            if (Input.GetKeyDown(KeyCode.V)) // Shop
-            {
-                RuntimeManager.StudioSystem.setParameterByName(parameter, 3);
             }
 
             ChangeAudioVolume();

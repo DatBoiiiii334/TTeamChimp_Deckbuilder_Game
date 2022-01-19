@@ -19,7 +19,8 @@ public class CardCreator : MonoBehaviour
     }
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.P)){
+            Player._player.Mana = 5;
             foreach(Transform _card in CardSystemManager._instance.CardDeckPos.transform){
                 Destroy(_card.gameObject);
             }

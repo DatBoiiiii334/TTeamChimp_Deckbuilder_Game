@@ -12,6 +12,9 @@ public class HealPlayerEffect : BaseEffect
         }
         Debug.Log("Used HEAL");
         Player._player.Health += template.card.Health;
+        if(Player._player.Health + template.card.Health > Player._player.maxHealth){
+            Player._player.Health = Player._player.maxHealth;
+        }
         Player._player.anim.SetTrigger("DoHealAnim");
         Player._player.UpdatePlayerUI();
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();

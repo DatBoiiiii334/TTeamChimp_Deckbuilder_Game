@@ -149,6 +149,12 @@ public class CardSystemManager : MonoBehaviour
         //currentCardPosition.SetParent(targetPosition.transform);
     }
 
+    public IEnumerator CardSizeChanger( GameObject _card,float seconds){
+        
+        RectTransform rt = _card.GetComponent<RectTransform>();
+        yield return new WaitForSeconds(seconds);
+    }
+
     public void UpdateChildCountUI(){
         CardPileChildAmount = CardPilePos.transform.childCount;
         CardPileText.text = CardPileChildAmount.ToString();

@@ -1,17 +1,24 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public void OnPointerEnter(PointerEventData eventData) { }
+    public Color myColor;
+    public void OnPointerEnter(PointerEventData eventData) { 
+        //gameObject.GetComponent<Image>().color = myColor;
+    }
 
-    public void OnPointerExit(PointerEventData eventData) { }
+    public void OnPointerExit(PointerEventData eventData) {
+        //gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
+    }
 
     public void OnDrop(PointerEventData eventData)
     {
         Draggable DroppedCardDragComponent = eventData.pointerDrag.GetComponent<Draggable>();
         CardTemplate DroppedCard = eventData.pointerDrag.GetComponent<CardTemplate>();
+       //print(DroppedCard.card.Name + "Was dropped");
 
         if (DroppedCard == null) { return; }
         if (DroppedCard.card.Mana > Player._player.Mana) { return; }
@@ -23,7 +30,7 @@ public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
     public void CommidCardAction(CardTemplate _droppedCard, Draggable _carDragComponent)
     {
         _droppedCard.ExecuteAction();
-
+//        print(_droppedCard.card.Name + "Commited action");
         CardSystemManager._instance._MoveCardsToDiscard(_droppedCard.transform);
     }
 }
