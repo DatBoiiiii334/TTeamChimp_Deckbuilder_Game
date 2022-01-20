@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2201.0574, g: 8196.75, b: 14200.516, a: 1}
+  m_IndirectSpecularColor: {r: 2201.502, g: 8202.531, b: 14208.156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1912,9 +1912,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &200698744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,10 +2020,11 @@ MonoBehaviour:
   - {fileID: 443223102}
   - {fileID: 732048950}
   - {fileID: 1975926546}
-  playerSprite: {fileID: 0}
-  ImageIllustration: {fileID: 0}
-  newColor: {r: 0.29803923, g: 0.29803923, b: 0.29803923, a: 1}
-  imageSize: {x: 0, y: 0}
+  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
+  ActiveColor: {r: 0.96862745, g: 0.88235295, b: 0.18431373, a: 1}
+  HighLightColor: {r: 0.3019608, g: 0.7529412, b: 0.6431373, a: 1}
+  NormalColor: {r: 0.40784314, g: 0.41568628, b: 0.101960786, a: 1}
+  currentSelected: {fileID: 1289527227}
 --- !u!1 &218719789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,9 +2747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1001 &319212485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3808,9 +3807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!114 &451534086 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8683038903260401465, guid: 2b749cfcca8e28042b574222a487a225, type: 3}
@@ -5391,9 +5389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &631778726
 GameObject:
   m_ObjectHideFlags: 0
@@ -6564,9 +6561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &736287247
 GameObject:
   m_ObjectHideFlags: 0
@@ -7391,9 +7387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &786341197
 GameObject:
   m_ObjectHideFlags: 0
@@ -8360,9 +8355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &973639971
 GameObject:
   m_ObjectHideFlags: 0
@@ -9540,9 +9534,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 1080053707}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &1082721047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10574,9 +10567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!198 &1221309064 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4026103799722653068, guid: bebc48f6ca541a84c9c69ef3718cbf83, type: 3}
@@ -10800,9 +10792,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &1287817601
 GameObject:
   m_ObjectHideFlags: 0
@@ -10956,9 +10947,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 1289527228}
   myImage: {fileID: 1065926350}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: -299350123680029592, guid: 86f476c004502a74fbaaaf9c30d98d38, type: 3}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!114 &1289527228 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 267850050583067917, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
@@ -14044,9 +14034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &1702493143
 GameObject:
   m_ObjectHideFlags: 0
@@ -16551,9 +16540,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myButton: {fileID: 0}
   myImage: {fileID: 0}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  ActiveColor: {r: 0, g: 0, b: 0, a: 0}
-  currentSprite: {fileID: 0}
+  IsSelected: 0
+  WasSelected: 0
 --- !u!1 &1978771395
 GameObject:
   m_ObjectHideFlags: 0

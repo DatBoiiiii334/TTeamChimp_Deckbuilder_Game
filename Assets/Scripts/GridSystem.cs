@@ -7,45 +7,42 @@ public class GridSystem : MonoBehaviour
 {
     public static GridSystem _instance;
     public GridPoint[] myGridPoints;
-    public Sprite playerSprite;
 
-    [Header("Spawn Image")]
-    public GameObject ImageIllustration;
-    public Color newColor;
-
-    [Header("ImageSize")]
-    public Vector2 imageSize;
+    [Header("Button Colors")]
+    public Color InActiveColor;
+    public Color ActiveColor;
+    public Color HighLightColor;
+    public Color NormalColor;
+    public GridPoint currentSelected;
 
     private void Start() {
-        foreach(GridPoint grid in myGridPoints){
-            grid.GetComponent<GridPoint>().InActiveColor = newColor;
-            
-            //GameObject gridSprite = Instantiate(ImageIllustration, grid.transform);
-            //gridSprite.transform.parent = grid.transform;
-            //grid.transform.GetChild(0).GetComponent<Image>().rectTransform.sizeDelta = imageSize;
+        CheckForSelection(currentSelected);
+    }
 
-            //this code should:
-            //  - Give each grid in the list the gridPoint script
-            //  - Change the color of the inActiveColor to newColor
-            //  - Create a child with an Image Component
-            //  - Change the size of the image to imageSize
+    public void CheckForSelection(GridPoint currentPoint)
+    {
+        if (currentPoint.WasSelected == false)
+        {
+            if (currentSelected != currentPoint)
+            {
+                currentSelected.WasSelected = true;
+                currentSelected = currentPoint;
+                currentPoint.IsSelected = true;
+                currentPoint.FibeCheck();
+            }
+            return;
         }
+        return;
     }
 
-    public void updateGridPoints(){
-        
-    }
-
-    public void CheckForCurrentGridPoint(GridPoint currentPoint){
-        //GridPoint oldPoint;
-        GridPoint newPoint = currentPoint;
-        
-    }
-
-    private void Awake() {
-        if(_instance != null){
+    private void Awake()
+    {
+        if (_instance != null)
+        {
             Destroy(_instance);
-        }else{
+        }
+        else
+        {
             _instance = this;
         }
     }

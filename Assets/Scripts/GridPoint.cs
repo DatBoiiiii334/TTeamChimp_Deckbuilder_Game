@@ -3,60 +3,63 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class GridPoint : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
+public class GridPoint : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("Button Components")]
     public Button myButton;
     public Image myImage;
-    public BaseEventData m_BaseEvent;
-    [Space]
 
-    [Header("Button Addons")]
-    public Color InActiveColor;
-    public Color ActiveColor;
-    public Sprite currentSprite;
-
-    private bool wasSelected;
+    public bool IsSelected;
+    public bool WasSelected;
 
     public void Start()
     {
         myButton = this.GetComponent<Button>();
-        //this.myImage.sprite = currentSprite;
     }
 
-    public void Update()
+    public void OnPointerEnter(PointerEventData eventData)//ON entering Hover
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-
-        }
+        FibeCheck();
+        ColorGridPoint(GridSystem._instance.HighLightColor); // nyan
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void OnPointerExit(PointerEventData eventData)//ON exiting Hover
     {
-        //If allowed should light up
-        //UsedGridPoint();
-        // if (myButton.IsHighlighted(m_BaseEvent) == true)
-        // {
-
-        // }
-        
-
+        FibeCheck();
+        ColorGridPoint(GridSystem._instance.NormalColor); //green
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)//ON clicking button
     {
-        UsedGridPoint();
-        wasSelected = true;
-        //Move char to grid
-        // - Reverence the char with the gridsytem
+        FibeCheck();
+        ColorGridPoint(GridSystem._instance.ActiveColor); // gold
+        IsSelected = true;
     }
 
-    public void UsedGridPoint()
+
+
+
+
+    public void ColorGridPoint(Color myColor)
     {
         ColorBlock cb = myButton.colors;
-        cb.normalColor = InActiveColor;
+        cb.normalColor = myColor;
         myButton.colors = cb;
+    }
+
+    public void FibeCheck(){
+        if (IsSelected)
+        {
+            ColorGridPoint(GridSystem._instance.ActiveColor); //gold
+            //myButton.interactable = !myButton.interactable;
+            return;
+        }
+
+        if(WasSelected){
+            ColorGridPoint(GridSystem._instance.InActiveColor); //grey
+            //myButton.interactable = !myButton.interactable;
+            return;
+        }
     }
 
     public void RemoveSprite()
@@ -64,16 +67,5 @@ public class GridPoint : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
         myImage.sprite = null;
     }
 
-}
-
-public class Example: Selectable{
-
-    public void FibeCheck(Button myButton, Color myColor){
-        ColorBlock cb = myButton.colors;
-        cb.normalColor = myColor;
-        
-        if (IsHighlighted() == true){
-            myButton.colors = cb;
-        }
-    }
+    
 }
