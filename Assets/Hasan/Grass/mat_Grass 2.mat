@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 627d331a22478bb47b4f8e08ae605c2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd42ea06e2df6bc48b56cf51cd533d90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -50,7 +50,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 1
-    - _AlphaCutoff: 0.591
+    - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
@@ -98,6 +98,6 @@ Material:
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _HighlightColor: {r: 0.9173233, g: 0.9221513, b: 0.19794872, a: 0.63529414}
+    - _HighlightColor: {r: 0.99215686, g: 0.7425288, b: 0.49411762, a: 0}
     - _WindSpeed: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
