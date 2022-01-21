@@ -3,18 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Feels Plugin Stuff
-using MoreMountains.Feedbacks;
-using MoreMountains.FeedbacksForThirdParty;
-using MoreMountains.Tools;
-
 namespace FMODUnity
 {
     public class TestingScriptForNino : MonoBehaviour
     {
-        // HASANS FEEL DING
-        public MMFeedbacks myFeedback;
-
         //public Animator TransitionScreenAnim, ShopAnim;
         public GameObject MusicPanel;
         FSM myFSM;
@@ -36,7 +28,6 @@ namespace FMODUnity
 
         private void Start()
         {
-            myFeedback = GetComponent<MMFeedbacks>();
             myFSM = GetComponent<FSM>();
         }
 
@@ -77,10 +68,6 @@ namespace FMODUnity
             }
             if (Input.GetKeyDown(KeyCode.Alpha6))
             {
-                // HASANS DING
-                myFeedback.PlayFeedbacks();
-
-                // CHRIS DING
                 FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
                 StartCoroutine(Delay( FMODUnity.AudioManager._instance.BasicAttacks));
                 EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
