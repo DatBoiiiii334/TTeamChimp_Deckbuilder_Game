@@ -19,48 +19,30 @@ public class GridPoint : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
 
     public void OnPointerEnter(PointerEventData eventData)//ON entering Hover
     {
-        FibeCheck();
         ColorGridPoint(GridSystem._instance.HighLightColor); // nyan
+        GridSystem._instance.CheckDistace(GridSystem._instance.currentSelected, gameObject.GetComponent<GridPoint>());
     }
 
     public void OnPointerExit(PointerEventData eventData)//ON exiting Hover
     {
-        FibeCheck();
         ColorGridPoint(GridSystem._instance.NormalColor); //green
     }
 
     public void OnPointerClick(PointerEventData eventData)//ON clicking button
     {
-        FibeCheck();
         ColorGridPoint(GridSystem._instance.ActiveColor); // gold
-        IsSelected = true;
+        GridSystem._instance.SetCurrentTile(gameObject.GetComponent<GridPoint>());
     }
-
-
-
 
 
     public void ColorGridPoint(Color myColor)
     {
-        ColorBlock cb = myButton.colors;
-        cb.normalColor = myColor;
-        myButton.colors = cb;
+        ColorBlock colorBlock = gameObject.GetComponent<Button>().colors;
+        colorBlock.normalColor = myColor;
+        gameObject.GetComponent<Button>().colors = colorBlock;
     }
 
-    public void FibeCheck(){
-        if (IsSelected)
-        {
-            ColorGridPoint(GridSystem._instance.ActiveColor); //gold
-            //myButton.interactable = !myButton.interactable;
-            return;
-        }
 
-        if(WasSelected){
-            ColorGridPoint(GridSystem._instance.InActiveColor); //grey
-            //myButton.interactable = !myButton.interactable;
-            return;
-        }
-    }
 
     public void RemoveSprite()
     {

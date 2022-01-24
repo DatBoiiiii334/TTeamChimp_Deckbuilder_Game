@@ -15,24 +15,32 @@ public class GridSystem : MonoBehaviour
     public Color NormalColor;
     public GridPoint currentSelected;
 
-    private void Start() {
-        CheckForSelection(currentSelected);
+    [Header("Line Distance")]
+    public float lineDistance;
+
+    public void SetCurrentTile(GridPoint myTile){
+        if(myTile != currentSelected){
+            print("Became the one");
+            currentSelected.ColorGridPoint(GridSystem._instance.InActiveColor);
+            currentSelected.myButton.interactable = false;
+            currentSelected = myTile;
+        }else{
+            print("Already the one");
+            currentSelected.ColorGridPoint(GridSystem._instance.ActiveColor);
+        }
     }
 
-    public void CheckForSelection(GridPoint currentPoint)
-    {
-        if (currentPoint.WasSelected == false)
-        {
-            if (currentSelected != currentPoint)
-            {
-                currentSelected.WasSelected = true;
-                currentSelected = currentPoint;
-                currentPoint.IsSelected = true;
-                currentPoint.FibeCheck();
+    public void CheckDistace(GridPoint myTile, GridPoint NextTile){
+        Vector3 thisPos = myTile.transform.position;
+        Vector3 newPos = NextTile.transform.position;
+
+        if(thisPos.x <= newPos.x){
+            if(thisPos.y <= newPos.y){
+                print("GreenLight");
+                return;
             }
-            return;
         }
-        return;
+        print("red light");        
     }
 
     private void Awake()

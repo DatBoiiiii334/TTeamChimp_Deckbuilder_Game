@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2201.502, g: 8202.531, b: 14208.156, a: 1}
+  m_IndirectSpecularColor: {r: 2201.5176, g: 8202.348, b: 14207.875, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2020,11 +2020,12 @@ MonoBehaviour:
   - {fileID: 443223102}
   - {fileID: 732048950}
   - {fileID: 1975926546}
-  InActiveColor: {r: 0, g: 0, b: 0, a: 0}
+  InActiveColor: {r: 0, g: 0, b: 0, a: 1}
   ActiveColor: {r: 0.96862745, g: 0.88235295, b: 0.18431373, a: 1}
   HighLightColor: {r: 0.3019608, g: 0.7529412, b: 0.6431373, a: 1}
   NormalColor: {r: 0.40784314, g: 0.41568628, b: 0.101960786, a: 1}
   currentSelected: {fileID: 1289527227}
+  lineDistance: 0
 --- !u!1 &218719789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,6 +2936,18 @@ PrefabInstance:
     - target: {fileID: 267850050585570678, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 267850050757772629, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.066037714
+      objectReference: {fileID: 0}
+    - target: {fileID: 267850050757772629, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.066037714
+      objectReference: {fileID: 0}
+    - target: {fileID: 267850050757772629, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.066037714
       objectReference: {fileID: 0}
     - target: {fileID: 267850050757772629, guid: aa46c428b9ef3d84d98ce38e40d316cb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
