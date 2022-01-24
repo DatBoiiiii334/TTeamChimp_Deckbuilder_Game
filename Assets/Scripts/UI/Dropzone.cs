@@ -3,14 +3,29 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+// Feels Plugin Stuff
+using MoreMountains.Feedbacks;
+using MoreMountains.FeedbacksForThirdParty;
+using MoreMountains.Tools;
+
+
 public class Dropzone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
+    //public MMFeedbacks cardFeedbacks;
+    
     public Color myColor;
-    public void OnPointerEnter(PointerEventData eventData) { 
+
+    public void Start()
+    {
+        //cardFeedbacks = GetComponent<MMFeedbacks>();
+    }
+    public void OnPointerEnter(PointerEventData eventData) {
+        //cardFeedbacks.PlayFeedbacks();
         //gameObject.GetComponent<Image>().color = myColor;
     }
 
     public void OnPointerExit(PointerEventData eventData) {
+        //cardFeedbacks.StopFeedbacks();
         //gameObject.GetComponent<Image>().color = new Color(255,255,255,100);
     }
 

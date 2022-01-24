@@ -1,14 +1,19 @@
 /*
 
-_______________________________TODO_______________________
+___________________________TODO TODAY_________________________________
 
-    - transition screen needs to play sound
+    1. Gridmap systeem designen en maken
 
-    1. Fix gridmap
-    2. Fix displaycards (you have to go back to gridmap after selecting one) 
-    3. Fix gnomes Y position when spawned
-    4. Implement BloodSplatters on char when hitting maybe bellow 50% hp?
-    5. 
+    2. Selectieveld designen en maken
+
+    3. Winscreen Pinokia implementeren
+
+    4. Blood splatters implementeren
+
+    5. Tutorial???
+
+    6. Implementeer 
+        - TurnBaner en mana van cindy
 
 
 */
