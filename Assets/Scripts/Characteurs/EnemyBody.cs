@@ -6,7 +6,7 @@ public class EnemyBody : MonoBehaviour
 {
     public static EnemyBody _instanceEnemyBody;
     public EnemyCore _core;
-    public TextMeshProUGUI  shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, maxHpField, _forEnemyTicks;
+    public TextMeshProUGUI shieldField, NextEnemyAttack, lastDamageDealtToField, hpField, maxHpField, _forEnemyTicks;
     public Slider hpSlider;
     public Animator myAnimator;
     public GameObject BleedIconEnemy;
@@ -18,12 +18,18 @@ public class EnemyBody : MonoBehaviour
     public TextMeshProUGUI EnemyIntendAmount;
     public Sprite _enemyIntAttack, _enemyIntHeal, _enemyIntShield, _enemyIntSpecialAttack, _enemyFeared;
 
+    [Header("Change tranform position of enemy")]
+    public float enemyYPos;
+    private Vector3 newEnemyPos;
+
     public void Start()
     {
         myAnimator = gameObject.GetComponent<Animator>();
+
     }
 
-    public void UpdateEnemyValuesBasedOnCore(){
+    public void UpdateEnemyValuesBasedOnCore()
+    {
         Health = _core.maxHealth;
         hpField.text = Health.ToString();
         maxHpField.text = Health.ToString();
@@ -32,9 +38,12 @@ public class EnemyBody : MonoBehaviour
         UpdateEnemyUI();
     }
 
-    public void SpawnEnemy(){
-        if(transform.childCount > 0){
-            foreach(Transform enemy in transform){
+    public void SpawnEnemy()
+    {
+        if (transform.childCount > 0)
+        {
+            foreach (Transform enemy in transform)
+            {
                 Destroy(enemy.gameObject);
                 // print("Enemy art wiped");
             }
@@ -43,7 +52,12 @@ public class EnemyBody : MonoBehaviour
         GameObject enemyArt;
         enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
         UpdateEnemyValuesBasedOnCore();
-        // print("Name: "+_core.enemyGameObject.name);
+
+        if (_core.name == "Gnomes")
+        {
+            gameObject.transform.GetChild(0).transform.position = new Vector3(transform.GetChild(0).transform.position.x,1.5f,transform.GetChild(0).transform.position.z);
+            print(gameObject.transform.GetChild(0).transform.position);
+        }
     }
 
 
@@ -72,30 +86,31 @@ public class EnemyBody : MonoBehaviour
         EnemyIntend(myNextAttack);
     }
 
-    public void EnemyIntend(int _nextAttack){
+    public void EnemyIntend(int _nextAttack)
+    {
         switch (_nextAttack)
         {
             case 0: //Basic attack
                 ShowNextAttack("Basic Attack");
-                EnemyIntendImage.sprite= _enemyIntAttack;
+                EnemyIntendImage.sprite = _enemyIntAttack;
                 EnemyIntendAmount.text = _core.basicAttack.ToString();
                 break;
 
             case 1: //Heal self
                 ShowNextAttack("Healing self");
-                EnemyIntendImage.sprite= _enemyIntHeal;
+                EnemyIntendImage.sprite = _enemyIntHeal;
                 EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
             case 2: //Special attack
                 ShowNextAttack("Special Attack");
-                EnemyIntendImage.sprite= _enemyIntSpecialAttack;
+                EnemyIntendImage.sprite = _enemyIntSpecialAttack;
                 EnemyIntendAmount.text = _core.specialAttack.ToString();
                 break;
 
             case 3: // Shield self
                 ShowNextAttack("Shield self");
-                EnemyIntendImage.sprite= _enemyIntShield;
+                EnemyIntendImage.sprite = _enemyIntShield;
                 EnemyIntendAmount.text = _core.maxBuff.ToString();
                 break;
 
@@ -132,9 +147,11 @@ public class EnemyBody : MonoBehaviour
         if (_instanceEnemyBody != null)
         {
             Destroy(gameObject);
-        }else{
+        }
+        else
+        {
             _instanceEnemyBody = this;
         }
-        
+
     }
 }

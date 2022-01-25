@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1b196e1a3f4270e478127eca0c2dce5c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WindNoise: {fileID: 2800000, guid: 365910ef4f295dd4c94bd7897b04d672, type: 3}
+  - _LeafGradient: {fileID: 2800000, guid: 61946c2eb1550084ea7f3c79d6adefdc, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
