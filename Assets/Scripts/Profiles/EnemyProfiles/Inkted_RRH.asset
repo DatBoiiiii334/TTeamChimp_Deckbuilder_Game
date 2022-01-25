@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Inkted_RRH
   m_EditorClassIdentifier: 
   _name: Corrupted Red RidingHood
-  _maxHealth: 80
-  _maxShield: 30
-  _basicAttack: 20
-  _specialAttack: 30
+  _maxHealth: 40
+  _maxShield: 10
+  _basicAttack: 15
+  _specialAttack: 20
   _maxBuff: 5
   enemyGameObject: {fileID: 8174583991459702992, guid: 08c3144bb4005b74991f8153b9b2b14c, type: 3}

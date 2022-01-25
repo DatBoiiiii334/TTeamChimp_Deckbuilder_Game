@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: ba8063972cab3f248a96732b457b6271
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3456207209495436172
+    second: Belle_Hit - Copy_0
+  - first:
+      213: 3210629108950316228
+    second: Belle_Hit - Copy_1
+  - first:
+      213: -8804814384131583978
+    second: Belle_Hit - Copy_2
+  - first:
+      213: 8482325967510913176
+    second: Belle_Hit - Copy_3
+  - first:
+      213: 1332880481879108133
+    second: Belle_Hit - Copy_4
+  - first:
+      213: 7088872813098317871
+    second: Belle_Hit - Copy_5
+  - first:
+      213: 7727000209951263742
+    second: Belle_Hit - Copy_6
+  - first:
+      213: -1085576362814496633
+    second: Belle_Hit - Copy_7
+  - first:
+      213: -7313428403910691594
+    second: Belle_Hit - Copy_8
+  - first:
+      213: 5368875663701610600
+    second: Belle_Hit - Copy_9
+  - first:
+      213: 4679727146614052908
+    second: Belle_Hit - Copy_10
+  - first:
+      213: -7186409752485232134
+    second: Belle_Hit - Copy_11
+  - first:
+      213: 143960135984018072
+    second: Belle_Hit - Copy_12
+  - first:
+      213: 6532190426635410689
+    second: Belle_Hit - Copy_13
+  - first:
+      213: -3878784173617397503
+    second: Belle_Hit - Copy_14
+  - first:
+      213: 4553789903684705873
+    second: Belle_Hit - Copy_15
+  - first:
+      213: 2196539362740293287
+    second: Belle_Hit - Copy_16
+  - first:
+      213: 6570083422841449085
+    second: Belle_Hit - Copy_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1943
+        width: 664
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47461efcad51900d0800000000000000
+      internalID: -3456207209495436172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1943
+        width: 717
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c43388f9227e8c20800000000000000
+      internalID: 3210629108950316228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1943
+        width: 736
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6105690b7f30fc580800000000000000
+      internalID: -8804814384131583978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1943
+        width: 754
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8904f82b68647b570800000000000000
+      internalID: 8482325967510913176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 1943
+        width: 765
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aa4728cb75f7210800000000000000
+      internalID: 1332880481879108133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 1943
+        width: 774
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2836aad34cb06260800000000000000
+      internalID: 7088872813098317871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 973
+        width: 784
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb838560c1db3b60800000000000000
+      internalID: 7727000209951263742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 973
+        width: 793
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780a1e5bc024fe0f0800000000000000
+      internalID: -1085576362814496633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 973
+        width: 799
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b6a66d9b718a90800000000000000
+      internalID: -7313428403910691594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 973
+        width: 804
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8609c2a78f3128a40800000000000000
+      internalID: 5368875663701610600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 4408
+        y: 973
+        width: 808
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28deabab0bb1f040800000000000000
+      internalID: 4679727146614052908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 5515
+        y: 973
+        width: 802
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af107b4c76eb44c90800000000000000
+      internalID: -7186409752485232134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3
+        width: 782
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f42f1bf27ff100800000000000000
+      internalID: 143960135984018072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 3
+        width: 757
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d9fc0859007aa50800000000000000
+      internalID: 6532190426635410689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 3
+        width: 738
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101c023485acb2ac0800000000000000
+      internalID: -3878784173617397503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 3
+        width: 709
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e13e65acf423f30800000000000000
+      internalID: 4553789903684705873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 3
+        width: 677
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae4c43a9ecab7e10800000000000000
+      internalID: 2196539362740293287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Hit - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 5624
+        y: 3
+        width: 664
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7aa5233010ad2b50800000000000000
+      internalID: 6570083422841449085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

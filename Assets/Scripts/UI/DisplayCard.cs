@@ -24,6 +24,6 @@ public class DisplayCard : MonoBehaviour
         WinState._instance.AllNewCardProfiles.Remove(card);
         CardCreator._instance.PlayerCardProfiles.Add(card);
         Destroy(gameObject.transform.gameObject);
-        //WinState._instance.GoToMap();
+        WinState._instance.GoToMap();
     }
 }

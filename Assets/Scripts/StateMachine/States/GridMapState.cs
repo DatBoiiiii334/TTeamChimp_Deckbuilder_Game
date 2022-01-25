@@ -9,6 +9,7 @@ public class GridMapState : State
     public static GridMapState _instance;
     public GameObject MapVisuals;
     public List<EnemyCore> EnemyTypes;
+
     public override void Enter()
     {
         MapVisuals.SetActive(true);
@@ -19,6 +20,11 @@ public class GridMapState : State
     {
         int var = Random.Range(0, EnemyTypes.Count);
         EnemyBody._instanceEnemyBody._core = EnemyTypes[var];
+        StartCoroutine(TransitionToFightScene());
+    }
+
+    public void PickEnemyEncounter(int enemyType){
+        EnemyBody._instanceEnemyBody._core = EnemyTypes[enemyType];
         StartCoroutine(TransitionToFightScene());
     }
 

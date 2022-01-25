@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: bb9609b43abea1b4aa1c3a93e37a5512
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5219620449768678173
+    second: Belle_Idle - Copy_0
+  - first:
+      213: 4235914812270320438
+    second: Belle_Idle - Copy_1
+  - first:
+      213: -2799860475984455710
+    second: Belle_Idle - Copy_2
+  - first:
+      213: 3905478820046062224
+    second: Belle_Idle - Copy_3
+  - first:
+      213: -7825794428028049046
+    second: Belle_Idle - Copy_4
+  - first:
+      213: -8378040083480349556
+    second: Belle_Idle - Copy_5
+  - first:
+      213: 579221129779257156
+    second: Belle_Idle - Copy_6
+  - first:
+      213: -8706521212117162007
+    second: Belle_Idle - Copy_7
+  - first:
+      213: -4683550234828838813
+    second: Belle_Idle - Copy_8
+  - first:
+      213: 1921370077869411195
+    second: Belle_Idle - Copy_9
+  - first:
+      213: 2575145972188811993
+    second: Belle_Idle - Copy_10
+  - first:
+      213: -2465916742424502792
+    second: Belle_Idle - Copy_11
+  - first:
+      213: 4140904306834351371
+    second: Belle_Idle - Copy_12
+  - first:
+      213: -6810942289446474591
+    second: Belle_Idle - Copy_13
+  - first:
+      213: -7882480538328919398
+    second: Belle_Idle - Copy_14
+  - first:
+      213: 4645073961780487084
+    second: Belle_Idle - Copy_15
+  - first:
+      213: 8290653870558057364
+    second: Belle_Idle - Copy_16
+  - first:
+      213: 5145157273482478420
+    second: Belle_Idle - Copy_17
+  - first:
+      213: 1342454551109977059
+    second: Belle_Idle - Copy_18
+  - first:
+      213: 6452011673219327412
+    second: Belle_Idle - Copy_19
+  - first:
+      213: -2138595791358644191
+    second: Belle_Idle - Copy_20
+  - first:
+      213: 3159448498616935689
+    second: Belle_Idle - Copy_21
+  - first:
+      213: 6275357411375737468
+    second: Belle_Idle - Copy_22
+  - first:
+      213: 1708013061623008309
+    second: Belle_Idle - Copy_23
+  - first:
+      213: -9033354633404311510
+    second: Belle_Idle - Copy_24
+  - first:
+      213: 8408468759173085368
+    second: Belle_Idle - Copy_25
+  - first:
+      213: -4821466050632415695
+    second: Belle_Idle - Copy_26
+  - first:
+      213: -6271597844426532725
+    second: Belle_Idle - Copy_27
+  - first:
+      213: -385541830114211779
+    second: Belle_Idle - Copy_28
+  - first:
+      213: 2949567663899320707
+    second: Belle_Idle - Copy_29
+  - first:
+      213: -2990624398149895730
+    second: Belle_Idle - Copy_30
+  - first:
+      213: 4148208773566237151
+    second: Belle_Idle - Copy_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6792
+        width: 748
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a3d2f421df6840800000000000000
+      internalID: 5219620449768678173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 6792
+        width: 738
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b1034341ef8ca30800000000000000
+      internalID: 4235914812270320438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 6792
+        width: 728
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e75a4c3bb5e429d0800000000000000
+      internalID: -2799860475984455710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 6792
+        width: 720
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09248a27b4c033630800000000000000
+      internalID: 3905478820046062224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5822
+        width: 715
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6928283e61356390800000000000000
+      internalID: -7825794428028049046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 5822
+        width: 712
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c847b2ecee83bbb80800000000000000
+      internalID: -8378040083480349556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 5822
+        width: 712
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f94e67c8ec90800800000000000000
+      internalID: 579221129779257156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 5822
+        width: 713
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e76a5236193c2780800000000000000
+      internalID: -8706521212117162007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4852
+        width: 716
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368645d30efa00fb0800000000000000
+      internalID: -4683550234828838813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 4851
+        width: 721
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b887de7e31aaa10800000000000000
+      internalID: 1921370077869411195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 4851
+        width: 727
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d297153e91ccb320800000000000000
+      internalID: 2575145972188811993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 4851
+        width: 735
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd591aa9cd47cdd0800000000000000
+      internalID: -2465916742424502792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3881
+        width: 744
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b052fb11782777930800000000000000
+      internalID: 4140904306834351371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 3881
+        width: 755
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6bdbd21caa71a0800000000000000
+      internalID: -6810942289446474591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 3881
+        width: 767
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9299fba6bdcb9290800000000000000
+      internalID: -7882480538328919398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3881
+        width: 776
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3a757582e967040800000000000000
+      internalID: 4645073961780487084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2911
+        width: 786
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493945ef4c15e0370800000000000000
+      internalID: 8290653870558057364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 2911
+        width: 794
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c07fa745476740800000000000000
+      internalID: 5145157273482478420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 2911
+        width: 802
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e344063d4b51a210800000000000000
+      internalID: 1342454551109977059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 2911
+        width: 808
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b569ecbe662a8950800000000000000
+      internalID: 6452011673219327412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1941
+        width: 812
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203ce1657e2252e0800000000000000
+      internalID: -2138595791358644191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1941
+        width: 813
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90524368bad98db20800000000000000
+      internalID: 3159448498616935689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1941
+        width: 814
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6aaf315c861750800000000000000
+      internalID: 6275357411375737468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 1942
+        width: 813
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c44c184d414b710800000000000000
+      internalID: 1708013061623008309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 972
+        width: 810
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a289ec952d313a280800000000000000
+      internalID: -9033354633404311510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 972
+        width: 806
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83b7759c1e0b470800000000000000
+      internalID: 8408468759173085368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 972
+        width: 801
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13603731c26b61db0800000000000000
+      internalID: -4821466050632415695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 972
+        width: 794
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88d9d42dfec6f8a0800000000000000
+      internalID: -6271597844426532725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 784
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d380df98fb746aaf0800000000000000
+      internalID: -385541830114211779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2
+        width: 772
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381a2bfa928fee820800000000000000
+      internalID: 2949567663899320707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2
+        width: 763
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b8a374fa2f76d0800000000000000
+      internalID: -2990624398149895730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Idle - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 2
+        width: 753
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90392c6e5619930800000000000000
+      internalID: 4148208773566237151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
