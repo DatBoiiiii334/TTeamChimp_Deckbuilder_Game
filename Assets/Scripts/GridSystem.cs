@@ -14,9 +14,14 @@ public class GridSystem : MonoBehaviour
     public Color HighLightColor;
     public Color NormalColor;
     public GridPoint currentSelected;
+    private GridPoint _currentSelected;
 
     [Header("Line Distance")]
     public float lineDistance;
+
+    private void Start() {
+        _currentSelected = currentSelected;
+    }
 
     public void SetCurrentTile(GridPoint myTile)
     {
@@ -65,6 +70,18 @@ public class GridSystem : MonoBehaviour
                 //  End Boss
                 GridMapState._instance.PickEnemyEncounter(3);
             break;
+        }
+    }
+
+    public void ResetGrid(){
+        currentSelected = _currentSelected; // resets current selected gridpoint
+        foreach(Transform _gridpoint in gameObject.transform){
+            if(_gridpoint != currentSelected){
+                _gridpoint.GetComponent<Button>().interactable = true;
+                _gridpoint.transform.GetComponent<GridPoint>().ColorGridPoint(GridSystem._instance.NormalColor);
+            }else if(_gridpoint.transform.GetComponent<GridPoint>() == currentSelected){
+                _gridpoint.transform.GetComponent<GridPoint>().ColorGridPoint(GridSystem._instance.ActiveColor);
+            }   
         }
     }
 

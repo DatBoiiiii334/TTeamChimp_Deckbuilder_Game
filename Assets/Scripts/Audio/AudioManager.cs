@@ -62,6 +62,9 @@ namespace FMODUnity
         [Header("SoundsMenu")]
         public GameObject SoundsMenu;
 
+         [Header("Book Opening sound")]
+         public EventReference BookOpening;
+
         public enum Themes {StartScreen, MapScreen, FightScreen, WinScreen, LoseScreen};
 
         private void Start() {

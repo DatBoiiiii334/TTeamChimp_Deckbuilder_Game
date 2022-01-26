@@ -5,12 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager _instance;
-    public GameObject CardSpawn, CardDeckBlocker, winScreen, LoseScreen, FightScene, ShopScene;
+    public GameObject CardSpawn, CardDeckBlocker, FightScene, ShopScene;
     public int forEnemyTickDamage, amountCardsSpawn;
     public ParticleSystem attackPrticles;
     FSM myFSM;
 
-    public Animator TransitionScreenAnim, ShopAnim;
+    public Animator TransitionScreenAnim, ShopAnim, OpenBookAnim;
 
     [Header("Delay Amount for Volume")]
     public float delayValue;
@@ -74,7 +74,8 @@ public class GameManager : MonoBehaviour
     {
         if (EnemyBody._instanceEnemyBody.Health <= 0)
         {
-            winScreen.SetActive(true);
+            //winScreen.SetActive(true);
+            myFSM.SetCurrentState(typeof(WinState));
             CardPicker.instance_CardPicker.OpenNewCardsWindow();
         }
     }

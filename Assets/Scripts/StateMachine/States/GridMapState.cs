@@ -5,15 +5,35 @@ using UnityEngine;
 
 public class GridMapState : State
 {
-
     public static GridMapState _instance;
     public GameObject MapVisuals;
     public List<EnemyCore> EnemyTypes;
+    public Camera MainMenuCamera;
+
+    private float CameraFieldOfView;
+    //private float speed = 100f;
+    public bool IntroHasAlreadyHappend;
 
     public override void Enter()
     {
-        MapVisuals.SetActive(true);
+        CameraFieldOfView = MainMenuCamera.fieldOfView;
+        GameManager._instance.FightScene.SetActive(false);
+        GameManager._instance.ShopScene.SetActive(false);
+        if(IntroHasAlreadyHappend == false){
+            StartCoroutine(WaitForBookAnim(CameraFieldOfView, 30f,1.5f));
+            IntroHasAlreadyHappend = true;
+        }else{
+            MapVisuals.SetActive(true);
+            MainMenuCamera.fieldOfView = 30f;
+            GameManager._instance.OpenBookAnim.SetTrigger("OpenBook");
+            MainMenuState._instance.MainMenu.SetActive(true);
+        }
         FMODUnity.AudioManager._instance.ChangeThemeSong(2);
+    }
+
+    public override void Exit(){
+        MainMenuCamera.fieldOfView = CameraFieldOfView;
+        MainMenuState._instance.GameScene.SetActive(true);
     }
 
     public void ChangeEnemy()
@@ -33,12 +53,31 @@ public class GridMapState : State
         StartCoroutine(TransitionToShopScene());
     }
 
+    public IEnumerator WaitForBookAnim(float startAmount, float EndAmount, float waitAmount){
+        MainMenuState._instance.MainMenuItems.SetActive(false);
+        yield return new WaitForSeconds(waitAmount);
+        // MapVisuals.SetActive(true);
+        
+        //MainMenuCamera.fieldOfView = 30f;
+
+        float elapsed = 0.0f;
+        while (elapsed < waitAmount )
+        {
+            MainMenuCamera.fieldOfView = Mathf.Lerp( startAmount, EndAmount, elapsed / waitAmount );
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        MainMenuCamera.fieldOfView = EndAmount;
+        MapVisuals.SetActive(true);
+    }
+
     public IEnumerator TransitionToFightScene()
     {
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         myFSM.SetCurrentState(typeof(PlayerEnterState));
         MapVisuals.SetActive(false);
+        MainMenuState._instance.MainMenu.SetActive(false);
     }
 
     public IEnumerator TransitionToShopScene()
