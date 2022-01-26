@@ -38840,7 +38840,6 @@ GameObject:
   - component: {fileID: 2250897761645158849}
   - component: {fileID: 7810288224585713972}
   - component: {fileID: 1201276274152505530}
-  - component: {fileID: 3224451098667464157}
   - component: {fileID: 2572511901107014302}
   m_Layer: 0
   m_Name: Red_idle_1
@@ -38959,7 +38958,6 @@ MonoBehaviour:
   - {fileID: 2164870841123063371}
   - {fileID: 2250897761645158849}
   - {fileID: 7810288224585713972}
-  - {fileID: 3224451098667464157}
   - {fileID: 2572511901107014302}
   InitializationMode: 2
   SafeMode: 3
@@ -39392,52 +39390,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!114 &1201276274152505530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8174583991459702992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdfe4b9b079619143a9748eeee75e698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 1
-  Label: Particles Instantiation
-  Chance: 100
-  Timing:
-    TimescaleMode: 0
-    InitialDelay: 0
-    CooldownDuration: 0
-    ExcludeFromHoldingPauses: 0
-    InterruptsOnStop: 1
-    NumberOfRepeats: 0
-    RepeatForever: 0
-    DelayBetweenRepeats: 1
-    MMFeedbacksDirectionCondition: 0
-    PlayDirection: 0
-    ConstantIntensity: 0
-    UseIntensityInterval: 0
-    IntensityIntervalMin: 0
-    IntensityIntervalMax: 0
-    Sequence: {fileID: 0}
-    TrackID: 0
-    Quantized: 0
-    TargetBPM: 120
-  DebugActive: 0
-  Mode: 0
-  CachedRecycle: 1
-  ParticlesPrefab: {fileID: 1092390278651762624, guid: 218ab00fbf5096d469e45feaf4623318, type: 3}
-  RandomParticlePrefabs: []
-  PositionMode: 0
-  InstantiateParticlesPosition: {fileID: 0}
-  TargetWorldPosition: {x: 0, y: 0, z: 0}
-  Offset: {x: 0, y: 0, z: 0}
-  NestParticles: 1
-  ApplyRotation: 0
-  ApplyScale: 0
---- !u!114 &3224451098667464157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

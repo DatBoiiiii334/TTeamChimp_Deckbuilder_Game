@@ -41,27 +41,29 @@ public class GridSystem : MonoBehaviour
 
     public void TypeClick(int Encounter){
         switch(Encounter){
-            case 0:
+            case 1:
                 //  Red ridinghood 
                     GridMapState._instance.PickEnemyEncounter(1);
             break;
 
-            case 1:
+            case 2:
                 //  Gnomes
                     GridMapState._instance.PickEnemyEncounter(0);
             break;
 
-            case 2:
+            case 3:
                 //  Poos in boots (mini boss )
+                GridMapState._instance.PickEnemyEncounter(2);
             break;
 
-            case 3:
+            case 4:
                 //  Shop
-                GridMapState._instance.GoToStore();
+                    GridMapState._instance.GoToStore();
             break;
             
-            case 4:
+            case 5:
                 //  End Boss
+                GridMapState._instance.PickEnemyEncounter(3);
             break;
         }
     }

@@ -27,6 +27,14 @@ public class GameManager : MonoBehaviour
     }
 
     private void Update() {
+
+
+        // if(Input.GetKeyDown(KeyCode.Alpha1)){
+        //    AnimationController._instance.EnemyBasicAttackAnim();
+        // }
+        // if(Input.GetKeyDown(KeyCode.Alpha2)){
+        //    AnimationController._instance.EnemyHitAnim();
+        // }
         // if(Input.GetKeyDown(KeyCode.Alpha1)){
         //     StartCoroutine(Delay(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
         //     AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);

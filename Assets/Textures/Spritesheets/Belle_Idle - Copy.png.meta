@@ -202,10 +202,10 @@ TextureImporter:
       name: Belle_Idle - Copy_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 6792
-        width: 748
-        height: 746
+        x: 0
+        y: 6790
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Belle_Idle - Copy_1
       rect:
         serializedVersion: 2
-        x: 1157
-        y: 6792
-        width: 738
-        height: 750
+        x: 1100
+        y: 6790
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Belle_Idle - Copy_2
       rect:
         serializedVersion: 2
-        x: 2264
-        y: 6792
-        width: 728
-        height: 754
+        x: 2200
+        y: 6790
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Belle_Idle - Copy_3
       rect:
         serializedVersion: 2
-        x: 3369
-        y: 6792
-        width: 720
-        height: 757
+        x: 3300
+        y: 6790
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Belle_Idle - Copy_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 5822
-        width: 715
-        height: 758
+        x: 0
+        y: 5820
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Belle_Idle - Copy_5
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 5822
-        width: 712
-        height: 760
+        x: 1100
+        y: 5820
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Belle_Idle - Copy_6
       rect:
         serializedVersion: 2
-        x: 2274
-        y: 5822
-        width: 712
-        height: 760
+        x: 2200
+        y: 5820
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Belle_Idle - Copy_7
       rect:
         serializedVersion: 2
-        x: 3374
-        y: 5822
-        width: 713
-        height: 758
+        x: 3300
+        y: 5820
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Belle_Idle - Copy_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 4852
-        width: 716
-        height: 757
+        x: 0
+        y: 4850
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: Belle_Idle - Copy_9
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 4851
-        width: 721
-        height: 755
+        x: 1100
+        y: 4850
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: Belle_Idle - Copy_10
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 4851
-        width: 727
-        height: 751
+        x: 2200
+        y: 4850
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: Belle_Idle - Copy_11
       rect:
         serializedVersion: 2
-        x: 3361
-        y: 4851
-        width: 735
-        height: 747
+        x: 3300
+        y: 4850
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: Belle_Idle - Copy_12
       rect:
         serializedVersion: 2
-        x: 54
-        y: 3881
-        width: 744
-        height: 743
+        x: 0
+        y: 3880
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: Belle_Idle - Copy_13
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 3881
-        width: 755
-        height: 739
+        x: 1100
+        y: 3880
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: Belle_Idle - Copy_14
       rect:
         serializedVersion: 2
-        x: 2237
-        y: 3881
-        width: 767
-        height: 735
+        x: 2200
+        y: 3880
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: Belle_Idle - Copy_15
       rect:
         serializedVersion: 2
-        x: 3330
-        y: 3881
-        width: 776
-        height: 730
+        x: 3300
+        y: 3880
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: Belle_Idle - Copy_16
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2911
-        width: 786
-        height: 724
+        x: 0
+        y: 2910
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: Belle_Idle - Copy_17
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 2911
-        width: 794
-        height: 719
+        x: 1100
+        y: 2910
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: Belle_Idle - Copy_18
       rect:
         serializedVersion: 2
-        x: 2211
-        y: 2911
-        width: 802
-        height: 715
+        x: 2200
+        y: 2910
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: Belle_Idle - Copy_19
       rect:
         serializedVersion: 2
-        x: 3307
-        y: 2911
-        width: 808
-        height: 710
+        x: 3300
+        y: 2910
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: Belle_Idle - Copy_20
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1941
-        width: 812
-        height: 707
+        x: 0
+        y: 1940
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: Belle_Idle - Copy_21
       rect:
         serializedVersion: 2
-        x: 1103
-        y: 1941
-        width: 813
-        height: 706
+        x: 1100
+        y: 1940
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,10 +664,10 @@ TextureImporter:
       name: Belle_Idle - Copy_22
       rect:
         serializedVersion: 2
-        x: 2202
-        y: 1941
-        width: 814
-        height: 707
+        x: 2200
+        y: 1940
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: Belle_Idle - Copy_23
       rect:
         serializedVersion: 2
-        x: 3303
-        y: 1942
-        width: 813
-        height: 709
+        x: 3300
+        y: 1940
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: Belle_Idle - Copy_24
       rect:
         serializedVersion: 2
-        x: 4
-        y: 972
-        width: 810
-        height: 713
+        x: 0
+        y: 970
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: Belle_Idle - Copy_25
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 972
-        width: 806
-        height: 718
+        x: 1100
+        y: 970
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,10 +748,10 @@ TextureImporter:
       name: Belle_Idle - Copy_26
       rect:
         serializedVersion: 2
-        x: 2210
-        y: 972
-        width: 801
-        height: 722
+        x: 2200
+        y: 970
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: Belle_Idle - Copy_27
       rect:
         serializedVersion: 2
-        x: 3315
-        y: 972
-        width: 794
-        height: 727
+        x: 3300
+        y: 970
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: Belle_Idle - Copy_28
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2
-        width: 784
-        height: 731
+        x: 0
+        y: 0
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: Belle_Idle - Copy_29
       rect:
         serializedVersion: 2
-        x: 1132
-        y: 2
-        width: 772
-        height: 737
+        x: 1100
+        y: 0
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: Belle_Idle - Copy_30
       rect:
         serializedVersion: 2
-        x: 2239
-        y: 2
-        width: 763
-        height: 741
+        x: 2200
+        y: 0
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +853,10 @@ TextureImporter:
       name: Belle_Idle - Copy_31
       rect:
         serializedVersion: 2
-        x: 3347
-        y: 2
-        width: 753
-        height: 745
+        x: 3300
+        y: 0
+        width: 1100
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
