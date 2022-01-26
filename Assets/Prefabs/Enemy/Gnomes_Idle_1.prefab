@@ -2019,7 +2019,7 @@ MonoBehaviour:
     Quantized: 0
     TargetBPM: 120
   DebugActive: 0
-  BoundSpriteRenderer: {fileID: 0}
+  BoundSpriteRenderer: {fileID: 6880202402780613270}
   Mode: 0
   Duration: 1
   StartsOff: 0
