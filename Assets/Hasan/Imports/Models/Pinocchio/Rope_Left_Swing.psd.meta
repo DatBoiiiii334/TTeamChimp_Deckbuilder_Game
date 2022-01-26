@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 38cd03634cbf1514987208cf48a5278b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6266914215645255104
+    second: Rope_Left_Swing_0
+  - first:
+      213: -7788822077033232087
+    second: Rope_Left_Swing_1
+  - first:
+      213: 7904563617865907885
+    second: Rope_Left_Swing_2
+  - first:
+      213: 4983647453901028461
+    second: Rope_Left_Swing_3
+  - first:
+      213: 8271689080628974315
+    second: Rope_Left_Swing_4
+  - first:
+      213: 758986899566758252
+    second: Rope_Left_Swing_5
+  - first:
+      213: 2538251651258431647
+    second: Rope_Left_Swing_6
+  - first:
+      213: 2422243748089929068
+    second: Rope_Left_Swing_7
+  - first:
+      213: -7931733696142050337
+    second: Rope_Left_Swing_8
+  - first:
+      213: -612265686233150116
+    second: Rope_Left_Swing_9
+  - first:
+      213: 7211849240763792022
+    second: Rope_Left_Swing_10
+  - first:
+      213: -5217887499727245966
+    second: Rope_Left_Swing_11
+  - first:
+      213: -8465281536791529600
+    second: Rope_Left_Swing_12
+  - first:
+      213: -8470401705538279817
+    second: Rope_Left_Swing_13
+  - first:
+      213: -8738791822717366483
+    second: Rope_Left_Swing_14
+  - first:
+      213: 8135701577990038110
+    second: Rope_Left_Swing_15
+  - first:
+      213: -7870717931739974194
+    second: Rope_Left_Swing_16
+  - first:
+      213: -3119017611717042512
+    second: Rope_Left_Swing_17
+  - first:
+      213: -844789964591294726
+    second: Rope_Left_Swing_18
+  - first:
+      213: -8558247276224782965
+    second: Rope_Left_Swing_19
+  - first:
+      213: -1685776456479207341
+    second: Rope_Left_Swing_20
+  - first:
+      213: 8092346880621947873
+    second: Rope_Left_Swing_21
+  - first:
+      213: 6101864091442325380
+    second: Rope_Left_Swing_22
+  - first:
+      213: 4248660319170577757
+    second: Rope_Left_Swing_23
+  - first:
+      213: -4135187797699805887
+    second: Rope_Left_Swing_24
+  - first:
+      213: 6415255847620597729
+    second: Rope_Left_Swing_25
+  - first:
+      213: -1824472438007082370
+    second: Rope_Left_Swing_26
+  - first:
+      213: 3860451263330238308
+    second: Rope_Left_Swing_27
+  - first:
+      213: -8403704027901936739
+    second: Rope_Left_Swing_28
+  - first:
+      213: 3965669428621621043
+    second: Rope_Left_Swing_29
+  - first:
+      213: -6820028723514542700
+    second: Rope_Left_Swing_30
+  - first:
+      213: 1619244210638404769
+    second: Rope_Left_Swing_31
+  - first:
+      213: -3027141005424667914
+    second: Rope_Left_Swing_32
+  - first:
+      213: -1821974330953163147
+    second: Rope_Left_Swing_33
+  - first:
+      213: 3300279505287245047
+    second: Rope_Left_Swing_34
+  - first:
+      213: 7859186164011141465
+    second: Rope_Left_Swing_35
+  - first:
+      213: 8593859538777223140
+    second: Rope_Left_Swing_36
+  - first:
+      213: 1070061934386786089
+    second: Rope_Left_Swing_37
+  - first:
+      213: -4917876440550349781
+    second: Rope_Left_Swing_38
+  - first:
+      213: 7786367969989681647
+    second: Rope_Left_Swing_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rope_Left_Swing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a6e9279b27709a0800000000000000
+      internalID: -6266914215645255104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7168
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c6bf769b88e390800000000000000
+      internalID: -7788822077033232087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7168
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daebf53fab6a2bd60800000000000000
+      internalID: 7904563617865907885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 7168
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cfc8f64f8792540800000000000000
+      internalID: 4983647453901028461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 7168
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21e5fb461fac270800000000000000
+      internalID: 8271689080628974315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c690ad95096788a00800000000000000
+      internalID: 758986899566758252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6144
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98bec7bd6ea93320800000000000000
+      internalID: 2538251651258431647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_7
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6144
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d9f44fad98d9120800000000000000
+      internalID: 2422243748089929068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_8
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6144
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf47c3a32dce190800000000000000
+      internalID: -7931733696142050337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_9
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6144
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d89ef2a9bc087f0800000000000000
+      internalID: -612265686233150116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a7569aca2a51460800000000000000
+      internalID: 7211849240763792022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6ecce6f65697b0800000000000000
+      internalID: -5217887499727245966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0873ed31b47458a80800000000000000
+      internalID: -8465281536791529600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_13
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5120
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7762784e686137a80800000000000000
+      internalID: -8470401705538279817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_14
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5120
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fc7d8232399b680800000000000000
+      internalID: -8738791822717366483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e526eaafa71d7e070800000000000000
+      internalID: 8135701577990038110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5775fedb795c290800000000000000
+      internalID: -7870717931739974194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be1b65e10607b4d0800000000000000
+      internalID: -3119017611717042512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_18
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af698bac004b644f0800000000000000
+      internalID: -844789964591294726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_19
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ddaa0227ffa3980800000000000000
+      internalID: -8558247276224782965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35017d49e3bea98e0800000000000000
+      internalID: -1685776456479207341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb26b2ec9acd4070800000000000000
+      internalID: 8092346880621947873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a126ef0d2ea450800000000000000
+      internalID: 6101864091442325380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_23
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55c577cc0646fa30800000000000000
+      internalID: 4248660319170577757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_24
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14db29e6b9cdc96c0800000000000000
+      internalID: -4135187797699805887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e75ca43431970950800000000000000
+      internalID: 6415255847620597729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72d81eebfb2ea6e0800000000000000
+      internalID: -1824472438007082370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_27
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb18f68f3139530800000000000000
+      internalID: 3860451263330238308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_28
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bb26b16bb006b80800000000000000
+      internalID: -8403704027901936739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_29
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3373e959553e80730800000000000000
+      internalID: 3965669428621621043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49574f092046a51a0800000000000000
+      internalID: -6820028723514542700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb5bbc706b87610800000000000000
+      internalID: 1619244210638404769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d4a64b4f6df5d0800000000000000
+      internalID: -3027141005424667914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_33
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e18adcffb07b6e0800000000000000
+      internalID: -1821974330953163147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fce52479b2fccd20800000000000000
+      internalID: 3300279505287245047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9598c892d20711d60800000000000000
+      internalID: 7859186164011141465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef2b62e7b5834770800000000000000
+      internalID: 8593859538777223140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_37
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92faacee8af99de00800000000000000
+      internalID: 1070061934386786089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24ebbfee6130cbb0800000000000000
+      internalID: -4917876440550349781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rope_Left_Swing_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1e6bd2a6cbe0c60800000000000000
+      internalID: 7786367969989681647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6f2de164b0a7f44499086abf10701247
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

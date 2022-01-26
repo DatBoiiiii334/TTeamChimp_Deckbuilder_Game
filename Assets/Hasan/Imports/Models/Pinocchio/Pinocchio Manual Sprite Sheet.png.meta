@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: 8826cd9ce92662343aa4b08b8fe9a588
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2966047236741552920
+    second: Pinocchio Manual Sprite Sheet_0
+  - first:
+      213: 4970022143113527631
+    second: Pinocchio Manual Sprite Sheet_1
+  - first:
+      213: -8920477480547195667
+    second: Pinocchio Manual Sprite Sheet_2
+  - first:
+      213: -1900973209820523536
+    second: Pinocchio Manual Sprite Sheet_3
+  - first:
+      213: -3559722606603095570
+    second: Pinocchio Manual Sprite Sheet_4
+  - first:
+      213: -5600366982899614670
+    second: Pinocchio Manual Sprite Sheet_5
+  - first:
+      213: -6557297013242975596
+    second: Pinocchio Manual Sprite Sheet_6
+  - first:
+      213: 815371844116358755
+    second: Pinocchio Manual Sprite Sheet_7
+  - first:
+      213: 2453324816498337725
+    second: Pinocchio Manual Sprite Sheet_8
+  - first:
+      213: 2097241371103330168
+    second: Pinocchio Manual Sprite Sheet_9
+  - first:
+      213: 138208550615459523
+    second: Pinocchio Manual Sprite Sheet_10
+  - first:
+      213: -653917362856542853
+    second: Pinocchio Manual Sprite Sheet_11
+  - first:
+      213: 8299541895365456972
+    second: Pinocchio Manual Sprite Sheet_12
+  - first:
+      213: -1791570773796389292
+    second: Pinocchio Manual Sprite Sheet_13
+  - first:
+      213: 1372494320894232108
+    second: Pinocchio Manual Sprite Sheet_14
+  - first:
+      213: -2318671605534332019
+    second: Pinocchio Manual Sprite Sheet_15
+  - first:
+      213: -1776617811908096716
+    second: Pinocchio Manual Sprite Sheet_16
+  - first:
+      213: -174627595237434655
+    second: Pinocchio Manual Sprite Sheet_17
+  - first:
+      213: 3381535896308344412
+    second: Pinocchio Manual Sprite Sheet_18
+  - first:
+      213: 3298736902605142178
+    second: Pinocchio Manual Sprite Sheet_19
+  - first:
+      213: 2485831935287380424
+    second: Pinocchio Manual Sprite Sheet_20
+  - first:
+      213: -4048576302446652219
+    second: Pinocchio Manual Sprite Sheet_21
+  - first:
+      213: -615672056027559133
+    second: Pinocchio Manual Sprite Sheet_22
+  - first:
+      213: 4143170495351589179
+    second: Pinocchio Manual Sprite Sheet_23
+  - first:
+      213: 7095785983870631190
+    second: Pinocchio Manual Sprite Sheet_24
+  - first:
+      213: 1289643902672194986
+    second: Pinocchio Manual Sprite Sheet_25
+  - first:
+      213: -218426625796339921
+    second: Pinocchio Manual Sprite Sheet_26
+  - first:
+      213: -5494710555176450011
+    second: Pinocchio Manual Sprite Sheet_27
+  - first:
+      213: 8483379945786290752
+    second: Pinocchio Manual Sprite Sheet_28
+  - first:
+      213: -4770578682230744661
+    second: Pinocchio Manual Sprite Sheet_29
+  - first:
+      213: -4077127672326248562
+    second: Pinocchio Manual Sprite Sheet_30
+  - first:
+      213: 1099673543667022631
+    second: Pinocchio Manual Sprite Sheet_31
+  - first:
+      213: -4144700545472439401
+    second: Pinocchio Manual Sprite Sheet_32
+  - first:
+      213: -3714378493467822392
+    second: Pinocchio Manual Sprite Sheet_33
+  - first:
+      213: 2030767716244412190
+    second: Pinocchio Manual Sprite Sheet_34
+  - first:
+      213: 2549241809036382324
+    second: Pinocchio Manual Sprite Sheet_35
+  - first:
+      213: 8171223451125227362
+    second: Pinocchio Manual Sprite Sheet_36
+  - first:
+      213: 1491296692315027535
+    second: Pinocchio Manual Sprite Sheet_37
+  - first:
+      213: -533211411015645285
+    second: Pinocchio Manual Sprite Sheet_38
+  - first:
+      213: -6877257544343899515
+    second: Pinocchio Manual Sprite Sheet_39
+  - first:
+      213: 471148073135249582
+    second: Pinocchio Manual Sprite Sheet_40
+  - first:
+      213: -306072764512438019
+    second: Pinocchio Manual Sprite Sheet_41
+  - first:
+      213: 1065123013754951417
+    second: Pinocchio Manual Sprite Sheet_42
+  - first:
+      213: -2139300675119982893
+    second: Pinocchio Manual Sprite Sheet_43
+  - first:
+      213: 1123392570989152069
+    second: Pinocchio Manual Sprite Sheet_44
+  - first:
+      213: -3221277938491212079
+    second: Pinocchio Manual Sprite Sheet_45
+  - first:
+      213: 7525671549461488844
+    second: Pinocchio Manual Sprite Sheet_46
+  - first:
+      213: 1803202899679482134
+    second: Pinocchio Manual Sprite Sheet_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b520d3f34892920800000000000000
+      internalID: 2966047236741552920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f418b1e8ec019f440800000000000000
+      internalID: 4970022143113527631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4ec118ef8143480800000000000000
+      internalID: -8920477480547195667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f31d1dffe26e95e0800000000000000
+      internalID: -1900973209820523536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1be764623599ec0800000000000000
+      internalID: -3559722606603095570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 7560
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c317ca6ef7742b0800000000000000
+      internalID: -5600366982899614670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a2ce6cb1dcff4a0800000000000000
+      internalID: -6557297013242975596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36629684f58c05b00800000000000000
+      internalID: 815371844116358755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7a80e1ce5fb0220800000000000000
+      internalID: 2453324816498337725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ffdd45ae5ea1d10800000000000000
+      internalID: 2097241371103330168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c62b5cc1f30be100800000000000000
+      internalID: 138208550615459523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 6480
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7db9728f91dce6f0800000000000000
+      internalID: -653917362856542853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44fab78165ed2370800000000000000
+      internalID: 8299541895365456972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef4e59fdf0327e0800000000000000
+      internalID: -1791570773796389292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26442520541c0310800000000000000
+      internalID: 1372494320894232108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b6759a57c62dfd0800000000000000
+      internalID: -2318671605534332019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0693538f2857e0800000000000000
+      internalID: -1776617811908096716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 5400
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea54e99029939df0800000000000000
+      internalID: -174627595237434655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e0b64bf0adee20800000000000000
+      internalID: 3381535896308344412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a870474cb777cd20800000000000000
+      internalID: 3298736902605142178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9402289f27f7220800000000000000
+      internalID: 2485831935287380424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45a9e9d4190d7c0800000000000000
+      internalID: -4048576302446652219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc75ae681b477f0800000000000000
+      internalID: -615672056027559133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 4320
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398f433d9f7f7930800000000000000
+      internalID: 4143170495351589179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dfdcad1cb497260800000000000000
+      internalID: 7095785983870631190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad4681fb4cb5e110800000000000000
+      internalID: 1289643902672194986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270cef142ef7fcf0800000000000000
+      internalID: -218426625796339921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5284e1fbcdddeb3b0800000000000000
+      internalID: -5494710555176450011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042b3432d150bb570800000000000000
+      internalID: 8483379945786290752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9d590d6ff7bcdb0800000000000000
+      internalID: -4770578682230744661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87241bcbf12b67c0800000000000000
+      internalID: -4077127672326248562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bfa2bf243d24f00800000000000000
+      internalID: 1099673543667022631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b5fbe30d01b76c0800000000000000
+      internalID: -4144700545472439401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6ff779070e37cc0800000000000000
+      internalID: -3714378493467822392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17541c7a7cbe2c10800000000000000
+      internalID: 2030767716244412190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470103a3be9b06320800000000000000
+      internalID: 2549241809036382324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f19a09f64066170800000000000000
+      internalID: 8171223451125227362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48f620c07622b410800000000000000
+      internalID: 1491296692315027535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b974a38fb07a998f0800000000000000
+      internalID: -533211411015645285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582b18063b21f80a0800000000000000
+      internalID: -6877257544343899515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea816df1daad98600800000000000000
+      internalID: 471148073135249582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df870db317c90cbf0800000000000000
+      internalID: -306072764512438019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f615fcdcb318ce00800000000000000
+      internalID: 1065123013754951417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d658b7de5daf42e0800000000000000
+      internalID: -2139300675119982893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470f116797179f00800000000000000
+      internalID: 1123392570989152069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1debd6138c8bb43d0800000000000000
+      internalID: -3221277938491212079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc46ae9c66e807860800000000000000
+      internalID: 7525671549461488844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinocchio Manual Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6119955cb73460910800000000000000
+      internalID: 1803202899679482134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 736e1a2c8b809b0489c2bab1ede06d83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
