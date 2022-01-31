@@ -13,8 +13,8 @@ namespace FMODUnity
     public class TestingScriptForNino : MonoBehaviour
     {
         // HASANS FEEL DING
-        public MMFeedbacks enemyFeedback;
-        public MMFeedbacks heroFeedback;
+        // public MMFeedbacks enemyFeedback;
+        // public MMFeedbacks heroFeedback;
 
         //public Animator TransitionScreenAnim, ShopAnim;
         public GameObject MusicPanel;
@@ -37,8 +37,8 @@ namespace FMODUnity
 
         private void Start()
         {
-            enemyFeedback = GetComponent<MMFeedbacks>();
-            heroFeedback = GetComponent<MMFeedbacks>();
+            // enemyFeedback = GetComponent<MMFeedbacks>();
+            // heroFeedback = GetComponent<MMFeedbacks>();
 
             myFSM = GetComponent<FSM>();
         }
@@ -81,8 +81,8 @@ namespace FMODUnity
             if (Input.GetKeyDown(KeyCode.Alpha6))
             {
                 // HASANS DING
-                enemyFeedback.PlayFeedbacks();
-                heroFeedback.PlayFeedbacks();
+                // enemyFeedback.PlayFeedbacks();
+                // heroFeedback.PlayFeedbacks();
 
                 // CHRIS DING
                 FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);

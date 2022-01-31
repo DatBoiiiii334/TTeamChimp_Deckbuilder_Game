@@ -22,26 +22,30 @@ public class EnemyTurnState : State
         {
             case 0:
                 StartCoroutine(WaitToChangeIntent());
-                ComidAttack(EnemyBody._instanceEnemyBody._core.basicAttack, "BasicAttack");
-                 EnemyBody._instanceEnemyBody.EnemyTurn();
+                ComidAttack(EnemyBody._instanceEnemyBody._core.basicAttack);
+                Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attacked);
+                EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attack);
+                EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 1:
                 StartCoroutine(WaitToChangeIntent());
-                ComidRegen(EnemyBody._instanceEnemyBody._core.maxBuff, 0);
+                ComidRegenHeal(EnemyBody._instanceEnemyBody._core.maxBuff);
                  EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 2:
                 StartCoroutine(WaitToChangeIntent());
-                ComidAttack(EnemyBody._instanceEnemyBody._core.specialAttack, "BasicAttack");
-                 EnemyBody._instanceEnemyBody.EnemyTurn();
+                ComidAttack(EnemyBody._instanceEnemyBody._core.specialAttack);
+                Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attacked);
+                EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attack);
+                EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 3:
                 StartCoroutine(WaitToChangeIntent());
-                ComidRegen(0, EnemyBody._instanceEnemyBody._core.maxBuff);
-                 EnemyBody._instanceEnemyBody.EnemyTurn();
+                ComidRegenShield(EnemyBody._instanceEnemyBody._core.maxBuff);
+                EnemyBody._instanceEnemyBody.EnemyTurn();
                 break;
 
             case 4:
@@ -58,14 +62,25 @@ public class EnemyTurnState : State
         }
     }
 
-    public void ComidRegen(int heal, int shield)
+    public void ComidRegenShield(int shield)
     {
-        StartCoroutine(EnemyDoAction("Heal"));
+        //StartCoroutine(EnemyDoAction("Heal"));
+        EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Shield);
         EnemyBody._instanceEnemyBody.Shield += shield;
-        EnemyBody._instanceEnemyBody.Health += heal;
         if(EnemyBody._instanceEnemyBody.Shield + shield > EnemyBody._instanceEnemyBody._core.maxShield){
             EnemyBody._instanceEnemyBody.Shield = EnemyBody._instanceEnemyBody._core.maxShield;
         }
+
+        EnemyBody._instanceEnemyBody.UpdateEnemyUI();
+        StartCoroutine(GoToNextState());
+        //EnemyBody._instanceEnemyBody.EnemyTurn();
+    }
+
+    public void ComidRegenHeal(int heal)
+    {
+        //StartCoroutine(EnemyDoAction("Heal"));
+        EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Heal);
+        EnemyBody._instanceEnemyBody.Health += heal;
         if(EnemyBody._instanceEnemyBody.Health + heal > EnemyBody._instanceEnemyBody._core.maxHealth){
             EnemyBody._instanceEnemyBody.Health = EnemyBody._instanceEnemyBody._core.maxHealth;
         }
@@ -74,10 +89,10 @@ public class EnemyTurnState : State
         //EnemyBody._instanceEnemyBody.EnemyTurn();
     }
 
-    public void ComidAttack(int damage, string call)
+    public void ComidAttack(int damage)
     {
         Player._player.forPlayerTicks += 1;
-        StartCoroutine(EnemyAttackSequence());
+        //StartCoroutine(EnemyAttackSequence());
         if (Player._player.Shield >= damage)
         {
             Player._player.Shield -= damage;

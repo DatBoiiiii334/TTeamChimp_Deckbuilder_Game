@@ -10421,7 +10421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1056891485
 Transform:
   m_ObjectHideFlags: 0
@@ -16758,8 +16758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f20026a4e54336459832ddf3961e49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyFeedback: {fileID: 0}
-  heroFeedback: {fileID: 0}
   MusicPanel: {fileID: 1152203021}
   DelayAmountForBuffs: 0
   DelayAmountForAttacks: 0
@@ -19923,7 +19921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2128377041
 Transform:
   m_ObjectHideFlags: 0
@@ -28117,7 +28115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &3646681226743929898
 MeshRenderer:
   m_ObjectHideFlags: 0

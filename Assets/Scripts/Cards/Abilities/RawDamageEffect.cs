@@ -8,6 +8,11 @@ public class RawDamageEffect : BaseEffect
     {
         Debug.Log("RawDamageEffect");
         GameManager._instance.DamageEnemy(template.cardDamageValue);
+        //FeelsController._instance.TriggerFeelItem(FeelsController._instance.BelleFeels,1);
+        Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attack);
+        EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attacked);
+        //string gay = EnemyBody._instanceEnemyBody._core.name;
+        //FeelsController._instance.TriggerFeelItem(FeelsController._instance.BelleFeels,1);
         Debug.Log("DamageDone: " + template.cardDamageValue + " with " + template.card.Name);
     }
 }

@@ -12,6 +12,8 @@ public class FireEffect : BaseEffect
         //TickManager._tickManager.forEnemyTicks += 3;
         //GameManager._instance.forEnemyTickDamage = template.card.AttackDamage;
         //TickManager._tickManager.ApplyTickToEnemy(template.card.AttackDamage);
+        Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().magicAttacked);
+        EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().magicAttacked);
         GameManager._instance.StartCoroutine(GameManager._instance.TimedFireDamage());
         Debug.Log("Fire");
     }

@@ -29,7 +29,8 @@ public class ApplyPlayerTicksOnEnemyState : State
     IEnumerator DoTimedAction(){
         yield return new WaitForSeconds(1f);
         //EnemyBody._instanceEnemyBody.myAnimator.SetTrigger("BleedDmg");
-        EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
+        EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attacked);
+        //EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
         TickDamageToEnemy(GameManager._instance.forEnemyTickDamage);
         yield return new WaitForSeconds(1f);
         myFSM.SetCurrentState(typeof(EnemyTurnState));

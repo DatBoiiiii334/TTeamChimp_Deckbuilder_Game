@@ -25,7 +25,6 @@ public class EnemyBody : MonoBehaviour
     public void Start()
     {
         myAnimator = gameObject.GetComponent<Animator>();
-
     }
 
     public void UpdateEnemyValuesBasedOnCore()
@@ -55,12 +54,6 @@ public class EnemyBody : MonoBehaviour
         // Instantiate(_core.enemyGameObject, _core.EnemyPosition, Quaternion.identity, gameObject.transform);
         
         UpdateEnemyValuesBasedOnCore();
-
-        if (_core.name == "Gnomes")
-        {
-            gameObject.transform.GetChild(0).transform.position = new Vector3(transform.GetChild(0).transform.position.x,1.5f,transform.GetChild(0).transform.position.z);
-            print(gameObject.transform.GetChild(0).transform.position);
-        }
     }
 
 

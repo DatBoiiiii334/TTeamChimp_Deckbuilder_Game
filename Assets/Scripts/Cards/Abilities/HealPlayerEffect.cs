@@ -15,7 +15,8 @@ public class HealPlayerEffect : BaseEffect
         if(Player._player.Health + template.card.Health > Player._player.maxHealth){
             Player._player.Health = Player._player.maxHealth;
         }
-        Player._player.anim.SetTrigger("DoHealAnim");
+        Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Heal);
+        //Player._player.anim.SetTrigger("DoHealAnim");
         Player._player.UpdatePlayerUI();
         EnemyBody._instanceEnemyBody.UpdateEnemyUI();
     }
