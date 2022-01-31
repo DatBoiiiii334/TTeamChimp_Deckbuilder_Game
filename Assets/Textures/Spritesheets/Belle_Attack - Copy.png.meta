@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: 74856e7d720e93b4bb486eb0232b6ab6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6461707399960546843
+    second: Belle_Attack - Copy_0
+  - first:
+      213: 3227630185279842364
+    second: Belle_Attack - Copy_1
+  - first:
+      213: 1089776141385993964
+    second: Belle_Attack - Copy_2
+  - first:
+      213: 8292130598832922928
+    second: Belle_Attack - Copy_3
+  - first:
+      213: -2615839021128212605
+    second: Belle_Attack - Copy_4
+  - first:
+      213: 410762562392189125
+    second: Belle_Attack - Copy_5
+  - first:
+      213: -8390783630187448220
+    second: Belle_Attack - Copy_6
+  - first:
+      213: 2398042176175293273
+    second: Belle_Attack - Copy_7
+  - first:
+      213: 4172974421638734430
+    second: Belle_Attack - Copy_8
+  - first:
+      213: -2755091528219447567
+    second: Belle_Attack - Copy_9
+  - first:
+      213: -6620402980380367482
+    second: Belle_Attack - Copy_10
+  - first:
+      213: 1538523981456560813
+    second: Belle_Attack - Copy_11
+  - first:
+      213: 4420790507690054490
+    second: Belle_Attack - Copy_12
+  - first:
+      213: 3337849696619148225
+    second: Belle_Attack - Copy_13
+  - first:
+      213: -3437824211996367491
+    second: Belle_Attack - Copy_14
+  - first:
+      213: 8180833988248099866
+    second: Belle_Attack - Copy_15
+  - first:
+      213: -6328503259703606587
+    second: Belle_Attack - Copy_16
+  - first:
+      213: 8283588803384684936
+    second: Belle_Attack - Copy_17
+  - first:
+      213: 3996716656132148639
+    second: Belle_Attack - Copy_18
+  - first:
+      213: 4526166903060642812
+    second: Belle_Attack - Copy_19
+  - first:
+      213: 463279944337159159
+    second: Belle_Attack - Copy_20
+  - first:
+      213: -1418226125902959041
+    second: Belle_Attack - Copy_21
+  - first:
+      213: -3479067808417157080
+    second: Belle_Attack - Copy_22
+  - first:
+      213: 2968414527354977902
+    second: Belle_Attack - Copy_23
+  - first:
+      213: -3629769318838193271
+    second: Belle_Attack - Copy_24
+  - first:
+      213: -1909782409690572290
+    second: Belle_Attack - Copy_25
+  - first:
+      213: 3204606651597152674
+    second: Belle_Attack - Copy_26
+  - first:
+      213: 1656654339529660473
+    second: Belle_Attack - Copy_27
+  - first:
+      213: 2718879022529033833
+    second: Belle_Attack - Copy_28
+  - first:
+      213: -3165053522340082663
+    second: Belle_Attack - Copy_29
+  - first:
+      213: 7425516332878080008
+    second: Belle_Attack - Copy_30
+  - first:
+      213: -6440421627766965575
+    second: Belle_Attack - Copy_31
+  - first:
+      213: 1171710096354070277
+    second: Belle_Attack - Copy_32
+  - first:
+      213: -1676372588421470802
+    second: Belle_Attack - Copy_33
+  - first:
+      213: 27726963944155408
+    second: Belle_Attack - Copy_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5820
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e492905a89ca950800000000000000
+      internalID: 6461707399960546843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 5820
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38eee38d88dacc20800000000000000
+      internalID: 3227630185279842364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 5820
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee020070a9af1f00800000000000000
+      internalID: 1089776141385993964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 5820
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031659698d0931370800000000000000
+      internalID: 8292130598832922928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5820
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f1c04054ca2bbd0800000000000000
+      internalID: -2615839021128212605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4850
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c86a6acf5253b500800000000000000
+      internalID: 410762562392189125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 4850
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468b38f9eb2fd8b80800000000000000
+      internalID: -8390783630187448220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 4850
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953455367ae874120800000000000000
+      internalID: 2398042176175293273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 4850
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52619a802269e930800000000000000
+      internalID: 4172974421638734430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4850
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feaac82ad2f3c9d0800000000000000
+      internalID: -2755091528219447567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3880
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685ad74d09a9f14a0800000000000000
+      internalID: -6620402980380367482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 3880
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da25321e86fe95510800000000000000
+      internalID: 1538523981456560813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3880
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53d84d5b8dc95d30800000000000000
+      internalID: 4420790507690054490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3880
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c331a84d9c625e20800000000000000
+      internalID: 3337849696619148225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3880
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7528b3f7156a40d0800000000000000
+      internalID: -3437824211996367491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2910
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c58fb1b29288170800000000000000
+      internalID: 8180833988248099866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2910
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2077da0d3ac28a0800000000000000
+      internalID: -6328503259703606587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2910
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881b52bd02835f270800000000000000
+      internalID: 8283588803384684936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2910
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dc4ac8f90377730800000000000000
+      internalID: 3996716656132148639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2910
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb3f0351dc20de30800000000000000
+      internalID: 4526166903060642812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1940
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f377c1a7a6ed6600800000000000000
+      internalID: 463279944337159159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1940
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e20624ad2715ce0800000000000000
+      internalID: -1418226125902959041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1940
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207cc9d24ed7bfc0800000000000000
+      internalID: -3479067808417157080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1940
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e3a19094de13920800000000000000
+      internalID: 2968414527354977902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1940
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983b90e290870adc0800000000000000
+      internalID: -3629769318838193271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef99a1054071f75e0800000000000000
+      internalID: -1909782409690572290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 970
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a16d4955cc097c20800000000000000
+      internalID: 3204606651597152674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 970
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938564f285e9df610800000000000000
+      internalID: 1656654339529660473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 970
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ba15d0166bb520800000000000000
+      internalID: 2718879022529033833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 970
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c02d137987314d0800000000000000
+      internalID: -3165053522340082663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8082f0f33cbbc0760800000000000000
+      internalID: 7425516332878080008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf43107a60f96a0800000000000000
+      internalID: -6440421627766965575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f4ce8ef10c24010800000000000000
+      internalID: 1171710096354070277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5afeb33045cb8e0800000000000000
+      internalID: -1676372588421470802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belle_Attack - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 1100
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019679cd681826000800000000000000
+      internalID: 27726963944155408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

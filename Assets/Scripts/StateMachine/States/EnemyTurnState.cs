@@ -97,7 +97,8 @@ public class EnemyTurnState : State
 
             if (Player._player.Health <= 0)
             {
-                GameManager._instance.LoseScreen.SetActive(true);
+                //GameManager._instance.LoseScreen.SetActive(true);
+                myFSM.SetCurrentState(typeof(PlayerLoseState));
             }
         }
     }

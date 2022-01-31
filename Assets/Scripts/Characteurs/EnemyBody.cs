@@ -50,7 +50,10 @@ public class EnemyBody : MonoBehaviour
         }
         EnemyTurn();
         GameObject enemyArt;
-        enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
+         enemyArt = Instantiate(_core.enemyGameObject, transform.position, Quaternion.identity, gameObject.transform);
+        // enemyArt = Instantiate(_core.enemyGameObject, _core.EnemyPosition, Quaternion.identity, gameObject.transform);
+        // Instantiate(_core.enemyGameObject, _core.EnemyPosition, Quaternion.identity, gameObject.transform);
+        
         UpdateEnemyValuesBasedOnCore();
 
         if (_core.name == "Gnomes")

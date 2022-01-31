@@ -27,11 +27,15 @@ public class PlayerLoseState: State{
     }
 
     public void GoToMainMenu(){
+        GridMapState._instance.IntroHasAlreadyHappend = false;
+        GridSystem._instance.ResetGrid();
         myFSM.SetCurrentState(typeof(MainMenuState));
     }
     
     public void Reset() {
         print("Reset");
+        // GridMapState._instance.IntroHasAlreadyHappend = false;
+        // GridSystem._instance.ResetGrid();
         Player._player.ResetPlayerStats();
         EnemyBody._instanceEnemyBody.ResetEnemy();
         myFSM.SetCurrentState(typeof(PlayerEnterState));
