@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Gnomes
   m_EditorClassIdentifier: 
   _name: Corrupted Gnmoes
-  _maxHealth: 100
-  _maxShield: 40
-  _basicAttack: 25
-  _specialAttack: 20
+  _maxHealth: 50
+  _maxShield: 10
+  _basicAttack: 10
+  _specialAttack: 15
   _maxBuff: 10
   enemyGameObject: {fileID: 6880202402780613268, guid: 12ef8a86e2ea3c34e9c97e09afc1d346, type: 3}

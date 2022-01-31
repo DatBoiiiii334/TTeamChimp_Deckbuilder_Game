@@ -13,7 +13,7 @@ ___________________________TODO TODAY_________________________________
     5. Tutorial???
 
     6. Implementeer 
-        - TurnBaner en mana van cindy
+        - TurnBaner en mana van cindy [Done]
 
 
 */

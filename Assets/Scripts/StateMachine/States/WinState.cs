@@ -15,18 +15,13 @@ public class WinState : State
 
     public override void Exit()
     {
-        StartCoroutine(OnExit());
+        // StartCoroutine(OnExit());
     }
 
     public void OpenNewCardsWindow()
     {
         CardDisplay.SetActive(true);
         PlaceNewCards();
-    }
-
-    public void CloseNewCardsWindow()
-    {
-        CardDisplay.SetActive(false);
     }
 
     public void PlaceNewCards()
@@ -46,8 +41,9 @@ public class WinState : State
     }
 
     public void GoToMap(){
-         myFSM.SetCurrentState(typeof(GridMapState));
-         print("GO to map pls");
+        StartCoroutine(OnExit());
+        myFSM.SetCurrentState(typeof(GridMapState));
+        print("GO to map pls");
     }
 
     private IEnumerator OnEnter(){
@@ -59,7 +55,8 @@ public class WinState : State
     private IEnumerator OnExit(){
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         yield return new WaitForSeconds(2f);
-        CloseNewCardsWindow();
+        CardDisplay.SetActive(false);
+        GameManager._instance.FightScene.SetActive(false);
     }
 
     private void Awake() {
