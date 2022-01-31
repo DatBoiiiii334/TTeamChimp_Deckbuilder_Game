@@ -13,7 +13,8 @@ namespace FMODUnity
     public class TestingScriptForNino : MonoBehaviour
     {
         // HASANS FEEL DING
-        public MMFeedbacks myFeedback;
+        public MMFeedbacks enemyFeedback;
+        public MMFeedbacks heroFeedback;
 
         //public Animator TransitionScreenAnim, ShopAnim;
         public GameObject MusicPanel;
@@ -36,78 +37,81 @@ namespace FMODUnity
 
         private void Start()
         {
-            myFeedback = GetComponent<MMFeedbacks>();
+            enemyFeedback = GetComponent<MMFeedbacks>();
+            heroFeedback = GetComponent<MMFeedbacks>();
+
             myFSM = GetComponent<FSM>();
         }
 
         void Update()
         {
             // TRIGGERING BUFFS
-            // if (Input.GetKeyDown(KeyCode.Alpha1))
-            // {
-            //     StartCoroutine(DelayWithParticle(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
-            //     AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
-            //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.AttackSoundeffect);
-            // }
-            // if (Input.GetKeyDown(KeyCode.Alpha2))
-            // {
-            //     StartCoroutine(DelayWithParticle(AnimationController._instance.ShieldParticleBelle, FMODUnity.AudioManager._instance.ShieldSoundeffect));
-            //     AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
-            //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.ShieldSoundeffect);
-            // }
-            // if (Input.GetKeyDown(KeyCode.Alpha3))
-            // {
-            //     StartCoroutine(DelayWithParticle(AnimationController._instance.UtilityParticleBelle, FMODUnity.AudioManager._instance.UtilitySoundeffect));
-            //     AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
-            //     FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.UtilitySoundeffect);
-            // }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                StartCoroutine(DelayWithParticle(AnimationController._instance.PowerUpAttackBelle, FMODUnity.AudioManager._instance.AttackSoundeffect));
+                AnimationController._instance.PlayParticleList(AnimationController._instance.PowerUpAttackBelle);
+                FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.AttackSoundeffect);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                StartCoroutine(DelayWithParticle(AnimationController._instance.ShieldParticleBelle, FMODUnity.AudioManager._instance.ShieldSoundeffect));
+                AnimationController._instance.PlayParticleList(AnimationController._instance.ShieldParticleBelle);
+                FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.ShieldSoundeffect);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                StartCoroutine(DelayWithParticle(AnimationController._instance.UtilityParticleBelle, FMODUnity.AudioManager._instance.UtilitySoundeffect));
+                AnimationController._instance.PlayParticleList(AnimationController._instance.UtilityParticleBelle);
+                FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.UtilitySoundeffect);
+            }
 
-            // // TRIGGERING ATTACKS
-            // if (Input.GetKeyDown(KeyCode.Alpha4))
-            // {
-            //     FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
-            //     StartCoroutine(Delay( FMODUnity.AudioManager._instance.SwipeAttack));
-            //     Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-            // }
-            // if (Input.GetKeyDown(KeyCode.Alpha5))
-            // {
-            //     FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
-            //     StartCoroutine(DelayWithParticle(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.BelleAttacks));
-            //     Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-            // }
-            // if (Input.GetKeyDown(KeyCode.Alpha6))
-            // {
-            //     // HASANS DING
-            //     myFeedback.PlayFeedbacks();
+            // TRIGGERING ATTACKS
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
+                StartCoroutine(Delay( FMODUnity.AudioManager._instance.SwipeAttack));
+                Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
+                StartCoroutine(DelayWithParticle(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.BelleAttacks));
+                Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                // HASANS DING
+                enemyFeedback.PlayFeedbacks();
+                heroFeedback.PlayFeedbacks();
 
-            //     // CHRIS DING
-            //     FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
-            //     StartCoroutine(Delay( FMODUnity.AudioManager._instance.BasicAttacks));
-            //     EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
-            //     Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-            // }
+                // CHRIS DING
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageOutput", damageValue);
+                StartCoroutine(Delay( FMODUnity.AudioManager._instance.BasicAttacks));
+                EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Hit");
+                Player._player.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+            }
 
-            // //TRIGGER PLAYER GETTING HIT 
-            // if (Input.GetKeyDown(KeyCode.Alpha7))
-            // {
-            //     FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageReveiced", damageValueWhenPlayerGetsHit);
-            //     //StartCoroutine(Delay(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.BasicAttacks));
-            //     EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
-            // }
+            //TRIGGER PLAYER GETTING HIT 
+            if (Input.GetKeyDown(KeyCode.Alpha7))
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DamageReveiced", damageValueWhenPlayerGetsHit);
+                //StartCoroutine(Delay(AnimationController._instance.FireDamageBelle, FMODUnity.AudioManager._instance.BasicAttacks));
+                EnemyBody._instanceEnemyBody.transform.GetChild(0).GetComponent<Animator>().SetTrigger("BasicAttack");
+            }
 
 
-            // if (Input.GetKeyDown(KeyCode.N))
-            // {
-            //     GridMapState._instance.ChangeEnemy();
-            //     //MainMenuState._instance.MainMenu.SetActive(false);
-            //     print("Command go Directly to FightScene");
-            // }
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                GridMapState._instance.ChangeEnemy();
+                //MainMenuState._instance.MainMenu.SetActive(false);
+                print("Command go Directly to FightScene");
+            }
 
-            // if (Input.GetKeyDown(KeyCode.M))
-            // {
-            //     //Show Music Panel
-            //     MusicPanel.gameObject.SetActive(true);
-            // }
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                //Show Music Panel
+                MusicPanel.gameObject.SetActive(true);
+            }
         }
 
         public IEnumerator DelayWithParticle(List<ParticleSystem> myParticlelist, FMODUnity.EventReference SoundEffect)

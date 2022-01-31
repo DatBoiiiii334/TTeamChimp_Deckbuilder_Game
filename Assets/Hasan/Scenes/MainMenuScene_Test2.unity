@@ -283,6 +283,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 119441940}
     m_Modifications:
+<<<<<<< HEAD
+    - target: {fileID: 1263338917881088367, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262504251364827539, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0b47ef4b6889bad44b4a2f9d688ea436, type: 2}
+    - target: {fileID: 3635024303336765852, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+=======
     - target: {fileID: 211801507628871529, guid: f33d26508a98b9c4098ce3465dfc9116, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -300,10 +311,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 0b47ef4b6889bad44b4a2f9d688ea436, type: 2}
     - target: {fileID: 7189779358748713901, guid: f33d26508a98b9c4098ce3465dfc9116, type: 3}
+>>>>>>> b78f343b846951218d6060dbfa26035d54c28c30
       propertyPath: m_Name
       value: BookCacheAnimation
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 6040352686906173980, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040352686906173980, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151003909133505809, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.747507
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151003909133505809, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273960211773906725, guid: 409160b6b7b96254899c6744aa91530c, type: 3}
+=======
     - target: {fileID: 7533654212171233559, guid: f33d26508a98b9c4098ce3465dfc9116, type: 3}
+>>>>>>> b78f343b846951218d6060dbfa26035d54c28c30
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
