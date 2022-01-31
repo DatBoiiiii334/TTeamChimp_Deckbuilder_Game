@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 0
   _name: Violent Ignite
   _description: Deal 3 damage and deal 3 damage per enemy stack
-  Image: {fileID: 21300000, guid: 24795e2d153439a49be8d3bcd41323e0, type: 3}
+  Image: {fileID: 21300000, guid: a8628cbc133fdf7408f3e0992a4cd553, type: 3}
   _mana: 1
   _attackDamage: 3
   _tickDamage: 3

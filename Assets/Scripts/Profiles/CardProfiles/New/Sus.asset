@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   _name: Amugus sus
-  _description: Deal 10 flat damage
+  _description: Deal 10 damage
   Image: {fileID: 21300000, guid: 39c85f0219c0e0d418f0a86e4a0673c3, type: 3}
   _mana: 2
   _attackDamage: 10
