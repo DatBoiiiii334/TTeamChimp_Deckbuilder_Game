@@ -23763,6 +23763,10 @@ PrefabInstance:
       propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5787486317378094196, guid: a9c6098006c5d484896baec37fffe191, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5787486317378094199, guid: a9c6098006c5d484896baec37fffe191, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.506714

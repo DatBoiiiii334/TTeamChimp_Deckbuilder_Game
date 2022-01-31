@@ -2,6 +2,18 @@
 
 ___________________________TODO TODAY_________________________________
 
+    - Implementeer feels in attacks
+
+    
+    - pinokia volgt muis met oog
+    - Banner - artists
+    - Overgang - artists
+
+
+
+
+
+
     1. Gridmap systeem designen en maken
 
     2. Selectieveld designen en maken
