@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
     [Header("Delay Amount for Volume")]
     public float delayValue;
 
+    [Header("Icons")]
+    public Sprite[] SpriteList; 
+
     public void Start()
     {
         myFSM = GetComponent<FSM>();
