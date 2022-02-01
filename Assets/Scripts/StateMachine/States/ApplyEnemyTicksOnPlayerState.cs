@@ -27,6 +27,7 @@ public class ApplyEnemyTicksOnPlayerState : State
     public void TickDamageToPlayer(int tickDmg)
     {
         //Player._player.anim.SetTrigger("TakeDMG");
+        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.BasicAttacks);
         Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attacked);
         Player._player.Health -= tickDmg;
         Player._player.forPlayerTicks -= 1;
