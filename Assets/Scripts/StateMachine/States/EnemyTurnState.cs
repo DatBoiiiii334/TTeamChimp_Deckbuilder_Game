@@ -23,6 +23,7 @@ public class EnemyTurnState : State
             case 0:
                 StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.basicAttack);
+                FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.RedHoodAttack);
                 Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attacked);
                 EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attack);
                 EnemyBody._instanceEnemyBody.EnemyTurn();
@@ -37,6 +38,7 @@ public class EnemyTurnState : State
             case 2:
                 StartCoroutine(WaitToChangeIntent());
                 ComidAttack(EnemyBody._instanceEnemyBody._core.specialAttack);
+                FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.RedHoodAttack);
                 Player._player.GetComponentInChildren<FeelsController>().TriggerFeelItem(Player._player.GetComponentInChildren<FeelsController>().Attacked);
                 EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Attack);
                 EnemyBody._instanceEnemyBody.EnemyTurn();
@@ -65,6 +67,7 @@ public class EnemyTurnState : State
     public void ComidRegenShield(int shield)
     {
         //StartCoroutine(EnemyDoAction("Heal"));
+        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.Shield);
         EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Shield);
         EnemyBody._instanceEnemyBody.Shield += shield;
         if(EnemyBody._instanceEnemyBody.Shield + shield > EnemyBody._instanceEnemyBody._core.maxShield){
@@ -79,6 +82,7 @@ public class EnemyTurnState : State
     public void ComidRegenHeal(int heal)
     {
         //StartCoroutine(EnemyDoAction("Heal"));
+        FMODUnity.AudioManager._instance.TriggerSoundEffect(FMODUnity.AudioManager._instance.Heal);
         EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().TriggerFeelItem(EnemyBody._instanceEnemyBody.GetComponentInChildren<FeelsController>().Heal);
         EnemyBody._instanceEnemyBody.Health += heal;
         if(EnemyBody._instanceEnemyBody.Health + heal > EnemyBody._instanceEnemyBody._core.maxHealth){

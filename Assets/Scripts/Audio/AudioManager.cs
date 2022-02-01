@@ -160,8 +160,6 @@ namespace FMODUnity
 
         private void Awake()
         {
-            
-
             if (_instance != null)
             {
                 Destroy(gameObject);
