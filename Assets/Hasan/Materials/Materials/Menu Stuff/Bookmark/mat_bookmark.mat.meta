@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animations/UI/TransistionScreen/ScreenTransition.anim.meta
+guid: 6c2340f225d69504abf2a8220453a582
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+=======
 guid: eb8b2e097a725eb459b559d318e049cf
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
+>>>>>>> 7e75db1bc7ae7ca7ca1e680113f31067a5f9aee0:Assets/Hasan/Materials/Materials/Menu Stuff/Bookmark/mat_bookmark.mat.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
