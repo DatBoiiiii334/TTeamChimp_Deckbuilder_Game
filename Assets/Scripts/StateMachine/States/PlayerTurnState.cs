@@ -51,8 +51,7 @@ public class PlayerTurnState : State
 
     IEnumerator WaitForCards()
     {
-        // if (CardSystemManager._instance.CardDiscardPilePos.transform.childCount >= 10)
-        if (CardSystemManager._instance.CardDiscardPilePos.transform.childCount >= CardCreator._instance.PlayerCardProfiles.Count)
+        if (CardSystemManager._instance.CardDiscardPilePos.transform.childCount >= 10)
         {
             for (int i = 0; i < CardSystemManager._instance.CardDiscardPilePos.transform.childCount; i++)
             {

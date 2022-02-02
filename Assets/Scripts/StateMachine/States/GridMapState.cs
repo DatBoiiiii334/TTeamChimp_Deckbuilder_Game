@@ -20,7 +20,7 @@ public class GridMapState : State
         GameManager._instance.FightScene.SetActive(false);
         GameManager._instance.ShopScene.SetActive(false);
         if(IntroHasAlreadyHappend == false){
-            StartCoroutine(WaitForBookAnim(CameraFieldOfView, 30f,1.5f));
+            //StartCoroutine(WaitForBookAnim(CameraFieldOfView, 30f,1.5f));
             IntroHasAlreadyHappend = true;
         }else{
             MapVisuals.SetActive(true);

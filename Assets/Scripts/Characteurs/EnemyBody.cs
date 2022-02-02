@@ -22,9 +22,6 @@ public class EnemyBody : MonoBehaviour
     public float enemyYPos;
     private Vector3 newEnemyPos;
 
-    [Header("Enemy buffs/debuffs")]
-    public GameObject[] EnemyIconsList;
-
     public void Start()
     {
         myAnimator = gameObject.GetComponent<Animator>();
@@ -59,49 +56,17 @@ public class EnemyBody : MonoBehaviour
         UpdateEnemyValuesBasedOnCore();
     }
 
-    public void GiveBleed(){
-        print("BLEED IN");
-        //check
-            foreach(GameObject _icon in EnemyIconsList){
-                //if(!_icon.activeSelf){
-                    if(_icon.activeInHierarchy == false){
-                    _icon.SetActive(true);
-                    _icon.transform.GetChild(0).GetComponent<Image>().sprite = GameManager._instance.SpriteList[0];
-                    //_icon.GetComponentInChildren<Image>().sprite = GameManager._instance.SpriteList[1];
-                    return;
-                }
-            }
-    }
-
 
     public void UpdateEnemyUI()
     {
         if (forEnemyTicks > 0)
         {
-            // print("BLEED IN");
-            // foreach(GameObject _icon in EnemyIconsList){
-            //     if(!_icon.activeSelf){
-            //         _icon.SetActive(true);
-            //         _icon.transform.GetChild(0).GetComponent<Image>().sprite = GameManager._instance.SpriteList[0];
-            //         //_icon.GetComponentInChildren<Image>().sprite = GameManager._instance.SpriteList[1];
-            //         return;
-            //     }
-            // }
-            //EnemyIconsList[1].GetComponentInChildren<Image>().sprite = GameManager._instance.SpriteList[1];
-            //BleedIconEnemy.SetActive(true);
+            BleedIconEnemy.SetActive(true);
             _forEnemyTicks.text = forEnemyTicks.ToString();
         }
         if (forEnemyTicks <= 0)
         {
-            foreach(GameObject _icon in EnemyIconsList){
-                if(_icon.activeSelf){
-                    _icon.SetActive(false);
-                    //_icon.GetComponentInChildren<Image>().sprite = GameManager._instance.SpriteList[1];
-                    return;
-                }
-            }
-            print("BLEED OUT");
-            //BleedIconEnemy.SetActive(false);
+            BleedIconEnemy.SetActive(false);
         }
         lastDamageDealtToField.text = lastDamageDealtTo.ToString();
         hpSlider.value = Health;

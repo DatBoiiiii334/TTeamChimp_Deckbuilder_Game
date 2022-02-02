@@ -10,7 +10,7 @@ public class CardPicker : MonoBehaviour
 
     public void OpenNewCardsWindow()
     {
-        //print("YELL");
+        print("YELL");
         CardDisplay.SetActive(true);
         PlaceNewCards();
     }
