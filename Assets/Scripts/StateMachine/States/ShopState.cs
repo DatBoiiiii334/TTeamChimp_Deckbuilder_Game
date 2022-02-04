@@ -23,7 +23,7 @@ public class ShopState : State
         {
             GameObject myCard;
             myCard = Instantiate(CardPrefab, CardSpawnPoint.transform);
-            myCard.GetComponent<DisplayCard>().card = WinState._instance.AllNewCardProfiles[Random.Range(0, WinState._instance.AllNewCardProfiles.Count)];
+            myCard.GetComponent<DisplayCard>().card = CardPicker.instance_CardPicker.AllNewCardProfiles[Random.Range(0, CardPicker.instance_CardPicker.AllNewCardProfiles.Count)];
             Debug.Log("Name: "+myCard.GetComponent<DisplayCard>().card.name);
         }
     }

@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 0
   _name: Shout
   _description: Enemy is feared for his next turn
-  Image: {fileID: 0}
+  Image: {fileID: 21300000, guid: dd9e20b6518f0b44c99fd549089e62af, type: 3}
   _mana: 1
   _attackDamage: 0
   _tickDamage: 0

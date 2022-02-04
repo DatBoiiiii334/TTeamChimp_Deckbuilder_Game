@@ -20,7 +20,7 @@ public class GridMapState : State
         GameManager._instance.FightScene.SetActive(false);
         GameManager._instance.ShopScene.SetActive(false);
         if(IntroHasAlreadyHappend == false){
-            //StartCoroutine(WaitForBookAnim(CameraFieldOfView, 30f,1.5f));
+            StartCoroutine(WaitForBookAnim(1.5f));
             IntroHasAlreadyHappend = true;
         }else{
             MapVisuals.SetActive(true);
@@ -33,6 +33,7 @@ public class GridMapState : State
 
     public override void Exit(){
         MainMenuCamera.fieldOfView = CameraFieldOfView;
+        MapVisuals.SetActive(false);
         MainMenuState._instance.GameScene.SetActive(true);
     }
 
@@ -53,28 +54,31 @@ public class GridMapState : State
         StartCoroutine(TransitionToShopScene());
     }
 
-    public IEnumerator WaitForBookAnim(float startAmount, float EndAmount, float waitAmount){
-        MainMenuState._instance.MainMenuItems.SetActive(false);
+    public IEnumerator WaitForBookAnim(float waitAmount){
+        //MainMenuState._instance.MainMenuItems.SetActive(false);
         yield return new WaitForSeconds(waitAmount);
-        // MapVisuals.SetActive(true);
+        // // MapVisuals.SetActive(true);
         
-        //MainMenuCamera.fieldOfView = 30f;
+        // //MainMenuCamera.fieldOfView = 30f;
 
-        float elapsed = 0.0f;
-        while (elapsed < waitAmount )
-        {
-            MainMenuCamera.fieldOfView = Mathf.Lerp( startAmount, EndAmount, elapsed / waitAmount );
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
-        MainMenuCamera.fieldOfView = EndAmount;
+        // float elapsed = 0.0f;
+        // while (elapsed < waitAmount )
+        // {
+        //     MainMenuCamera.fieldOfView = Mathf.Lerp( startAmount, EndAmount, elapsed / waitAmount );
+        //     elapsed += Time.deltaTime;
+        //     yield return null;
+        // }
+        // MainMenuCamera.fieldOfView = EndAmount;
         MapVisuals.SetActive(true);
     }
 
     public IEnumerator TransitionToFightScene()
     {
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
+        MapVisuals.SetActive(false);
         yield return new WaitForSeconds(1f);
+        
+        //yield return new WaitForSeconds(0.5f);
         myFSM.SetCurrentState(typeof(PlayerEnterState));
         MapVisuals.SetActive(false);
         MainMenuState._instance.MainMenu.SetActive(false);

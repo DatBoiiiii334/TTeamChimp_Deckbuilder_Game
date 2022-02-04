@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 0
   _name: Slice 'n Dice
   _description: Deal 5 dmg and 1 bleed
-  Image: {fileID: 21300000, guid: 61826367c6eb11f4f9fd4d725f6abc3d, type: 3}
+  Image: {fileID: 21300000, guid: 8bb54626242e08a429175e45f5d52466, type: 3}
   _mana: 1
   _attackDamage: 5
   _tickDamage: 5

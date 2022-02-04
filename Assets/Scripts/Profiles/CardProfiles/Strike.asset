@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: 4
   _name: Strike
   _description: Deal <color=red> 5 damage </color>
-  Image: {fileID: 21300000, guid: 8bb54626242e08a429175e45f5d52466, type: 3}
+  Image: {fileID: 21300000, guid: 34f1dac0c8dac0e4ea830e9986cd787c, type: 3}
   _mana: 1
   _attackDamage: 5
   _tickDamage: 0

@@ -93,8 +93,7 @@ public class CardSystemManager : MonoBehaviour
 
     public IEnumerator MoveCards(Transform tragetPos, GameObject currentPos)
     {
-        // for (int i = 0; i < currentPos.transform.childCount; i++)
-        for (int i = 10; i >= 0; i--) //It goes frm top to bottom
+        for (int i = 0; i < currentPos.transform.childCount; i++)
         {
             //print(i);
             currentPos.transform.GetChild(i).gameObject.SetActive(true);
