@@ -8,6 +8,7 @@ public class PlayerEnterState : State
     {
         FMODUnity.AudioManager._instance.ChangeThemeSong(1);
         GameManager._instance.CardDeckBlocker.SetActive(true);
+        MainMenuState._instance.MainMenu.SetActive(false);
         EnemyBody._instanceEnemyBody.ResetEnemy();
         Player._player.ResetPlayerStats();
         //EnemyBody._instanceEnemyBody._core = GridMapState._instance.EnemyTypes[2];

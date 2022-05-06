@@ -13,6 +13,7 @@ public class MainMenuState : State
 
     public override void Enter()
     {
+        
         GameScene.SetActive(false);
         MainMenu.SetActive(true);
         MainMenuItems.SetActive(true);

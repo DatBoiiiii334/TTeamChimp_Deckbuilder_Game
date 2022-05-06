@@ -43,7 +43,20 @@ public class PlayerTurnState : State
         PlayerTurnAmount += 1;
         UIManager._instanceUI.UIBanner.SetActive(true);
         UIManager._instanceUI.Title.text = "Player Turn";
-        UIManager._instanceUI.undertitle.text = PlayerTurnAmount + "th turn";
+
+        if(PlayerTurnAmount == 1){
+            UIManager._instanceUI.undertitle.text = PlayerTurnAmount + "st Turn";
+        }
+        if(PlayerTurnAmount == 2){
+            UIManager._instanceUI.undertitle.text = PlayerTurnAmount + "nd Turn";
+        }
+        if(PlayerTurnAmount == 3){
+            UIManager._instanceUI.undertitle.text = PlayerTurnAmount + "rd Turn";
+        }
+        if(PlayerTurnAmount > 3){
+            UIManager._instanceUI.undertitle.text = PlayerTurnAmount + "th Turn";
+        }
+        
         UIManager._instanceUI.BannerAnimator.SetTrigger("ActivateBanner");
         yield return new WaitForSeconds(2.4f);
         GivePlayerTurn();

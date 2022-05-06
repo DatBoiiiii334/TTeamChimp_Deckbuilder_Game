@@ -19,15 +19,17 @@ public class GridMapState : State
         CameraFieldOfView = MainMenuCamera.fieldOfView;
         GameManager._instance.FightScene.SetActive(false);
         GameManager._instance.ShopScene.SetActive(false);
-        if(IntroHasAlreadyHappend == false){
-            StartCoroutine(WaitForBookAnim(1.5f));
-            IntroHasAlreadyHappend = true;
-        }else{
+        // if(IntroHasAlreadyHappend == false){
+        //     StartCoroutine(WaitForBookAnim(1.5f));
+        //     //IntroHasAlreadyHappend = true;
+        //     MainMenuState._instance.MainMenu.SetActive(true);
+        //     //GameManager._instance.TransitionScreenAnim.SetBool("STAYOPEN", true);
+        // }else{
             MapVisuals.SetActive(true);
             MainMenuCamera.fieldOfView = 30f;
             GameManager._instance.OpenBookAnim.SetTrigger("OpenBook");
             MainMenuState._instance.MainMenu.SetActive(true);
-        }
+        //}
         FMODUnity.AudioManager._instance.ChangeThemeSong(2);
     }
 
@@ -81,11 +83,13 @@ public class GridMapState : State
         //yield return new WaitForSeconds(0.5f);
         myFSM.SetCurrentState(typeof(PlayerEnterState));
         MapVisuals.SetActive(false);
+        GameManager._instance.TransitionScreenAnim.SetBool("STAYOPEN", true);
         MainMenuState._instance.MainMenu.SetActive(false);
     }
 
     public IEnumerator TransitionToShopScene()
     {
+        GameManager._instance.TransitionScreenAnim.SetBool("STAYOPEN", true);
         GameManager._instance.TransitionScreenAnim.SetTrigger("StartTransition");
         yield return new WaitForSeconds(2f);
         myFSM.SetCurrentState(typeof(ShopState));

@@ -8,6 +8,7 @@ public class ShopState : State
     public override void Enter()
     {
         GameManager._instance.CardDeckBlocker.SetActive(false);
+        MainMenuState._instance.MainMenu.SetActive(true);
         StartCoroutine(SetupShop());
         FMODUnity.AudioManager._instance.ChangeThemeSong(3);
     }
